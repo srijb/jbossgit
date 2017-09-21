@@ -1,0 +1,144 @@
+22:26:47,517 INFO  [org.jboss.modules] (main) JBoss Modules version 1.3.6.Final-redhat-1
+22:26:49,922 INFO  [org.jboss.msc] (main) JBoss MSC version 1.1.5.Final-redhat-1
+22:26:50,824 INFO  [org.jboss.as] (MSC service thread 1-1) JBAS015899: JBoss EAP 6.4.0.GA (AS 7.5.0.Final-redhat-21) starting
+22:26:59,553 INFO  [org.xnio] (MSC service thread 1-1) XNIO Version 3.0.13.GA-redhat-1
+22:26:59,677 INFO  [org.xnio.nio] (MSC service thread 1-1) XNIO NIO Implementation Version 3.0.13.GA-redhat-1
+22:26:59,750 INFO  [org.jboss.as] (Controller Boot Thread) JBAS010902: Creating http management service using network interface (management) port (9990) securePort (-1)
+22:27:00,289 INFO  [org.jboss.remoting] (MSC service thread 1-1) JBoss Remoting version 3.3.4.Final-redhat-1
+22:27:01,304 INFO  [org.jboss.as.remoting] (MSC service thread 1-2) JBAS017100: Listening on 192.168.1.16:9999
+22:27:13,624 INFO  [org.jboss.as.controller.management-deprecated] (Controller Boot Thread) JBAS014627: Attribute default-stack is deprecated, and it might be removed in future version!
+22:27:13,625 INFO  [org.jboss.as.controller.management-deprecated] (Controller Boot Thread) JBAS014627: Attribute type is deprecated, and it might be removed in future version!
+22:27:13,625 INFO  [org.jboss.as.controller.management-deprecated] (Controller Boot Thread) JBAS014627: Attribute type is deprecated, and it might be removed in future version!
+22:27:13,626 INFO  [org.jboss.as.controller.management-deprecated] (Controller Boot Thread) JBAS014627: Attribute type is deprecated, and it might be removed in future version!
+22:27:13,626 INFO  [org.jboss.as.controller.management-deprecated] (Controller Boot Thread) JBAS014627: Attribute type is deprecated, and it might be removed in future version!
+22:27:13,627 INFO  [org.jboss.as.controller.management-deprecated] (Controller Boot Thread) JBAS014627: Attribute type is deprecated, and it might be removed in future version!
+22:27:13,627 INFO  [org.jboss.as.controller.management-deprecated] (Controller Boot Thread) JBAS014627: Attribute type is deprecated, and it might be removed in future version!
+22:27:13,657 INFO  [org.jboss.as.controller.management-deprecated] (Controller Boot Thread) JBAS014627: Attribute type is deprecated, and it might be removed in future version!
+22:27:13,682 INFO  [org.jboss.as.controller.management-deprecated] (Controller Boot Thread) JBAS014627: Attribute type is deprecated, and it might be removed in future version!
+22:27:13,684 INFO  [org.jboss.as.controller.management-deprecated] (Controller Boot Thread) JBAS014627: Attribute type is deprecated, and it might be removed in future version!
+22:27:13,685 INFO  [org.jboss.as.controller.management-deprecated] (Controller Boot Thread) JBAS014627: Attribute type is deprecated, and it might be removed in future version!
+22:27:13,687 INFO  [org.jboss.as.controller.management-deprecated] (Controller Boot Thread) JBAS014627: Attribute type is deprecated, and it might be removed in future version!
+22:27:13,688 INFO  [org.jboss.as.controller.management-deprecated] (Controller Boot Thread) JBAS014627: Attribute type is deprecated, and it might be removed in future version!
+22:27:13,762 INFO  [org.jboss.as.controller.management-deprecated] (Controller Boot Thread) JBAS014627: Attribute type is deprecated, and it might be removed in future version!
+22:27:13,764 INFO  [org.jboss.as.controller.management-deprecated] (Controller Boot Thread) JBAS014627: Attribute type is deprecated, and it might be removed in future version!
+22:27:13,767 INFO  [org.jboss.as.controller.management-deprecated] (Controller Boot Thread) JBAS014627: Attribute type is deprecated, and it might be removed in future version!
+22:27:13,769 INFO  [org.jboss.as.controller.management-deprecated] (Controller Boot Thread) JBAS014627: Attribute type is deprecated, and it might be removed in future version!
+22:27:13,822 INFO  [org.jboss.as.controller.management-deprecated] (Controller Boot Thread) JBAS014627: Attribute type is deprecated, and it might be removed in future version!
+22:27:14,002 INFO  [org.jboss.as.controller.management-deprecated] (Controller Boot Thread) JBAS014627: Attribute type is deprecated, and it might be removed in future version!
+22:27:14,004 INFO  [org.jboss.as.controller.management-deprecated] (Controller Boot Thread) JBAS014627: Attribute type is deprecated, and it might be removed in future version!
+22:27:14,007 INFO  [org.jboss.as.controller.management-deprecated] (Controller Boot Thread) JBAS014627: Attribute type is deprecated, and it might be removed in future version!
+22:27:14,008 INFO  [org.jboss.as.controller.management-deprecated] (Controller Boot Thread) JBAS014627: Attribute type is deprecated, and it might be removed in future version!
+22:27:14,011 INFO  [org.jboss.as.controller.management-deprecated] (Controller Boot Thread) JBAS014627: Attribute type is deprecated, and it might be removed in future version!
+22:27:14,024 INFO  [org.jboss.as.controller.management-deprecated] (Controller Boot Thread) JBAS014627: Attribute type is deprecated, and it might be removed in future version!
+22:27:14,027 INFO  [org.jboss.as.controller.management-deprecated] (Controller Boot Thread) JBAS014627: Attribute type is deprecated, and it might be removed in future version!
+22:27:14,029 INFO  [org.jboss.as.controller.management-deprecated] (Controller Boot Thread) JBAS014627: Attribute type is deprecated, and it might be removed in future version!
+22:27:14,071 INFO  [org.jboss.as.controller.management-deprecated] (Controller Boot Thread) JBAS014627: Attribute type is deprecated, and it might be removed in future version!
+22:27:14,076 INFO  [org.jboss.as.controller.management-deprecated] (Controller Boot Thread) JBAS014627: Attribute type is deprecated, and it might be removed in future version!
+22:27:14,108 INFO  [org.jboss.as.controller.management-deprecated] (Controller Boot Thread) JBAS014627: Attribute type is deprecated, and it might be removed in future version!
+22:27:15,784 INFO  [org.jboss.as.controller.management-deprecated] (Controller Boot Thread) JBAS014627: Attribute default-stack is deprecated, and it might be removed in future version!
+22:27:15,817 INFO  [org.jboss.as.controller.management-deprecated] (Controller Boot Thread) JBAS014627: Attribute type is deprecated, and it might be removed in future version!
+22:27:15,819 INFO  [org.jboss.as.controller.management-deprecated] (Controller Boot Thread) JBAS014627: Attribute type is deprecated, and it might be removed in future version!
+22:27:15,820 INFO  [org.jboss.as.controller.management-deprecated] (Controller Boot Thread) JBAS014627: Attribute type is deprecated, and it might be removed in future version!
+22:27:15,822 INFO  [org.jboss.as.controller.management-deprecated] (Controller Boot Thread) JBAS014627: Attribute type is deprecated, and it might be removed in future version!
+22:27:15,823 INFO  [org.jboss.as.controller.management-deprecated] (Controller Boot Thread) JBAS014627: Attribute type is deprecated, and it might be removed in future version!
+22:27:15,881 INFO  [org.jboss.as.controller.management-deprecated] (Controller Boot Thread) JBAS014627: Attribute type is deprecated, and it might be removed in future version!
+22:27:15,883 INFO  [org.jboss.as.controller.management-deprecated] (Controller Boot Thread) JBAS014627: Attribute type is deprecated, and it might be removed in future version!
+22:27:15,885 INFO  [org.jboss.as.controller.management-deprecated] (Controller Boot Thread) JBAS014627: Attribute type is deprecated, and it might be removed in future version!
+22:27:15,918 INFO  [org.jboss.as.controller.management-deprecated] (Controller Boot Thread) JBAS014627: Attribute type is deprecated, and it might be removed in future version!
+22:27:15,950 INFO  [org.jboss.as.controller.management-deprecated] (Controller Boot Thread) JBAS014627: Attribute type is deprecated, and it might be removed in future version!
+22:27:15,954 INFO  [org.jboss.as.controller.management-deprecated] (Controller Boot Thread) JBAS014627: Attribute type is deprecated, and it might be removed in future version!
+22:27:15,958 INFO  [org.jboss.as.controller.management-deprecated] (Controller Boot Thread) JBAS014627: Attribute type is deprecated, and it might be removed in future version!
+22:27:15,959 INFO  [org.jboss.as.controller.management-deprecated] (Controller Boot Thread) JBAS014627: Attribute type is deprecated, and it might be removed in future version!
+22:27:15,992 INFO  [org.jboss.as.controller.management-deprecated] (Controller Boot Thread) JBAS014627: Attribute type is deprecated, and it might be removed in future version!
+22:27:15,996 INFO  [org.jboss.as.controller.management-deprecated] (Controller Boot Thread) JBAS014627: Attribute type is deprecated, and it might be removed in future version!
+22:27:16,030 INFO  [org.jboss.as.controller.management-deprecated] (Controller Boot Thread) JBAS014627: Attribute type is deprecated, and it might be removed in future version!
+22:27:16,035 INFO  [org.jboss.as.controller.management-deprecated] (Controller Boot Thread) JBAS014627: Attribute type is deprecated, and it might be removed in future version!
+22:27:16,036 INFO  [org.jboss.as.controller.management-deprecated] (Controller Boot Thread) JBAS014627: Attribute type is deprecated, and it might be removed in future version!
+22:27:16,040 INFO  [org.jboss.as.controller.management-deprecated] (Controller Boot Thread) JBAS014627: Attribute type is deprecated, and it might be removed in future version!
+22:27:16,071 INFO  [org.jboss.as.controller.management-deprecated] (Controller Boot Thread) JBAS014627: Attribute type is deprecated, and it might be removed in future version!
+22:27:16,075 INFO  [org.jboss.as.controller.management-deprecated] (Controller Boot Thread) JBAS014627: Attribute type is deprecated, and it might be removed in future version!
+22:27:16,079 INFO  [org.jboss.as.controller.management-deprecated] (Controller Boot Thread) JBAS014627: Attribute type is deprecated, and it might be removed in future version!
+22:27:16,121 INFO  [org.jboss.as.controller.management-deprecated] (Controller Boot Thread) JBAS014627: Attribute type is deprecated, and it might be removed in future version!
+22:27:16,124 INFO  [org.jboss.as.controller.management-deprecated] (Controller Boot Thread) JBAS014627: Attribute type is deprecated, and it might be removed in future version!
+22:27:16,153 INFO  [org.jboss.as.controller.management-deprecated] (Controller Boot Thread) JBAS014627: Attribute type is deprecated, and it might be removed in future version!
+22:27:16,156 INFO  [org.jboss.as.controller.management-deprecated] (Controller Boot Thread) JBAS014627: Attribute type is deprecated, and it might be removed in future version!
+22:27:16,158 INFO  [org.jboss.as.controller.management-deprecated] (Controller Boot Thread) JBAS014627: Attribute type is deprecated, and it might be removed in future version!
+22:27:16,159 INFO  [org.jboss.as.controller.management-deprecated] (Controller Boot Thread) JBAS014627: Attribute type is deprecated, and it might be removed in future version!
+22:27:16,218 INFO  [org.jboss.as.controller.management-deprecated] (Controller Boot Thread) JBAS014627: Attribute type is deprecated, and it might be removed in future version!
+22:27:18,863 INFO  [org.jboss.as.host.controller] (Controller Boot Thread) JBAS010922: Starting server server-one-dc
+22:27:56,590 INFO  [org.jboss.as.domain.controller.mgmt] (Remoting "jboss.dc.com:MANAGEMENT" task-11) JBAS010920: Server [Server:server-one-dc] registered using connection [Channel ID 6a96db30 (inbound) of Remoting connection 09f18a1a to /192.168.1.16:38214]
+22:28:17,278 INFO  [org.jboss.as.domain] (Host Controller Service Threads - 59) JBAS010918: Registered remote slave host "jbosshc2", JBoss EAP 6.4.0.GA (AS 7.5.0.Final-redhat-21)
+22:28:17,980 INFO  [org.jboss.as.controller.management-deprecated] (server-registration-threads - 1) JBAS014627: Attribute default-stack is deprecated, and it might be removed in future version!
+22:28:18,003 INFO  [org.jboss.as.controller.management-deprecated] (server-registration-threads - 1) JBAS014627: Attribute type is deprecated, and it might be removed in future version!
+22:28:18,003 INFO  [org.jboss.as.controller.management-deprecated] (server-registration-threads - 1) JBAS014627: Attribute type is deprecated, and it might be removed in future version!
+22:28:18,006 INFO  [org.jboss.as.controller.management-deprecated] (server-registration-threads - 1) JBAS014627: Attribute type is deprecated, and it might be removed in future version!
+22:28:18,007 INFO  [org.jboss.as.controller.management-deprecated] (server-registration-threads - 1) JBAS014627: Attribute type is deprecated, and it might be removed in future version!
+22:28:18,008 INFO  [org.jboss.as.controller.management-deprecated] (server-registration-threads - 1) JBAS014627: Attribute type is deprecated, and it might be removed in future version!
+22:28:18,008 INFO  [org.jboss.as.controller.management-deprecated] (server-registration-threads - 1) JBAS014627: Attribute type is deprecated, and it might be removed in future version!
+22:28:18,008 INFO  [org.jboss.as.controller.management-deprecated] (server-registration-threads - 1) JBAS014627: Attribute type is deprecated, and it might be removed in future version!
+22:28:18,008 INFO  [org.jboss.as.controller.management-deprecated] (server-registration-threads - 1) JBAS014627: Attribute type is deprecated, and it might be removed in future version!
+22:28:18,010 INFO  [org.jboss.as.controller.management-deprecated] (server-registration-threads - 1) JBAS014627: Attribute type is deprecated, and it might be removed in future version!
+22:28:18,011 INFO  [org.jboss.as.controller.management-deprecated] (server-registration-threads - 1) JBAS014627: Attribute type is deprecated, and it might be removed in future version!
+22:28:18,011 INFO  [org.jboss.as.controller.management-deprecated] (server-registration-threads - 1) JBAS014627: Attribute type is deprecated, and it might be removed in future version!
+22:28:18,011 INFO  [org.jboss.as.controller.management-deprecated] (server-registration-threads - 1) JBAS014627: Attribute type is deprecated, and it might be removed in future version!
+22:28:18,073 INFO  [org.jboss.as.controller.management-deprecated] (server-registration-threads - 1) JBAS014627: Attribute type is deprecated, and it might be removed in future version!
+22:28:18,076 INFO  [org.jboss.as.controller.management-deprecated] (server-registration-threads - 1) JBAS014627: Attribute type is deprecated, and it might be removed in future version!
+22:28:18,077 INFO  [org.jboss.as.controller.management-deprecated] (server-registration-threads - 1) JBAS014627: Attribute type is deprecated, and it might be removed in future version!
+22:28:18,077 INFO  [org.jboss.as.controller.management-deprecated] (server-registration-threads - 1) JBAS014627: Attribute type is deprecated, and it might be removed in future version!
+22:28:18,077 INFO  [org.jboss.as.controller.management-deprecated] (server-registration-threads - 1) JBAS014627: Attribute type is deprecated, and it might be removed in future version!
+22:28:18,077 INFO  [org.jboss.as.controller.management-deprecated] (server-registration-threads - 1) JBAS014627: Attribute type is deprecated, and it might be removed in future version!
+22:28:18,079 INFO  [org.jboss.as.controller.management-deprecated] (server-registration-threads - 1) JBAS014627: Attribute type is deprecated, and it might be removed in future version!
+22:28:18,080 INFO  [org.jboss.as.controller.management-deprecated] (server-registration-threads - 1) JBAS014627: Attribute type is deprecated, and it might be removed in future version!
+22:28:18,080 INFO  [org.jboss.as.controller.management-deprecated] (server-registration-threads - 1) JBAS014627: Attribute type is deprecated, and it might be removed in future version!
+22:28:18,081 INFO  [org.jboss.as.controller.management-deprecated] (server-registration-threads - 1) JBAS014627: Attribute type is deprecated, and it might be removed in future version!
+22:28:18,082 INFO  [org.jboss.as.controller.management-deprecated] (server-registration-threads - 1) JBAS014627: Attribute type is deprecated, and it might be removed in future version!
+22:28:18,082 INFO  [org.jboss.as.controller.management-deprecated] (server-registration-threads - 1) JBAS014627: Attribute type is deprecated, and it might be removed in future version!
+22:28:18,082 INFO  [org.jboss.as.controller.management-deprecated] (server-registration-threads - 1) JBAS014627: Attribute type is deprecated, and it might be removed in future version!
+22:28:18,152 INFO  [org.jboss.as.controller.management-deprecated] (server-registration-threads - 1) JBAS014627: Attribute type is deprecated, and it might be removed in future version!
+22:28:18,153 INFO  [org.jboss.as.controller.management-deprecated] (server-registration-threads - 1) JBAS014627: Attribute type is deprecated, and it might be removed in future version!
+22:28:18,153 INFO  [org.jboss.as.controller.management-deprecated] (server-registration-threads - 1) JBAS014627: Attribute type is deprecated, and it might be removed in future version!
+22:28:18,153 INFO  [org.jboss.as.controller.management-deprecated] (server-registration-threads - 1) JBAS014627: Attribute type is deprecated, and it might be removed in future version!
+22:28:18,365 INFO  [org.jboss.as.host.controller] (Controller Boot Thread) JBAS010922: Starting server server-two-dc
+22:28:19,779 INFO  [org.jboss.as.host.controller] (server-registration-threads - 1) JBAS010919: Registering server server-one-dc
+22:29:31,236 INFO  [org.jboss.as.domain.controller.mgmt] (Remoting "jboss.dc.com:MANAGEMENT" task-1) JBAS010920: Server [Server:server-two-dc] registered using connection [Channel ID 2b3bfc71 (inbound) of Remoting connection 7c1297ad to /192.168.1.16:55081]
+22:29:32,306 INFO  [org.jboss.as.controller.management-deprecated] (server-registration-threads - 1) JBAS014627: Attribute default-stack is deprecated, and it might be removed in future version!
+22:29:32,359 INFO  [org.jboss.as.controller.management-deprecated] (server-registration-threads - 1) JBAS014627: Attribute type is deprecated, and it might be removed in future version!
+22:29:32,359 INFO  [org.jboss.as.controller.management-deprecated] (server-registration-threads - 1) JBAS014627: Attribute type is deprecated, and it might be removed in future version!
+22:29:32,362 INFO  [org.jboss.as.controller.management-deprecated] (server-registration-threads - 1) JBAS014627: Attribute type is deprecated, and it might be removed in future version!
+22:29:32,363 INFO  [org.jboss.as.controller.management-deprecated] (server-registration-threads - 1) JBAS014627: Attribute type is deprecated, and it might be removed in future version!
+22:29:32,452 INFO  [org.jboss.as.controller.management-deprecated] (server-registration-threads - 1) JBAS014627: Attribute type is deprecated, and it might be removed in future version!
+22:29:32,453 INFO  [org.jboss.as.controller.management-deprecated] (server-registration-threads - 1) JBAS014627: Attribute type is deprecated, and it might be removed in future version!
+22:29:32,453 INFO  [org.jboss.as.controller.management-deprecated] (server-registration-threads - 1) JBAS014627: Attribute type is deprecated, and it might be removed in future version!
+22:29:32,453 INFO  [org.jboss.as.controller.management-deprecated] (server-registration-threads - 1) JBAS014627: Attribute type is deprecated, and it might be removed in future version!
+22:29:32,453 INFO  [org.jboss.as.controller.management-deprecated] (server-registration-threads - 1) JBAS014627: Attribute type is deprecated, and it might be removed in future version!
+22:29:32,455 INFO  [org.jboss.as.controller.management-deprecated] (server-registration-threads - 1) JBAS014627: Attribute type is deprecated, and it might be removed in future version!
+22:29:32,455 INFO  [org.jboss.as.controller.management-deprecated] (server-registration-threads - 1) JBAS014627: Attribute type is deprecated, and it might be removed in future version!
+22:29:32,456 INFO  [org.jboss.as.controller.management-deprecated] (server-registration-threads - 1) JBAS014627: Attribute type is deprecated, and it might be removed in future version!
+22:29:32,456 INFO  [org.jboss.as.controller.management-deprecated] (server-registration-threads - 1) JBAS014627: Attribute type is deprecated, and it might be removed in future version!
+22:29:32,456 INFO  [org.jboss.as.controller.management-deprecated] (server-registration-threads - 1) JBAS014627: Attribute type is deprecated, and it might be removed in future version!
+22:29:32,456 INFO  [org.jboss.as.controller.management-deprecated] (server-registration-threads - 1) JBAS014627: Attribute type is deprecated, and it might be removed in future version!
+22:29:32,575 INFO  [org.jboss.as.controller.management-deprecated] (server-registration-threads - 1) JBAS014627: Attribute type is deprecated, and it might be removed in future version!
+22:29:32,576 INFO  [org.jboss.as.controller.management-deprecated] (server-registration-threads - 1) JBAS014627: Attribute type is deprecated, and it might be removed in future version!
+22:29:32,578 INFO  [org.jboss.as.controller.management-deprecated] (server-registration-threads - 1) JBAS014627: Attribute type is deprecated, and it might be removed in future version!
+22:29:32,578 INFO  [org.jboss.as.controller.management-deprecated] (server-registration-threads - 1) JBAS014627: Attribute type is deprecated, and it might be removed in future version!
+22:29:32,579 INFO  [org.jboss.as.controller.management-deprecated] (server-registration-threads - 1) JBAS014627: Attribute type is deprecated, and it might be removed in future version!
+22:29:32,579 INFO  [org.jboss.as.controller.management-deprecated] (server-registration-threads - 1) JBAS014627: Attribute type is deprecated, and it might be removed in future version!
+22:29:32,579 INFO  [org.jboss.as.controller.management-deprecated] (server-registration-threads - 1) JBAS014627: Attribute type is deprecated, and it might be removed in future version!
+22:29:32,579 INFO  [org.jboss.as.controller.management-deprecated] (server-registration-threads - 1) JBAS014627: Attribute type is deprecated, and it might be removed in future version!
+22:29:32,581 INFO  [org.jboss.as.controller.management-deprecated] (server-registration-threads - 1) JBAS014627: Attribute type is deprecated, and it might be removed in future version!
+22:29:32,581 INFO  [org.jboss.as.controller.management-deprecated] (server-registration-threads - 1) JBAS014627: Attribute type is deprecated, and it might be removed in future version!
+22:29:32,582 INFO  [org.jboss.as.controller.management-deprecated] (server-registration-threads - 1) JBAS014627: Attribute type is deprecated, and it might be removed in future version!
+22:29:32,582 INFO  [org.jboss.as.controller.management-deprecated] (server-registration-threads - 1) JBAS014627: Attribute type is deprecated, and it might be removed in future version!
+22:29:32,582 INFO  [org.jboss.as.controller.management-deprecated] (server-registration-threads - 1) JBAS014627: Attribute type is deprecated, and it might be removed in future version!
+22:29:32,582 INFO  [org.jboss.as.controller.management-deprecated] (server-registration-threads - 1) JBAS014627: Attribute type is deprecated, and it might be removed in future version!
+22:29:33,140 INFO  [org.jboss.as] (Controller Boot Thread) JBAS015961: Http management interface listening on http://192.168.1.16:9990/management
+22:29:33,143 INFO  [org.jboss.as] (Controller Boot Thread) JBAS015951: Admin console listening on http://192.168.1.16:9990
+22:29:33,275 INFO  [org.jboss.as] (Controller Boot Thread) JBAS015874: JBoss EAP 6.4.0.GA (AS 7.5.0.Final-redhat-21) (Host Controller) started in 170946ms - Started 41 of 43 services (12 services are lazy, passive or on-demand)
+22:29:34,929 INFO  [org.jboss.as.host.controller] (server-registration-threads - 1) JBAS010919: Registering server server-two-dc
+22:35:53,436 INFO  [org.jboss.as.domain] (Host Controller Service Threads - 62) JBAS010918: Registered remote slave host "jbosshc1", JBoss EAP 6.4.0.GA (AS 7.5.0.Final-redhat-21)
+22:38:39,619 WARN  [org.jboss.as.domain] (Remoting "jboss.dc.com:MANAGEMENT" read-1) JBAS010929: Connection to remote host "jbosshc1" closed unexpectedly
+22:38:39,622 INFO  [org.jboss.as.domain] (Remoting "jboss.dc.com:MANAGEMENT" read-1) JBAS010925: Unregistered remote slave host "jbosshc1"
+22:39:04,902 INFO  [org.jboss.as.domain] (Host Controller Service Threads - 63) JBAS010918: Registered remote slave host "jbosshc1", JBoss EAP 6.4.0.GA (AS 7.5.0.Final-redhat-21)
+22:40:07,050 WARN  [org.jboss.as.domain] (Remoting "jboss.dc.com:MANAGEMENT" read-1) JBAS010929: Connection to remote host "jbosshc2" closed unexpectedly
+22:40:07,050 INFO  [org.jboss.as.domain] (Remoting "jboss.dc.com:MANAGEMENT" read-1) JBAS010925: Unregistered remote slave host "jbosshc2"
+22:43:04,903 INFO  [org.jboss.as.domain] (Host Controller Service Threads - 64) JBAS010918: Registered remote slave host "jbosshc2", JBoss EAP 6.4.0.GA (AS 7.5.0.Final-redhat-21)

@@ -1,0 +1,4 @@
+22:26:34,102 INFO  [org.jboss.modules] (main) JBoss Modules version 1.3.6.Final-redhat-1
+22:26:37,337 INFO  [org.jboss.as.process.Host Controller.status] (main) JBAS012017: Starting process 'Host Controller'
+22:27:19,059 INFO  [org.jboss.as.process.Server:server-one-dc.status] (ProcessController-threads - 3) JBAS012017: Starting process 'Server:server-one-dc'
+22:28:19,101 INFO  [org.jboss.as.process.Server:server-two-dc.status] (ProcessController-threads - 3) JBAS012017: Starting process 'Server:server-two-dc'

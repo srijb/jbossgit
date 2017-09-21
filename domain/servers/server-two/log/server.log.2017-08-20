@@ -1,0 +1,575 @@
+21:01:38,302 INFO  [org.jboss.modules] (main) JBoss Modules version 1.3.6.Final-redhat-1
+21:01:38,352 DEBUG [org.jboss.modules] (main) Module org.jboss.as.core-security:main defined by local module loader @5577140b (finder: local module finder @1c6b6478 (roots: /opt/app/jboss-eap-6.4/modules,/opt/app/jboss-eap-6.4/modules/system/layers/base))
+21:01:38,353 DEBUG [org.jboss.modules] (main) Module org.jboss.as.core-security-api:main defined by local module loader @5577140b (finder: local module finder @1c6b6478 (roots: /opt/app/jboss-eap-6.4/modules,/opt/app/jboss-eap-6.4/modules/system/layers/base))
+21:01:38,354 DEBUG [org.jboss.modules] (main) Module org.jboss.remoting3.remoting-jmx:main defined by local module loader @5577140b (finder: local module finder @1c6b6478 (roots: /opt/app/jboss-eap-6.4/modules,/opt/app/jboss-eap-6.4/modules/system/layers/base))
+21:01:38,355 DEBUG [org.jboss.modules] (main) Module org.jboss.remoting-jmx:main defined by local module loader @5577140b (finder: local module finder @1c6b6478 (roots: /opt/app/jboss-eap-6.4/modules,/opt/app/jboss-eap-6.4/modules/system/layers/base))
+21:01:38,356 DEBUG [org.jboss.modules] (main) Module org.jboss.as.naming:main defined by local module loader @5577140b (finder: local module finder @1c6b6478 (roots: /opt/app/jboss-eap-6.4/modules,/opt/app/jboss-eap-6.4/modules/system/layers/base))
+21:01:39,145 DEBUG [org.jboss.modules] (main) Module javax.inject.api:main defined by local module loader @5577140b (finder: local module finder @1c6b6478 (roots: /opt/app/jboss-eap-6.4/modules,/opt/app/jboss-eap-6.4/modules/system/layers/base))
+21:01:39,150 DEBUG [org.jboss.modules] (main) Module org.jboss.xnio.nio:main defined by local module loader @5577140b (finder: local module finder @1c6b6478 (roots: /opt/app/jboss-eap-6.4/modules,/opt/app/jboss-eap-6.4/modules/system/layers/base))
+21:01:39,312 DEBUG [org.jboss.logging] (main) Logging Provider: org.jboss.logging.JBossLogManagerProvider
+21:01:39,314 INFO  [org.jboss.msc] (main) JBoss MSC version 1.1.5.Final-redhat-1
+21:01:39,353 DEBUG [org.jboss.modules] (main) Module org.jboss.as.product:eap defined by local module loader @5577140b (finder: local module finder @1c6b6478 (roots: /opt/app/jboss-eap-6.4/modules,/opt/app/jboss-eap-6.4/modules/system/layers/base))
+21:01:39,767 INFO  [org.jboss.as] (MSC service thread 1-2) JBAS015899: JBoss EAP 6.4.0.GA (AS 7.5.0.Final-redhat-21) starting
+21:01:39,773 DEBUG [org.jboss.as.config] (MSC service thread 1-2) Configured system properties:
+	[Server:server-two] = 
+	awt.toolkit = sun.awt.X11.XToolkit
+	com.sun.management.jmxremote.authenticate = false
+	com.sun.management.jmxremote.ssl = false
+	file.encoding = UTF-8
+	file.encoding.pkg = sun.io
+	file.separator = /
+	java.awt.graphicsenv = sun.awt.X11GraphicsEnvironment
+	java.awt.headless = true
+	java.awt.printerjob = sun.print.PSPrinterJob
+	java.class.path = /opt/app/jboss-eap-6.4/jboss-modules.jar
+	java.class.version = 52.0
+	java.endorsed.dirs = /usr/lib/jvm/java-1.8.0-openjdk-1.8.0.131-3.b12.el7_3.x86_64/jre/lib/endorsed
+	java.ext.dirs = /usr/lib/jvm/java-1.8.0-openjdk-1.8.0.131-3.b12.el7_3.x86_64/jre/lib/ext:/usr/java/packages/lib/ext
+	java.home = /usr/lib/jvm/java-1.8.0-openjdk-1.8.0.131-3.b12.el7_3.x86_64/jre
+	java.io.tmpdir = /tmp
+	java.library.path = /usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+	java.net.preferIPv4Stack = true
+	java.runtime.name = OpenJDK Runtime Environment
+	java.runtime.version = 1.8.0_131-b12
+	java.specification.name = Java Platform API Specification
+	java.specification.vendor = Oracle Corporation
+	java.specification.version = 1.8
+	java.util.logging.manager = org.jboss.logmanager.LogManager
+	java.vendor = Oracle Corporation
+	java.vendor.url = http://java.oracle.com/
+	java.vendor.url.bug = http://bugreport.sun.com/bugreport/
+	java.version = 1.8.0_131
+	java.vm.info = mixed mode
+	java.vm.name = OpenJDK 64-Bit Server VM
+	java.vm.specification.name = Java Virtual Machine Specification
+	java.vm.specification.vendor = Oracle Corporation
+	java.vm.specification.version = 1.8
+	java.vm.vendor = Oracle Corporation
+	java.vm.version = 25.131-b12
+	javax.management.builder.initial = org.jboss.as.jmx.PluggableMBeanServerBuilder
+	javax.xml.datatype.DatatypeFactory = __redirected.__DatatypeFactory
+	javax.xml.parsers.DocumentBuilderFactory = __redirected.__DocumentBuilderFactory
+	javax.xml.parsers.SAXParserFactory = __redirected.__SAXParserFactory
+	javax.xml.stream.XMLEventFactory = __redirected.__XMLEventFactory
+	javax.xml.stream.XMLInputFactory = __redirected.__XMLInputFactory
+	javax.xml.stream.XMLOutputFactory = __redirected.__XMLOutputFactory
+	javax.xml.transform.TransformerFactory = __redirected.__TransformerFactory
+	javax.xml.validation.SchemaFactory:http://www.w3.org/2001/XMLSchema = __redirected.__SchemaFactory
+	javax.xml.xpath.XPathFactory:http://java.sun.com/jaxp/xpath/dom = __redirected.__XPathFactory
+	jboss.domain.base.dir = /opt/app/jboss-eap-6.4/domain
+	jboss.domain.config.dir = /opt/app/jboss-eap-6.4/domain/configuration
+	jboss.home.dir = /opt/app/jboss-eap-6.4
+	jboss.host.name = jboss
+	jboss.modules.dir = /opt/app/jboss-eap-6.4/modules
+	jboss.modules.policy-permissions = true
+	jboss.modules.system.pkgs = org.jboss.byteman
+	jboss.node.name = jbossdc:server-two
+	jboss.qualified.host.name = jboss.dc.com
+	jboss.server.base.dir = /opt/app/jboss-eap-6.4/domain/servers/server-two
+	jboss.server.config.dir = /opt/app/jboss-eap-6.4/domain/servers/server-two/configuration
+	jboss.server.data.dir = /opt/app/jboss-eap-6.4/domain/servers/server-two/data
+	jboss.server.deploy.dir = /opt/app/jboss-eap-6.4/domain/servers/server-two/data/content
+	jboss.server.log.dir = /opt/app/jboss-eap-6.4/domain/servers/server-two/log
+	jboss.server.name = server-two
+	jboss.server.persist.config = true
+	jboss.server.temp.dir = /opt/app/jboss-eap-6.4/domain/servers/server-two/tmp
+	line.separator = 
+
+	logging.configuration = file:/opt/app/jboss-eap-6.4/domain/servers/server-two/data/logging.properties
+	module.path = /opt/app/jboss-eap-6.4/modules
+	org.jboss.resolver.warning = true
+	org.xml.sax.driver = __redirected.__XMLReaderFactory
+	os.arch = amd64
+	os.name = Linux
+	os.version = 3.10.0-514.21.2.el7.x86_64
+	path.separator = :
+	sun.arch.data.model = 64
+	sun.boot.class.path = /usr/lib/jvm/java-1.8.0-openjdk-1.8.0.131-3.b12.el7_3.x86_64/jre/lib/resources.jar:/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.131-3.b12.el7_3.x86_64/jre/lib/rt.jar:/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.131-3.b12.el7_3.x86_64/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.131-3.b12.el7_3.x86_64/jre/lib/jsse.jar:/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.131-3.b12.el7_3.x86_64/jre/lib/jce.jar:/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.131-3.b12.el7_3.x86_64/jre/lib/charsets.jar:/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.131-3.b12.el7_3.x86_64/jre/lib/jfr.jar:/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.131-3.b12.el7_3.x86_64/jre/classes
+	sun.boot.library.path = /usr/lib/jvm/java-1.8.0-openjdk-1.8.0.131-3.b12.el7_3.x86_64/jre/lib/amd64
+	sun.cpu.endian = little
+	sun.cpu.isalist = 
+	sun.io.unicode.encoding = UnicodeLittle
+	sun.java.command = /opt/app/jboss-eap-6.4/jboss-modules.jar -mp /opt/app/jboss-eap-6.4/modules -jaxpmodule javax.xml.jaxp-provider org.jboss.as.server
+	sun.java.launcher = SUN_STANDARD
+	sun.jnu.encoding = UTF-8
+	sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+	sun.os.patch.level = unknown
+	user.country = US
+	user.dir = /opt/app/jboss-eap-6.4
+	user.home = /root
+	user.language = en
+	user.name = root
+	user.timezone = America/New_York
+21:01:39,774 DEBUG [org.jboss.as.config] (MSC service thread 1-2) VM Arguments: -D[Server:server-two] -XX:PermSize=256m -XX:MaxPermSize=256m -Xms1000m -Xmx1000m -Dcom.sun.management.jmxremote.ssl=false -Djboss.modules.system.pkgs=org.jboss.byteman -Djava.awt.headless=true -Djava.net.preferIPv4Stack=true -Dcom.sun.management.jmxremote.authenticate=false -Djboss.home.dir=/opt/app/jboss-eap-6.4 -Djboss.modules.policy-permissions=true -Djboss.server.log.dir=/opt/app/jboss-eap-6.4/domain/servers/server-two/log -Djboss.server.temp.dir=/opt/app/jboss-eap-6.4/domain/servers/server-two/tmp -Djboss.server.data.dir=/opt/app/jboss-eap-6.4/domain/servers/server-two/data -Dlogging.configuration=file:/opt/app/jboss-eap-6.4/domain/servers/server-two/data/logging.properties 
+21:01:39,841 DEBUG [org.jboss.modules] (MSC service thread 1-2) Module javax.security.jacc.api:main defined by local module loader @5577140b (finder: local module finder @1c6b6478 (roots: /opt/app/jboss-eap-6.4/modules,/opt/app/jboss-eap-6.4/modules/system/layers/base))
+21:01:39,842 DEBUG [org.jboss.modules] (MSC service thread 1-2) Module javax.servlet.api:main defined by local module loader @5577140b (finder: local module finder @1c6b6478 (roots: /opt/app/jboss-eap-6.4/modules,/opt/app/jboss-eap-6.4/modules/system/layers/base))
+21:01:39,842 DEBUG [org.jboss.modules] (MSC service thread 1-2) Module javax.transaction.api:main defined by local module loader @5577140b (finder: local module finder @1c6b6478 (roots: /opt/app/jboss-eap-6.4/modules,/opt/app/jboss-eap-6.4/modules/system/layers/base))
+21:01:39,845 DEBUG [org.jboss.modules] (MSC service thread 1-2) Module org.infinispan:main defined by local module loader @5577140b (finder: local module finder @1c6b6478 (roots: /opt/app/jboss-eap-6.4/modules,/opt/app/jboss-eap-6.4/modules/system/layers/base))
+21:01:39,847 DEBUG [org.jboss.modules] (MSC service thread 1-2) Module org.jboss.as.clustering.infinispan:main defined by local module loader @5577140b (finder: local module finder @1c6b6478 (roots: /opt/app/jboss-eap-6.4/modules,/opt/app/jboss-eap-6.4/modules/system/layers/base))
+21:01:39,881 DEBUG [org.jboss.modules] (MSC service thread 1-2) Module org.jboss.as.ee:main defined by local module loader @5577140b (finder: local module finder @1c6b6478 (roots: /opt/app/jboss-eap-6.4/modules,/opt/app/jboss-eap-6.4/modules/system/layers/base))
+21:01:39,883 DEBUG [org.jboss.modules] (MSC service thread 1-2) Module org.jboss.as.transactions:main defined by local module loader @5577140b (finder: local module finder @1c6b6478 (roots: /opt/app/jboss-eap-6.4/modules,/opt/app/jboss-eap-6.4/modules/system/layers/base))
+21:01:39,885 DEBUG [org.jboss.modules] (MSC service thread 1-2) Module org.jboss.metadata:main defined by local module loader @5577140b (finder: local module finder @1c6b6478 (roots: /opt/app/jboss-eap-6.4/modules,/opt/app/jboss-eap-6.4/modules/system/layers/base))
+21:01:39,887 DEBUG [org.jboss.modules] (MSC service thread 1-2) Module org.jboss.security.negotiation:main defined by local module loader @5577140b (finder: local module finder @1c6b6478 (roots: /opt/app/jboss-eap-6.4/modules,/opt/app/jboss-eap-6.4/modules/system/layers/base))
+21:01:39,888 DEBUG [org.jboss.modules] (MSC service thread 1-2) Module org.apache.commons.cli:main defined by local module loader @5577140b (finder: local module finder @1c6b6478 (roots: /opt/app/jboss-eap-6.4/modules,/opt/app/jboss-eap-6.4/modules/system/layers/base))
+21:01:39,889 DEBUG [org.jboss.as] (MSC service thread 1-2) Using VaultReader org.jboss.as.security.vault.RuntimeVaultReader@35ce4c04
+21:01:39,907 DEBUG [org.jboss.modules] (MSC service thread 1-2) Module org.jboss.as.threads:main defined by local module loader @5577140b (finder: local module finder @1c6b6478 (roots: /opt/app/jboss-eap-6.4/modules,/opt/app/jboss-eap-6.4/modules/system/layers/base))
+21:01:40,076 DEBUG [org.jboss.as] (MSC service thread 1-2) JBoss EAP 6.4.0.GA (AS 7.5.0.Final-redhat-21) root service started in 126150314.534136 ms
+21:01:40,080 INFO  [org.xnio] (MSC service thread 1-2) XNIO Version 3.0.13.GA-redhat-1
+21:01:40,127 INFO  [org.xnio.nio] (MSC service thread 1-2) XNIO NIO Implementation Version 3.0.13.GA-redhat-1
+21:01:40,140 DEBUG [org.jboss.as.server] (MSC service thread 1-1) DeploymentMountProvider started
+21:01:40,203 INFO  [org.jboss.remoting] (MSC service thread 1-2) JBoss Remoting version 3.3.4.Final-redhat-1
+21:01:40,283 DEBUG [org.xnio.nio] (Remoting "jbossdc:server-two:MANAGEMENT" read-1) Started channel thread 'Remoting "jbossdc:server-two:MANAGEMENT" read-1', selector sun.nio.ch.EPollSelectorImpl@675c916c
+21:01:40,288 DEBUG [org.xnio.nio] (Remoting "jbossdc:server-two:MANAGEMENT" write-1) Started channel thread 'Remoting "jbossdc:server-two:MANAGEMENT" write-1', selector sun.nio.ch.EPollSelectorImpl@5c5ca3b2
+21:01:41,740 DEBUG [org.jboss.modules] (Controller Boot Thread) Module org.jboss.as.cli:main defined by local module loader @5577140b (finder: local module finder @1c6b6478 (roots: /opt/app/jboss-eap-6.4/modules,/opt/app/jboss-eap-6.4/modules/system/layers/base))
+21:01:42,935 DEBUG [org.jboss.modules] (ServerService Thread Pool -- 2) Module net.jcip:main defined by local module loader @5577140b (finder: local module finder @1c6b6478 (roots: /opt/app/jboss-eap-6.4/modules,/opt/app/jboss-eap-6.4/modules/system/layers/base))
+21:01:42,937 DEBUG [org.jboss.modules] (ServerService Thread Pool -- 2) Module org.infinispan.cachestore.jdbc:main defined by local module loader @5577140b (finder: local module finder @1c6b6478 (roots: /opt/app/jboss-eap-6.4/modules,/opt/app/jboss-eap-6.4/modules/system/layers/base))
+21:01:42,937 DEBUG [org.jboss.modules] (ServerService Thread Pool -- 2) Module org.infinispan.cachestore.remote:main defined by local module loader @5577140b (finder: local module finder @1c6b6478 (roots: /opt/app/jboss-eap-6.4/modules,/opt/app/jboss-eap-6.4/modules/system/layers/base))
+21:01:42,938 DEBUG [org.jboss.modules] (ServerService Thread Pool -- 2) Module org.infinispan.client.hotrod:main defined by local module loader @5577140b (finder: local module finder @1c6b6478 (roots: /opt/app/jboss-eap-6.4/modules,/opt/app/jboss-eap-6.4/modules/system/layers/base))
+21:01:42,939 DEBUG [org.jboss.modules] (ServerService Thread Pool -- 2) Module org.jboss.as.clustering.api:main defined by local module loader @5577140b (finder: local module finder @1c6b6478 (roots: /opt/app/jboss-eap-6.4/modules,/opt/app/jboss-eap-6.4/modules/system/layers/base))
+21:01:42,940 DEBUG [org.jboss.modules] (ServerService Thread Pool -- 2) Module org.jboss.as.clustering.common:main defined by local module loader @5577140b (finder: local module finder @1c6b6478 (roots: /opt/app/jboss-eap-6.4/modules,/opt/app/jboss-eap-6.4/modules/system/layers/base))
+21:01:42,941 DEBUG [org.jboss.modules] (ServerService Thread Pool -- 2) Module org.jboss.as.clustering.impl:main defined by local module loader @5577140b (finder: local module finder @1c6b6478 (roots: /opt/app/jboss-eap-6.4/modules,/opt/app/jboss-eap-6.4/modules/system/layers/base))
+21:01:42,942 DEBUG [org.jboss.modules] (ServerService Thread Pool -- 2) Module org.jboss.as.clustering.jgroups:main defined by local module loader @5577140b (finder: local module finder @1c6b6478 (roots: /opt/app/jboss-eap-6.4/modules,/opt/app/jboss-eap-6.4/modules/system/layers/base))
+21:01:42,943 DEBUG [org.jboss.modules] (ServerService Thread Pool -- 2) Module org.jboss.as.clustering.service:main defined by local module loader @5577140b (finder: local module finder @1c6b6478 (roots: /opt/app/jboss-eap-6.4/modules,/opt/app/jboss-eap-6.4/modules/system/layers/base))
+21:01:42,943 DEBUG [org.jboss.modules] (ServerService Thread Pool -- 2) Module org.jboss.jboss-transaction-spi:main defined by local module loader @5577140b (finder: local module finder @1c6b6478 (roots: /opt/app/jboss-eap-6.4/modules,/opt/app/jboss-eap-6.4/modules/system/layers/base))
+21:01:42,970 DEBUG [org.jboss.as.threads] (ServerService Thread Pool -- 27) Initializing Threading Extension
+21:01:42,978 DEBUG [org.jboss.modules] (ServerService Thread Pool -- 25) Module org.jboss.as.sar:main defined by local module loader @5577140b (finder: local module finder @1c6b6478 (roots: /opt/app/jboss-eap-6.4/modules,/opt/app/jboss-eap-6.4/modules/system/layers/base))
+21:01:42,982 DEBUG [org.jboss.modules] (ServerService Thread Pool -- 23) Module org.jboss.as.pojo:main defined by local module loader @5577140b (finder: local module finder @1c6b6478 (roots: /opt/app/jboss-eap-6.4/modules,/opt/app/jboss-eap-6.4/modules/system/layers/base))
+21:01:42,986 DEBUG [org.jboss.modules] (ServerService Thread Pool -- 22) Module org.jboss.remote-naming:main defined by local module loader @5577140b (finder: local module finder @1c6b6478 (roots: /opt/app/jboss-eap-6.4/modules,/opt/app/jboss-eap-6.4/modules/system/layers/base))
+21:01:42,993 DEBUG [org.jboss.modules] (ServerService Thread Pool -- 21) Module org.jboss.as.modcluster:main defined by local module loader @5577140b (finder: local module finder @1c6b6478 (roots: /opt/app/jboss-eap-6.4/modules,/opt/app/jboss-eap-6.4/modules/system/layers/base))
+21:01:42,994 DEBUG [org.jboss.modules] (ServerService Thread Pool -- 21) Module javax.annotation.api:main defined by local module loader @5577140b (finder: local module finder @1c6b6478 (roots: /opt/app/jboss-eap-6.4/modules,/opt/app/jboss-eap-6.4/modules/system/layers/base))
+21:01:42,995 DEBUG [org.jboss.modules] (ServerService Thread Pool -- 21) Module javax.servlet.jsp.api:main defined by local module loader @5577140b (finder: local module finder @1c6b6478 (roots: /opt/app/jboss-eap-6.4/modules,/opt/app/jboss-eap-6.4/modules/system/layers/base))
+21:01:42,995 DEBUG [org.jboss.modules] (ServerService Thread Pool -- 21) Module javax.el.api:main defined by local module loader @5577140b (finder: local module finder @1c6b6478 (roots: /opt/app/jboss-eap-6.4/modules,/opt/app/jboss-eap-6.4/modules/system/layers/base))
+21:01:43,000 DEBUG [org.jboss.modules] (ServerService Thread Pool -- 21) Module org.jboss.as.web:main defined by local module loader @5577140b (finder: local module finder @1c6b6478 (roots: /opt/app/jboss-eap-6.4/modules,/opt/app/jboss-eap-6.4/modules/system/layers/base))
+21:01:43,014 DEBUG [org.jboss.modules] (ServerService Thread Pool -- 20) Module org.jboss.as.messaging:main defined by local module loader @5577140b (finder: local module finder @1c6b6478 (roots: /opt/app/jboss-eap-6.4/modules,/opt/app/jboss-eap-6.4/modules/system/layers/base))
+21:01:43,016 DEBUG [org.jboss.modules] (ServerService Thread Pool -- 20) Module javax.jms.api:main defined by local module loader @5577140b (finder: local module finder @1c6b6478 (roots: /opt/app/jboss-eap-6.4/modules,/opt/app/jboss-eap-6.4/modules/system/layers/base))
+21:01:43,029 DEBUG [org.jboss.modules] (ServerService Thread Pool -- 2) Module org.jgroups:main defined by local module loader @5577140b (finder: local module finder @1c6b6478 (roots: /opt/app/jboss-eap-6.4/modules,/opt/app/jboss-eap-6.4/modules/system/layers/base))
+21:01:43,057 DEBUG [org.jboss.modules] (ServerService Thread Pool -- 19) Module org.jboss.as.mail:main defined by local module loader @5577140b (finder: local module finder @1c6b6478 (roots: /opt/app/jboss-eap-6.4/modules,/opt/app/jboss-eap-6.4/modules/system/layers/base))
+21:01:43,058 DEBUG [org.jboss.modules] (ServerService Thread Pool -- 19) Module javax.mail.api:main defined by local module loader @5577140b (finder: local module finder @1c6b6478 (roots: /opt/app/jboss-eap-6.4/modules,/opt/app/jboss-eap-6.4/modules/system/layers/base))
+21:01:43,070 DEBUG [org.jboss.modules] (ServerService Thread Pool -- 17) Module org.jboss.as.jsr77:main defined by local module loader @5577140b (finder: local module finder @1c6b6478 (roots: /opt/app/jboss-eap-6.4/modules,/opt/app/jboss-eap-6.4/modules/system/layers/base))
+21:01:43,071 DEBUG [org.jboss.modules] (ServerService Thread Pool -- 17) Module javax.ejb.api:main defined by local module loader @5577140b (finder: local module finder @1c6b6478 (roots: /opt/app/jboss-eap-6.4/modules,/opt/app/jboss-eap-6.4/modules/system/layers/base))
+21:01:43,071 DEBUG [org.jboss.modules] (ServerService Thread Pool -- 17) Module javax.xml.rpc.api:main defined by local module loader @5577140b (finder: local module finder @1c6b6478 (roots: /opt/app/jboss-eap-6.4/modules,/opt/app/jboss-eap-6.4/modules/system/layers/base))
+21:01:43,072 DEBUG [org.jboss.modules] (ServerService Thread Pool -- 17) Module javax.xml.soap.api:main defined by local module loader @5577140b (finder: local module finder @1c6b6478 (roots: /opt/app/jboss-eap-6.4/modules,/opt/app/jboss-eap-6.4/modules/system/layers/base))
+21:01:43,073 DEBUG [org.jboss.modules] (ServerService Thread Pool -- 17) Module javax.activation.api:main defined by local module loader @5577140b (finder: local module finder @1c6b6478 (roots: /opt/app/jboss-eap-6.4/modules,/opt/app/jboss-eap-6.4/modules/system/layers/base))
+21:01:43,075 DEBUG [org.jboss.modules] (ServerService Thread Pool -- 17) Module javax.rmi.api:main defined by local module loader @5577140b (finder: local module finder @1c6b6478 (roots: /opt/app/jboss-eap-6.4/modules,/opt/app/jboss-eap-6.4/modules/system/layers/base))
+21:01:43,076 DEBUG [org.jboss.modules] (ServerService Thread Pool -- 17) Module org.omg.api:main defined by local module loader @5577140b (finder: local module finder @1c6b6478 (roots: /opt/app/jboss-eap-6.4/modules,/opt/app/jboss-eap-6.4/modules/system/layers/base))
+21:01:43,083 DEBUG [org.jboss.modules] (ServerService Thread Pool -- 17) Module org.jacorb:main defined by local module loader @5577140b (finder: local module finder @1c6b6478 (roots: /opt/app/jboss-eap-6.4/modules,/opt/app/jboss-eap-6.4/modules/system/layers/base))
+21:01:43,084 DEBUG [org.jboss.modules] (ServerService Thread Pool -- 16) Module org.jboss.as.jsf:main defined by local module loader @5577140b (finder: local module finder @1c6b6478 (roots: /opt/app/jboss-eap-6.4/modules,/opt/app/jboss-eap-6.4/modules/system/layers/base))
+21:01:43,085 DEBUG [org.jboss.modules] (ServerService Thread Pool -- 16) Module javax.faces.api:main defined by local module loader @5577140b (finder: local module finder @1c6b6478 (roots: /opt/app/jboss-eap-6.4/modules,/opt/app/jboss-eap-6.4/modules/system/layers/base))
+21:01:43,086 DEBUG [org.jboss.modules] (ServerService Thread Pool -- 16) Module javax.servlet.jstl.api:main defined by local module loader @5577140b (finder: local module finder @1c6b6478 (roots: /opt/app/jboss-eap-6.4/modules,/opt/app/jboss-eap-6.4/modules/system/layers/base))
+21:01:43,092 DEBUG [org.jboss.modules] (ServerService Thread Pool -- 15) Module org.jboss.as.jpa:main defined by local module loader @5577140b (finder: local module finder @1c6b6478 (roots: /opt/app/jboss-eap-6.4/modules,/opt/app/jboss-eap-6.4/modules/system/layers/base))
+21:01:43,099 DEBUG [org.jboss.modules] (ServerService Thread Pool -- 26) Module javax.persistence.api:main defined by local module loader @5577140b (finder: local module finder @1c6b6478 (roots: /opt/app/jboss-eap-6.4/modules,/opt/app/jboss-eap-6.4/modules/system/layers/base))
+21:01:43,100 DEBUG [org.jboss.modules] (ServerService Thread Pool -- 26) Module javax.resource.api:main defined by local module loader @5577140b (finder: local module finder @1c6b6478 (roots: /opt/app/jboss-eap-6.4/modules,/opt/app/jboss-eap-6.4/modules/system/layers/base))
+21:01:43,102 DEBUG [org.jboss.modules] (ServerService Thread Pool -- 13) Module org.jboss.as.jdr:main defined by local module loader @5577140b (finder: local module finder @1c6b6478 (roots: /opt/app/jboss-eap-6.4/modules,/opt/app/jboss-eap-6.4/modules/system/layers/base))
+21:01:43,103 DEBUG [org.jboss.modules] (ServerService Thread Pool -- 13) Module org.apache.commons.io:main defined by local module loader @5577140b (finder: local module finder @1c6b6478 (roots: /opt/app/jboss-eap-6.4/modules,/opt/app/jboss-eap-6.4/modules/system/layers/base))
+21:01:43,107 DEBUG [org.jboss.modules] (ServerService Thread Pool -- 12) Module org.jboss.as.jaxrs:main defined by local module loader @5577140b (finder: local module finder @1c6b6478 (roots: /opt/app/jboss-eap-6.4/modules,/opt/app/jboss-eap-6.4/modules/system/layers/base))
+21:01:43,108 DEBUG [org.jboss.modules] (ServerService Thread Pool -- 12) Module javax.enterprise.api:main defined by local module loader @5577140b (finder: local module finder @1c6b6478 (roots: /opt/app/jboss-eap-6.4/modules,/opt/app/jboss-eap-6.4/modules/system/layers/base))
+21:01:43,108 DEBUG [org.jboss.modules] (ServerService Thread Pool -- 12) Module javax.interceptor.api:main defined by local module loader @5577140b (finder: local module finder @1c6b6478 (roots: /opt/app/jboss-eap-6.4/modules,/opt/app/jboss-eap-6.4/modules/system/layers/base))
+21:01:43,109 DEBUG [org.jboss.modules] (ServerService Thread Pool -- 12) Module javax.ws.rs.api:main defined by local module loader @5577140b (finder: local module finder @1c6b6478 (roots: /opt/app/jboss-eap-6.4/modules,/opt/app/jboss-eap-6.4/modules/system/layers/base))
+21:01:43,110 DEBUG [org.jboss.modules] (ServerService Thread Pool -- 12) Module org.jboss.resteasy.resteasy-jaxrs:main defined by local module loader @5577140b (finder: local module finder @1c6b6478 (roots: /opt/app/jboss-eap-6.4/modules,/opt/app/jboss-eap-6.4/modules/system/layers/base))
+21:01:43,112 DEBUG [org.jboss.modules] (ServerService Thread Pool -- 12) Module org.apache.httpcomponents:main defined by local module loader @5577140b (finder: local module finder @1c6b6478 (roots: /opt/app/jboss-eap-6.4/modules,/opt/app/jboss-eap-6.4/modules/system/layers/base))
+21:01:43,115 DEBUG [org.jboss.modules] (ServerService Thread Pool -- 12) Module org.jboss.as.ejb3:main defined by local module loader @5577140b (finder: local module finder @1c6b6478 (roots: /opt/app/jboss-eap-6.4/modules,/opt/app/jboss-eap-6.4/modules/system/layers/base))
+21:01:43,116 DEBUG [org.jboss.modules] (ServerService Thread Pool -- 11) Module org.jboss.as.jaxr:main defined by local module loader @5577140b (finder: local module finder @1c6b6478 (roots: /opt/app/jboss-eap-6.4/modules,/opt/app/jboss-eap-6.4/modules/system/layers/base))
+21:01:43,117 DEBUG [org.jboss.modules] (ServerService Thread Pool -- 11) Module javax.xml.registry.api:main defined by local module loader @5577140b (finder: local module finder @1c6b6478 (roots: /opt/app/jboss-eap-6.4/modules,/opt/app/jboss-eap-6.4/modules/system/layers/base))
+21:01:43,118 DEBUG [org.jboss.modules] (ServerService Thread Pool -- 11) Module org.apache.juddi.scout:main defined by local module loader @5577140b (finder: local module finder @1c6b6478 (roots: /opt/app/jboss-eap-6.4/modules,/opt/app/jboss-eap-6.4/modules/system/layers/base))
+21:01:43,119 DEBUG [org.jboss.modules] (ServerService Thread Pool -- 11) Module org.apache.juddi.uddi-ws:main defined by local module loader @5577140b (finder: local module finder @1c6b6478 (roots: /opt/app/jboss-eap-6.4/modules,/opt/app/jboss-eap-6.4/modules/system/layers/base))
+21:01:43,120 DEBUG [org.jboss.modules] (ServerService Thread Pool -- 11) Module org.apache.juddi.juddi-client:main defined by local module loader @5577140b (finder: local module finder @1c6b6478 (roots: /opt/app/jboss-eap-6.4/modules,/opt/app/jboss-eap-6.4/modules/system/layers/base))
+21:01:43,121 DEBUG [org.jboss.modules] (ServerService Thread Pool -- 11) Module org.apache.commons.configuration:main defined by local module loader @5577140b (finder: local module finder @1c6b6478 (roots: /opt/app/jboss-eap-6.4/modules,/opt/app/jboss-eap-6.4/modules/system/layers/base))
+21:01:43,122 DEBUG [org.jboss.modules] (ServerService Thread Pool -- 11) Module org.apache.commons.lang:main defined by local module loader @5577140b (finder: local module finder @1c6b6478 (roots: /opt/app/jboss-eap-6.4/modules,/opt/app/jboss-eap-6.4/modules/system/layers/base))
+21:01:43,126 DEBUG [org.jboss.modules] (ServerService Thread Pool -- 10) Module org.jboss.as.jacorb:main defined by local module loader @5577140b (finder: local module finder @1c6b6478 (roots: /opt/app/jboss-eap-6.4/modules,/opt/app/jboss-eap-6.4/modules/system/layers/base))
+21:01:43,128 DEBUG [org.jboss.modules] (ServerService Thread Pool -- 7) Module org.jboss.as.connector:main defined by local module loader @5577140b (finder: local module finder @1c6b6478 (roots: /opt/app/jboss-eap-6.4/modules,/opt/app/jboss-eap-6.4/modules/system/layers/base))
+21:01:43,129 DEBUG [org.jboss.modules] (ServerService Thread Pool -- 6) Module org.jboss.as.configadmin:main defined by local module loader @5577140b (finder: local module finder @1c6b6478 (roots: /opt/app/jboss-eap-6.4/modules,/opt/app/jboss-eap-6.4/modules/system/layers/base))
+21:01:43,130 DEBUG [org.jboss.modules] (ServerService Thread Pool -- 6) Module org.jboss.osgi.spi:main defined by local module loader @5577140b (finder: local module finder @1c6b6478 (roots: /opt/app/jboss-eap-6.4/modules,/opt/app/jboss-eap-6.4/modules/system/layers/base))
+21:01:43,137 DEBUG [org.jboss.modules] (ServerService Thread Pool -- 5) Module org.jboss.as.cmp:main defined by local module loader @5577140b (finder: local module finder @1c6b6478 (roots: /opt/app/jboss-eap-6.4/modules,/opt/app/jboss-eap-6.4/modules/system/layers/base))
+21:01:43,028 DEBUG [org.jboss.modules] (ServerService Thread Pool -- 31) Module org.jboss.as.weld:main defined by local module loader @5577140b (finder: local module finder @1c6b6478 (roots: /opt/app/jboss-eap-6.4/modules,/opt/app/jboss-eap-6.4/modules/system/layers/base))
+21:01:43,150 DEBUG [org.jboss.modules] (ServerService Thread Pool -- 31) Module ch.qos.cal10n:main defined by local module loader @5577140b (finder: local module finder @1c6b6478 (roots: /opt/app/jboss-eap-6.4/modules,/opt/app/jboss-eap-6.4/modules/system/layers/base))
+21:01:43,152 DEBUG [org.jboss.modules] (ServerService Thread Pool -- 31) Module com.google.guava:main defined by local module loader @5577140b (finder: local module finder @1c6b6478 (roots: /opt/app/jboss-eap-6.4/modules,/opt/app/jboss-eap-6.4/modules/system/layers/base))
+21:01:43,027 DEBUG [org.jboss.modules] (ServerService Thread Pool -- 30) Module org.jboss.as.webservices:main defined by local module loader @5577140b (finder: local module finder @1c6b6478 (roots: /opt/app/jboss-eap-6.4/modules,/opt/app/jboss-eap-6.4/modules/system/layers/base))
+21:01:43,026 DEBUG [org.jboss.modules] (ServerService Thread Pool -- 29) Module javax.security.auth.message.api:main defined by local module loader @5577140b (finder: local module finder @1c6b6478 (roots: /opt/app/jboss-eap-6.4/modules,/opt/app/jboss-eap-6.4/modules/system/layers/base))
+21:01:43,156 DEBUG [org.jboss.modules] (ServerService Thread Pool -- 28) Module org.jboss.jts:main defined by local module loader @5577140b (finder: local module finder @1c6b6478 (roots: /opt/app/jboss-eap-6.4/modules,/opt/app/jboss-eap-6.4/modules/system/layers/base))
+21:01:43,157 DEBUG [org.jboss.modules] (ServerService Thread Pool -- 28) Module org.jboss.jts.integration:main defined by local module loader @5577140b (finder: local module finder @1c6b6478 (roots: /opt/app/jboss-eap-6.4/modules,/opt/app/jboss-eap-6.4/modules/system/layers/base))
+21:01:43,165 DEBUG [org.jboss.modules] (ServerService Thread Pool -- 30) Module javax.jws.api:main defined by local module loader @5577140b (finder: local module finder @1c6b6478 (roots: /opt/app/jboss-eap-6.4/modules,/opt/app/jboss-eap-6.4/modules/system/layers/base))
+21:01:43,166 DEBUG [org.jboss.modules] (ServerService Thread Pool -- 30) Module javax.xml.ws.api:main defined by local module loader @5577140b (finder: local module finder @1c6b6478 (roots: /opt/app/jboss-eap-6.4/modules,/opt/app/jboss-eap-6.4/modules/system/layers/base))
+21:01:43,167 DEBUG [org.jboss.modules] (ServerService Thread Pool -- 30) Module javax.xml.bind.api:main defined by local module loader @5577140b (finder: local module finder @1c6b6478 (roots: /opt/app/jboss-eap-6.4/modules,/opt/app/jboss-eap-6.4/modules/system/layers/base))
+21:01:43,168 DEBUG [org.jboss.modules] (ServerService Thread Pool -- 30) Module org.jboss.ejb3:main defined by local module loader @5577140b (finder: local module finder @1c6b6478 (roots: /opt/app/jboss-eap-6.4/modules,/opt/app/jboss-eap-6.4/modules/system/layers/base))
+21:01:43,169 DEBUG [org.jboss.modules] (ServerService Thread Pool -- 30) Module org.jboss.ws.api:main defined by local module loader @5577140b (finder: local module finder @1c6b6478 (roots: /opt/app/jboss-eap-6.4/modules,/opt/app/jboss-eap-6.4/modules/system/layers/base))
+21:01:43,170 DEBUG [org.jboss.modules] (ServerService Thread Pool -- 30) Module org.jboss.ws.common:main defined by local module loader @5577140b (finder: local module finder @1c6b6478 (roots: /opt/app/jboss-eap-6.4/modules,/opt/app/jboss-eap-6.4/modules/system/layers/base))
+21:01:43,171 DEBUG [org.jboss.modules] (ServerService Thread Pool -- 30) Module org.jboss.ws.spi:main defined by local module loader @5577140b (finder: local module finder @1c6b6478 (roots: /opt/app/jboss-eap-6.4/modules,/opt/app/jboss-eap-6.4/modules/system/layers/base))
+21:01:43,178 DEBUG [org.jboss.as.modcluster] (ServerService Thread Pool -- 21) Activating mod_cluster extension
+21:01:43,244 DEBUG [org.jboss.as.txn] (ServerService Thread Pool -- 28) Initializing Transactions Extension
+21:01:43,252 DEBUG [org.jboss.modules] (ServerService Thread Pool -- 28) Module org.slf4j.jcl-over-slf4j:main defined by local module loader @5577140b (finder: local module finder @1c6b6478 (roots: /opt/app/jboss-eap-6.4/modules,/opt/app/jboss-eap-6.4/modules/system/layers/base))
+21:01:43,253 DEBUG [org.jboss.modules] (ServerService Thread Pool -- 12) Module org.jboss.resteasy.resteasy-cdi:main defined by local module loader @5577140b (finder: local module finder @1c6b6478 (roots: /opt/app/jboss-eap-6.4/modules,/opt/app/jboss-eap-6.4/modules/system/layers/base))
+21:01:43,253 DEBUG [org.jboss.modules] (ServerService Thread Pool -- 12) Module org.jboss.resteasy.resteasy-spring:main defined by local module loader @5577140b (finder: local module finder @1c6b6478 (roots: /opt/app/jboss-eap-6.4/modules,/opt/app/jboss-eap-6.4/modules/system/layers/base))
+21:01:43,255 DEBUG [org.jboss.modules] (ServerService Thread Pool -- 12) Module org.jboss.weld.spi:main defined by local module loader @5577140b (finder: local module finder @1c6b6478 (roots: /opt/app/jboss-eap-6.4/modules,/opt/app/jboss-eap-6.4/modules/system/layers/base))
+21:01:43,257 DEBUG [org.jboss.jaxrs] (ServerService Thread Pool -- 12) Activating JAX-RS Extension
+21:01:43,020 DEBUG [org.jboss.modules] (ServerService Thread Pool -- 20) Module org.hornetq:main defined by local module loader @5577140b (finder: local module finder @1c6b6478 (roots: /opt/app/jboss-eap-6.4/modules,/opt/app/jboss-eap-6.4/modules/system/layers/base))
+21:01:43,265 DEBUG [org.jboss.modules] (ServerService Thread Pool -- 20) Module org.hornetq.ra:main defined by local module loader @5577140b (finder: local module finder @1c6b6478 (roots: /opt/app/jboss-eap-6.4/modules,/opt/app/jboss-eap-6.4/modules/system/layers/base))
+21:01:43,268 DEBUG [org.jboss.modules] (ServerService Thread Pool -- 20) Module org.jboss.netty:main defined by local module loader @5577140b (finder: local module finder @1c6b6478 (roots: /opt/app/jboss-eap-6.4/modules,/opt/app/jboss-eap-6.4/modules/system/layers/base))
+21:01:43,270 DEBUG [org.jboss.modules] (ServerService Thread Pool -- 20) Module org.jboss.ironjacamar.impl:main defined by local module loader @5577140b (finder: local module finder @1c6b6478 (roots: /opt/app/jboss-eap-6.4/modules,/opt/app/jboss-eap-6.4/modules/system/layers/base))
+21:01:43,272 DEBUG [org.jboss.modules] (ServerService Thread Pool -- 20) Module org.jboss.ironjacamar.api:main defined by local module loader @5577140b (finder: local module finder @1c6b6478 (roots: /opt/app/jboss-eap-6.4/modules,/opt/app/jboss-eap-6.4/modules/system/layers/base))
+21:01:43,276 DEBUG [org.jboss.modules] (ServerService Thread Pool -- 5) Module org.jboss.ironjacamar.jdbcadapters:main defined by local module loader @5577140b (finder: local module finder @1c6b6478 (roots: /opt/app/jboss-eap-6.4/modules,/opt/app/jboss-eap-6.4/modules/system/layers/base))
+21:01:43,283 DEBUG [org.jboss.modules] (ServerService Thread Pool -- 9) Module org.hibernate:main defined by local module loader @5577140b (finder: local module finder @1c6b6478 (roots: /opt/app/jboss-eap-6.4/modules,/opt/app/jboss-eap-6.4/modules/system/layers/base))
+21:01:43,285 DEBUG [org.jboss.modules] (ServerService Thread Pool -- 9) Module org.jboss.as.clustering.ejb3.infinispan:main defined by local module loader @5577140b (finder: local module finder @1c6b6478 (roots: /opt/app/jboss-eap-6.4/modules,/opt/app/jboss-eap-6.4/modules/system/layers/base))
+21:01:43,285 DEBUG [org.jboss.modules] (ServerService Thread Pool -- 9) Module org.jboss.as.clustering.registry:main defined by local module loader @5577140b (finder: local module finder @1c6b6478 (roots: /opt/app/jboss-eap-6.4/modules,/opt/app/jboss-eap-6.4/modules/system/layers/base))
+21:01:43,287 DEBUG [org.jboss.modules] (ServerService Thread Pool -- 9) Module org.jboss.classfilewriter:main defined by local module loader @5577140b (finder: local module finder @1c6b6478 (roots: /opt/app/jboss-eap-6.4/modules,/opt/app/jboss-eap-6.4/modules/system/layers/base))
+21:01:43,288 DEBUG [org.jboss.modules] (ServerService Thread Pool -- 9) Module org.jboss.ejb-client:main defined by local module loader @5577140b (finder: local module finder @1c6b6478 (roots: /opt/app/jboss-eap-6.4/modules,/opt/app/jboss-eap-6.4/modules/system/layers/base))
+21:01:43,288 DEBUG [org.jboss.modules] (ServerService Thread Pool -- 9) Module org.jboss.iiop-client:main defined by local module loader @5577140b (finder: local module finder @1c6b6478 (roots: /opt/app/jboss-eap-6.4/modules,/opt/app/jboss-eap-6.4/modules/system/layers/base))
+21:01:43,264 DEBUG [org.jboss.modules] (ServerService Thread Pool -- 18) Module org.slf4j:main defined by local module loader @5577140b (finder: local module finder @1c6b6478 (roots: /opt/app/jboss-eap-6.4/modules,/opt/app/jboss-eap-6.4/modules/system/layers/base))
+21:01:43,353 DEBUG [org.jboss.modules] (ServerService Thread Pool -- 18) Module org.dom4j:main defined by local module loader @5577140b (finder: local module finder @1c6b6478 (roots: /opt/app/jboss-eap-6.4/modules,/opt/app/jboss-eap-6.4/modules/system/layers/base))
+21:01:43,354 DEBUG [org.jboss.modules] (ServerService Thread Pool -- 18) Module org.jboss.logging.jul-to-slf4j-stub:main defined by local module loader @5577140b (finder: local module finder @1c6b6478 (roots: /opt/app/jboss-eap-6.4/modules,/opt/app/jboss-eap-6.4/modules/system/layers/base))
+21:01:43,354 DEBUG [org.jboss.modules] (ServerService Thread Pool -- 18) Module org.slf4j.impl:main defined by local module loader @5577140b (finder: local module finder @1c6b6478 (roots: /opt/app/jboss-eap-6.4/modules,/opt/app/jboss-eap-6.4/modules/system/layers/base))
+21:01:43,355 DEBUG [org.jboss.modules] (ServerService Thread Pool -- 18) Module org.slf4j.ext:main defined by local module loader @5577140b (finder: local module finder @1c6b6478 (roots: /opt/app/jboss-eap-6.4/modules,/opt/app/jboss-eap-6.4/modules/system/layers/base))
+21:01:43,356 DEBUG [org.jboss.modules] (ServerService Thread Pool -- 17) Module javax.management.j2ee.api:main defined by local module loader @5577140b (finder: local module finder @1c6b6478 (roots: /opt/app/jboss-eap-6.4/modules,/opt/app/jboss-eap-6.4/modules/system/layers/base))
+21:01:43,358 DEBUG [org.jboss.modules] (ServerService Thread Pool -- 16) Module javax.validation.api:main defined by local module loader @5577140b (finder: local module finder @1c6b6478 (roots: /opt/app/jboss-eap-6.4/modules,/opt/app/jboss-eap-6.4/modules/system/layers/base))
+21:01:43,360 DEBUG [org.jboss.modules] (ServerService Thread Pool -- 16) Module com.sun.jsf-impl:main defined by local module loader @5577140b (finder: local module finder @1c6b6478 (roots: /opt/app/jboss-eap-6.4/modules,/opt/app/jboss-eap-6.4/modules/system/layers/base))
+21:01:43,368 DEBUG [org.jboss.modules] (ServerService Thread Pool -- 29) Module org.jboss.as.clustering.web.spi:main defined by local module loader @5577140b (finder: local module finder @1c6b6478 (roots: /opt/app/jboss-eap-6.4/modules,/opt/app/jboss-eap-6.4/modules/system/layers/base))
+21:01:43,370 DEBUG [org.jboss.modules] (ServerService Thread Pool -- 26) Module org.jboss.security.xacml:main defined by local module loader @5577140b (finder: local module finder @1c6b6478 (roots: /opt/app/jboss-eap-6.4/modules,/opt/app/jboss-eap-6.4/modules/system/layers/base))
+21:01:43,381 DEBUG [org.jboss.modules] (ServerService Thread Pool -- 15) Module org.apache.commons.collections:main defined by local module loader @5577140b (finder: local module finder @1c6b6478 (roots: /opt/app/jboss-eap-6.4/modules,/opt/app/jboss-eap-6.4/modules/system/layers/base))
+21:01:43,383 DEBUG [org.jboss.modules] (ServerService Thread Pool -- 15) Module org.hibernate.validator:main defined by local module loader @5577140b (finder: local module finder @1c6b6478 (roots: /opt/app/jboss-eap-6.4/modules,/opt/app/jboss-eap-6.4/modules/system/layers/base))
+21:01:43,384 DEBUG [org.jboss.modules] (ServerService Thread Pool -- 15) Module org.jboss.as.jpa.spi:main defined by local module loader @5577140b (finder: local module finder @1c6b6478 (roots: /opt/app/jboss-eap-6.4/modules,/opt/app/jboss-eap-6.4/modules/system/layers/base))
+21:01:43,385 DEBUG [org.jboss.modules] (ServerService Thread Pool -- 15) Module org.jboss.as.jpa.util:main defined by local module loader @5577140b (finder: local module finder @1c6b6478 (roots: /opt/app/jboss-eap-6.4/modules,/opt/app/jboss-eap-6.4/modules/system/layers/base))
+21:01:43,392 DEBUG [org.jboss.modules] (ServerService Thread Pool -- 31) Module org.javassist:main defined by local module loader @5577140b (finder: local module finder @1c6b6478 (roots: /opt/app/jboss-eap-6.4/modules,/opt/app/jboss-eap-6.4/modules/system/layers/base))
+21:01:43,393 DEBUG [org.jboss.modules] (ServerService Thread Pool -- 31) Module org.jboss.weld.api:main defined by local module loader @5577140b (finder: local module finder @1c6b6478 (roots: /opt/app/jboss-eap-6.4/modules,/opt/app/jboss-eap-6.4/modules/system/layers/base))
+21:01:43,395 DEBUG [org.jboss.modules] (ServerService Thread Pool -- 31) Module org.jboss.weld.core:main defined by local module loader @5577140b (finder: local module finder @1c6b6478 (roots: /opt/app/jboss-eap-6.4/modules,/opt/app/jboss-eap-6.4/modules/system/layers/base))
+21:01:43,403 DEBUG [org.jboss.as.connector.logging] (ServerService Thread Pool -- 7) Initializing Connector Extension
+21:01:43,417 DEBUG [org.jboss.modules] (ServerService Thread Pool -- 15) Module asm.asm:main defined by local module loader @5577140b (finder: local module finder @1c6b6478 (roots: /opt/app/jboss-eap-6.4/modules,/opt/app/jboss-eap-6.4/modules/system/layers/base))
+21:01:43,418 DEBUG [org.jboss.modules] (ServerService Thread Pool -- 15) Module org.antlr:main defined by local module loader @5577140b (finder: local module finder @1c6b6478 (roots: /opt/app/jboss-eap-6.4/modules,/opt/app/jboss-eap-6.4/modules/system/layers/base))
+21:01:43,419 DEBUG [org.jboss.modules] (ServerService Thread Pool -- 15) Module org.jboss.as.jpa.hibernate:4 defined by local module loader @5577140b (finder: local module finder @1c6b6478 (roots: /opt/app/jboss-eap-6.4/modules,/opt/app/jboss-eap-6.4/modules/system/layers/base))
+21:01:43,420 DEBUG [org.jboss.modules] (ServerService Thread Pool -- 15) Module org.hibernate.envers:main defined by local module loader @5577140b (finder: local module finder @1c6b6478 (roots: /opt/app/jboss-eap-6.4/modules,/opt/app/jboss-eap-6.4/modules/system/layers/base))
+21:01:43,421 DEBUG [org.jboss.modules] (ServerService Thread Pool -- 15) Module org.hibernate.commons-annotations:main defined by local module loader @5577140b (finder: local module finder @1c6b6478 (roots: /opt/app/jboss-eap-6.4/modules,/opt/app/jboss-eap-6.4/modules/system/layers/base))
+21:01:43,609 DEBUG [org.jboss.as.jsf] (ServerService Thread Pool -- 16) Activating JSF(Mojarra) Extension
+21:01:43,641 DEBUG [org.jboss.as.weld] (ServerService Thread Pool -- 31) Activating Weld Extension
+21:01:43,789 DEBUG [org.jboss.as.jpa] (ServerService Thread Pool -- 15) loaded persistence provider adapter org.jboss.as.jpa.hibernate:4
+21:01:44,114 DEBUG [org.jboss.modules] (ServerService Thread Pool -- 2) Module org.apache.commons.pool:main defined by local module loader @5577140b (finder: local module finder @1c6b6478 (roots: /opt/app/jboss-eap-6.4/modules,/opt/app/jboss-eap-6.4/modules/system/layers/base))
+21:01:44,121 DEBUG [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 7) Initializing Datasources Extension
+21:01:44,413 DEBUG [org.jboss.as.connector.subsystems.resourceadapters] (ServerService Thread Pool -- 7) Initializing ResourceAdapters Extension
+21:01:44,624 DEBUG [org.jboss.as.controller.management-operation] (Controller Boot Thread) Initialized extensions in [1745] ms
+21:01:45,137 INFO  [org.jboss.as.controller.management-deprecated] (ServerService Thread Pool -- 16) JBAS014627: Attribute default-stack is deprecated, and it might be removed in future version!
+21:01:45,164 INFO  [org.jboss.as.controller.management-deprecated] (ServerService Thread Pool -- 6) JBAS014627: Attribute enabled is deprecated, and it might be removed in future version!
+21:01:45,168 INFO  [org.jboss.as.controller.management-deprecated] (ServerService Thread Pool -- 16) JBAS014627: Attribute type is deprecated, and it might be removed in future version!
+21:01:45,169 INFO  [org.jboss.as.controller.management-deprecated] (ServerService Thread Pool -- 16) JBAS014627: Attribute type is deprecated, and it might be removed in future version!
+21:01:45,170 INFO  [org.jboss.as.controller.management-deprecated] (ServerService Thread Pool -- 16) JBAS014627: Attribute type is deprecated, and it might be removed in future version!
+21:01:45,171 INFO  [org.jboss.as.controller.management-deprecated] (ServerService Thread Pool -- 16) JBAS014627: Attribute type is deprecated, and it might be removed in future version!
+21:01:45,171 INFO  [org.jboss.as.controller.management-deprecated] (ServerService Thread Pool -- 16) JBAS014627: Attribute type is deprecated, and it might be removed in future version!
+21:01:45,173 INFO  [org.jboss.as.controller.management-deprecated] (ServerService Thread Pool -- 16) JBAS014627: Attribute type is deprecated, and it might be removed in future version!
+21:01:45,174 INFO  [org.jboss.as.controller.management-deprecated] (ServerService Thread Pool -- 16) JBAS014627: Attribute type is deprecated, and it might be removed in future version!
+21:01:45,175 INFO  [org.jboss.as.controller.management-deprecated] (ServerService Thread Pool -- 16) JBAS014627: Attribute type is deprecated, and it might be removed in future version!
+21:01:45,176 INFO  [org.jboss.as.controller.management-deprecated] (ServerService Thread Pool -- 16) JBAS014627: Attribute type is deprecated, and it might be removed in future version!
+21:01:45,177 INFO  [org.jboss.as.controller.management-deprecated] (ServerService Thread Pool -- 16) JBAS014627: Attribute type is deprecated, and it might be removed in future version!
+21:01:45,178 INFO  [org.jboss.as.controller.management-deprecated] (ServerService Thread Pool -- 16) JBAS014627: Attribute type is deprecated, and it might be removed in future version!
+21:01:45,255 INFO  [org.jboss.as.controller.management-deprecated] (ServerService Thread Pool -- 16) JBAS014627: Attribute type is deprecated, and it might be removed in future version!
+21:01:45,255 INFO  [org.jboss.as.controller.management-deprecated] (ServerService Thread Pool -- 16) JBAS014627: Attribute type is deprecated, and it might be removed in future version!
+21:01:45,256 INFO  [org.jboss.as.controller.management-deprecated] (ServerService Thread Pool -- 16) JBAS014627: Attribute type is deprecated, and it might be removed in future version!
+21:01:45,256 INFO  [org.jboss.as.controller.management-deprecated] (ServerService Thread Pool -- 16) JBAS014627: Attribute type is deprecated, and it might be removed in future version!
+21:01:45,256 INFO  [org.jboss.as.controller.management-deprecated] (ServerService Thread Pool -- 16) JBAS014627: Attribute type is deprecated, and it might be removed in future version!
+21:01:45,257 INFO  [org.jboss.as.controller.management-deprecated] (ServerService Thread Pool -- 16) JBAS014627: Attribute type is deprecated, and it might be removed in future version!
+21:01:45,257 INFO  [org.jboss.as.controller.management-deprecated] (ServerService Thread Pool -- 16) JBAS014627: Attribute type is deprecated, and it might be removed in future version!
+21:01:45,257 INFO  [org.jboss.as.controller.management-deprecated] (ServerService Thread Pool -- 16) JBAS014627: Attribute type is deprecated, and it might be removed in future version!
+21:01:45,257 INFO  [org.jboss.as.controller.management-deprecated] (ServerService Thread Pool -- 16) JBAS014627: Attribute type is deprecated, and it might be removed in future version!
+21:01:45,258 INFO  [org.jboss.as.controller.management-deprecated] (ServerService Thread Pool -- 16) JBAS014627: Attribute type is deprecated, and it might be removed in future version!
+21:01:45,258 INFO  [org.jboss.as.controller.management-deprecated] (ServerService Thread Pool -- 16) JBAS014627: Attribute type is deprecated, and it might be removed in future version!
+21:01:45,258 INFO  [org.jboss.as.controller.management-deprecated] (ServerService Thread Pool -- 16) JBAS014627: Attribute type is deprecated, and it might be removed in future version!
+21:01:45,259 INFO  [org.jboss.as.controller.management-deprecated] (ServerService Thread Pool -- 16) JBAS014627: Attribute type is deprecated, and it might be removed in future version!
+21:01:45,259 INFO  [org.jboss.as.controller.management-deprecated] (ServerService Thread Pool -- 16) JBAS014627: Attribute type is deprecated, and it might be removed in future version!
+21:01:45,259 INFO  [org.jboss.as.controller.management-deprecated] (ServerService Thread Pool -- 16) JBAS014627: Attribute type is deprecated, and it might be removed in future version!
+21:01:45,259 INFO  [org.jboss.as.controller.management-deprecated] (ServerService Thread Pool -- 16) JBAS014627: Attribute type is deprecated, and it might be removed in future version!
+21:01:45,260 INFO  [org.jboss.as.controller.management-deprecated] (ServerService Thread Pool -- 16) JBAS014627: Attribute type is deprecated, and it might be removed in future version!
+21:01:45,362 DEBUG [org.jboss.as.controller.management-operation] (Controller Boot Thread) Stage MODEL boot ops for subsystem weld succeeded
+21:01:45,363 DEBUG [org.jboss.as.controller.management-operation] (Controller Boot Thread) Stage MODEL boot ops for subsystem webservices succeeded
+21:01:45,363 DEBUG [org.jboss.as.controller.management-operation] (Controller Boot Thread) Stage MODEL boot ops for subsystem web succeeded
+21:01:45,363 DEBUG [org.jboss.as.controller.management-operation] (Controller Boot Thread) Stage MODEL boot ops for subsystem transactions succeeded
+21:01:45,363 DEBUG [org.jboss.as.controller.management-operation] (Controller Boot Thread) Stage MODEL boot ops for subsystem threads succeeded
+21:01:45,363 DEBUG [org.jboss.as.controller.management-operation] (Controller Boot Thread) Stage MODEL boot ops for subsystem security succeeded
+21:01:45,363 DEBUG [org.jboss.as.controller.management-operation] (Controller Boot Thread) Stage MODEL boot ops for subsystem sar succeeded
+21:01:45,363 DEBUG [org.jboss.as.controller.management-operation] (Controller Boot Thread) Stage MODEL boot ops for subsystem resource-adapters succeeded
+21:01:45,363 DEBUG [org.jboss.as.controller.management-operation] (Controller Boot Thread) Stage MODEL boot ops for subsystem remoting succeeded
+21:01:45,363 DEBUG [org.jboss.as.controller.management-operation] (Controller Boot Thread) Stage MODEL boot ops for subsystem pojo succeeded
+21:01:45,363 DEBUG [org.jboss.as.controller.management-operation] (Controller Boot Thread) Stage MODEL boot ops for subsystem naming succeeded
+21:01:45,363 DEBUG [org.jboss.as.controller.management-operation] (Controller Boot Thread) Stage MODEL boot ops for subsystem modcluster succeeded
+21:01:45,363 DEBUG [org.jboss.as.controller.management-operation] (Controller Boot Thread) Stage MODEL boot ops for subsystem messaging succeeded
+21:01:45,364 DEBUG [org.jboss.as.controller.management-operation] (Controller Boot Thread) Stage MODEL boot ops for subsystem mail succeeded
+21:01:45,364 DEBUG [org.jboss.as.controller.management-operation] (Controller Boot Thread) Stage MODEL boot ops for subsystem jsr77 succeeded
+21:01:45,364 DEBUG [org.jboss.as.controller.management-operation] (Controller Boot Thread) Stage MODEL boot ops for subsystem jsf succeeded
+21:01:45,364 DEBUG [org.jboss.as.controller.management-operation] (Controller Boot Thread) Stage MODEL boot ops for subsystem jpa succeeded
+21:01:45,364 DEBUG [org.jboss.as.controller.management-operation] (Controller Boot Thread) Stage MODEL boot ops for subsystem jmx succeeded
+21:01:45,364 DEBUG [org.jboss.as.controller.management-operation] (Controller Boot Thread) Stage MODEL boot ops for subsystem jgroups succeeded
+21:01:45,364 DEBUG [org.jboss.as.controller.management-operation] (Controller Boot Thread) Stage MODEL boot ops for subsystem jdr succeeded
+21:01:45,364 DEBUG [org.jboss.as.controller.management-operation] (Controller Boot Thread) Stage MODEL boot ops for subsystem jca succeeded
+21:01:45,364 DEBUG [org.jboss.as.controller.management-operation] (Controller Boot Thread) Stage MODEL boot ops for subsystem jaxrs succeeded
+21:01:45,364 DEBUG [org.jboss.as.controller.management-operation] (Controller Boot Thread) Stage MODEL boot ops for subsystem jaxr succeeded
+21:01:45,364 DEBUG [org.jboss.as.controller.management-operation] (Controller Boot Thread) Stage MODEL boot ops for subsystem jacorb succeeded
+21:01:45,364 DEBUG [org.jboss.as.controller.management-operation] (Controller Boot Thread) Stage MODEL boot ops for subsystem infinispan succeeded
+21:01:45,364 DEBUG [org.jboss.as.controller.management-operation] (Controller Boot Thread) Stage MODEL boot ops for subsystem ejb3 succeeded
+21:01:45,365 DEBUG [org.jboss.as.controller.management-operation] (Controller Boot Thread) Stage MODEL boot ops for subsystem ee succeeded
+21:01:45,365 DEBUG [org.jboss.as.controller.management-operation] (Controller Boot Thread) Stage MODEL boot ops for subsystem datasources succeeded
+21:01:45,365 DEBUG [org.jboss.as.controller.management-operation] (Controller Boot Thread) Stage MODEL boot ops for subsystem configadmin succeeded
+21:01:45,365 DEBUG [org.jboss.as.controller.management-operation] (Controller Boot Thread) Stage MODEL boot ops for subsystem cmp succeeded
+21:01:45,365 DEBUG [org.jboss.as.controller.management-operation] (Controller Boot Thread) Stage MODEL boot ops for subsystem logging succeeded
+21:01:45,378 DEBUG [org.jboss.as.controller.management-operation] (Controller Boot Thread) Ran subsystem model operations in [478] ms
+21:01:45,827 WARN  [org.jboss.as.txn] (ServerService Thread Pool -- 37) JBAS010153: Node identifier property is set to the default value. Please make sure it is unique.
+21:01:46,019 INFO  [org.jboss.as.security] (ServerService Thread Pool -- 39) JBAS013371: Activating Security Subsystem
+21:01:46,040 INFO  [org.jboss.as.naming] (ServerService Thread Pool -- 44) JBAS011800: Activating Naming Subsystem
+21:01:46,166 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 58) JBAS010280: Activating Infinispan subsystem.
+21:01:46,209 INFO  [org.jboss.as.configadmin] (ServerService Thread Pool -- 62) JBAS016200: Activating ConfigAdmin Subsystem
+21:01:46,272 INFO  [org.jboss.as.clustering.jgroups] (ServerService Thread Pool -- 52) JBAS010260: Activating JGroups subsystem.
+21:01:46,719 INFO  [org.jboss.as.jacorb] (ServerService Thread Pool -- 57) JBAS016300: Activating JacORB Subsystem
+21:01:46,704 INFO  [org.jboss.as.jsf] (ServerService Thread Pool -- 49) JBAS012615: Activated the following JSF Implementations: [main, 1.2]
+21:01:46,977 INFO  [org.jboss.as.webservices] (ServerService Thread Pool -- 35) JBAS015537: Activating WebServices Extension
+21:02:01,855 INFO  [org.jboss.as.security] (MSC service thread 1-1) JBAS013370: Current PicketBox version=4.1.1.Final-redhat-1
+21:02:08,381 INFO  [org.jboss.as.connector.logging] (MSC service thread 1-2) JBAS010408: Starting JCA Subsystem (IronJacamar 1.0.31.Final-redhat-1)
+21:02:11,355 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 61) JBAS010403: Deploying JDBC-compliant driver class org.h2.Driver (version 1.3)
+21:02:23,519 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 58) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+21:02:23,791 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 58) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+21:02:28,411 INFO  [org.apache.coyote.ajp] (MSC service thread 1-2) JBWEB003046: Starting Coyote AJP/1.3 on ajp-/192.168.1.16:8159
+21:02:30,210 INFO  [org.apache.coyote.http11.Http11Protocol] (MSC service thread 1-2) JBWEB003001: Coyote HTTP/1.1 initializing on : http-/192.168.1.16:8230
+21:02:30,213 INFO  [org.apache.coyote.http11.Http11Protocol] (MSC service thread 1-2) JBWEB003000: Coyote HTTP/1.1 starting on: http-/192.168.1.16:8230
+21:02:32,491 INFO  [org.jboss.jaxr] (MSC service thread 1-2) JBAS014000: Started JAXR subsystem, binding JAXR connection factory into JNDI as: java:jboss/jaxr/ConnectionFactory
+21:02:32,492 INFO  [org.jboss.as.naming] (MSC service thread 1-2) JBAS011802: Starting Naming Service
+21:02:39,489 INFO  [org.jboss.as.jacorb] (MSC service thread 1-2) JBAS016330: CORBA ORB Service started
+21:02:39,657 INFO  [org.jboss.ws.common.management] (MSC service thread 1-1) JBWS022052: Starting JBoss Web Services - Stack CXF Server 4.3.4.Final-redhat-1
+21:02:40,354 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-2) JBAS015400: Bound mail session [java:jboss/mail/Default]
+21:02:40,688 INFO  [org.jboss.modcluster] (ServerService Thread Pool -- 66) MODCLUSTER000001: Initializing mod_cluster version 1.2.11.Final-redhat-1
+21:02:42,039 INFO  [org.jboss.modcluster] (ServerService Thread Pool -- 66) MODCLUSTER000032: Listening to proxy advertisements on /224.0.1.105:23364
+21:02:41,777 INFO  [org.hornetq.core.server] (ServerService Thread Pool -- 67) HQ221000: live server is starting with configuration HornetQ Configuration (clustered=true,backup=false,sharedStore=true,journalDirectory=/opt/app/jboss-eap-6.4/domain/servers/server-two/data/messagingjournal,bindingsDirectory=/opt/app/jboss-eap-6.4/domain/servers/server-two/data/messagingbindings,largeMessagesDirectory=/opt/app/jboss-eap-6.4/domain/servers/server-two/data/messaginglargemessages,pagingDirectory=/opt/app/jboss-eap-6.4/domain/servers/server-two/data/messagingpaging)
+21:02:42,097 INFO  [org.hornetq.core.server] (ServerService Thread Pool -- 67) HQ221006: Waiting to obtain live lock
+21:02:42,156 INFO  [org.hornetq.core.server] (ServerService Thread Pool -- 67) HQ221013: Using NIO Journal
+21:02:42,243 INFO  [org.jboss.as.jacorb] (MSC service thread 1-1) JBAS016328: CORBA Naming Service started
+21:02:42,629 INFO  [org.jboss.as.remoting] (MSC service thread 1-1) JBAS017100: Listening on 192.168.1.16:4597
+21:02:43,903 INFO  [org.hornetq.core.server] (ServerService Thread Pool -- 67) HQ221034: Waiting to obtain live lock
+21:02:43,903 INFO  [org.hornetq.core.server] (ServerService Thread Pool -- 67) HQ221035: Live Server Obtained live lock
+21:02:43,977 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-2) JBAS010400: Bound data source [java:jboss/datasources/ExampleDS]
+21:02:46,107 INFO  [org.hornetq.core.server] (ServerService Thread Pool -- 67) HQ221020: Started Netty Acceptor version 3.6.10.Final-266dbdf 192.168.1.16:5595 for CORE protocol
+21:02:46,127 INFO  [org.hornetq.core.server] (ServerService Thread Pool -- 67) HQ221020: Started Netty Acceptor version 3.6.10.Final-266dbdf 192.168.1.16:5605 for CORE protocol
+21:02:46,240 INFO  [org.hornetq.core.server] (ServerService Thread Pool -- 67) HQ221007: Server is now live
+21:02:46,240 INFO  [org.hornetq.core.server] (ServerService Thread Pool -- 67) HQ221001: HornetQ Server version 2.3.25.Final (2.3.x, 123) [813ffb01-658c-11e7-a6bd-3f9016623b0e] 
+21:02:46,350 INFO  [org.hornetq.core.server] (ServerService Thread Pool -- 66) HQ221003: trying to deploy queue jms.queue.DLQ
+21:02:46,360 INFO  [org.jboss.as.messaging] (ServerService Thread Pool -- 66) JBAS011601: Bound messaging object to jndi name java:/jms/queue/DLQ
+21:02:46,381 INFO  [org.jboss.as.messaging] (ServerService Thread Pool -- 69) JBAS011601: Bound messaging object to jndi name java:jboss/exported/jms/RemoteConnectionFactory
+21:02:46,383 INFO  [org.hornetq.core.server] (ServerService Thread Pool -- 68) HQ221003: trying to deploy queue jms.queue.ExpiryQueue
+21:02:46,384 INFO  [org.jboss.as.messaging] (ServerService Thread Pool -- 68) JBAS011601: Bound messaging object to jndi name java:/jms/queue/ExpiryQueue
+21:02:46,384 INFO  [org.jboss.as.messaging] (ServerService Thread Pool -- 67) JBAS011601: Bound messaging object to jndi name java:/ConnectionFactory
+21:02:46,844 INFO  [org.jboss.as.connector.deployment] (MSC service thread 1-2) JBAS010406: Registered connection factory java:/JmsXA
+21:02:47,165 INFO  [org.hornetq.ra] (MSC service thread 1-2) HornetQ resource adaptor started
+21:02:47,167 INFO  [org.jboss.as.connector.services.resourceadapters.ResourceAdapterActivatorService$ResourceAdapterActivator] (MSC service thread 1-2) IJ020002: Deployed: file://RaActivatorhornetq-ra
+21:02:47,168 INFO  [org.jboss.as.connector.deployment] (MSC service thread 1-2) JBAS010401: Bound JCA ConnectionFactory [java:/JmsXA]
+21:02:47,645 INFO  [org.jboss.as] (Controller Boot Thread) JBAS015874: JBoss EAP 6.4.0.GA (AS 7.5.0.Final-redhat-21) started in 70924ms - Started 194 of 290 services (127 services are lazy, passive or on-demand)
+21:17:30,148 INFO  [org.jboss.modules] (main) JBoss Modules version 1.3.6.Final-redhat-1
+21:17:31,474 INFO  [org.jboss.msc] (main) JBoss MSC version 1.1.5.Final-redhat-1
+21:17:32,064 INFO  [org.jboss.as] (MSC service thread 1-2) JBAS015899: JBoss EAP 6.4.0.GA (AS 7.5.0.Final-redhat-21) starting
+21:17:32,132 DEBUG [org.jboss.as.config] (MSC service thread 1-2) Configured system properties:
+	[Server:server-two] = 
+	awt.toolkit = sun.awt.X11.XToolkit
+	com.sun.management.jmxremote.authenticate = false
+	com.sun.management.jmxremote.ssl = false
+	file.encoding = UTF-8
+	file.encoding.pkg = sun.io
+	file.separator = /
+	java.awt.graphicsenv = sun.awt.X11GraphicsEnvironment
+	java.awt.headless = true
+	java.awt.printerjob = sun.print.PSPrinterJob
+	java.class.path = /opt/app/jboss-eap-6.4/jboss-modules.jar
+	java.class.version = 52.0
+	java.endorsed.dirs = /usr/lib/jvm/java-1.8.0-openjdk-1.8.0.131-3.b12.el7_3.x86_64/jre/lib/endorsed
+	java.ext.dirs = /usr/lib/jvm/java-1.8.0-openjdk-1.8.0.131-3.b12.el7_3.x86_64/jre/lib/ext:/usr/java/packages/lib/ext
+	java.home = /usr/lib/jvm/java-1.8.0-openjdk-1.8.0.131-3.b12.el7_3.x86_64/jre
+	java.io.tmpdir = /tmp
+	java.library.path = /usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+	java.net.preferIPv4Stack = true
+	java.runtime.name = OpenJDK Runtime Environment
+	java.runtime.version = 1.8.0_131-b12
+	java.specification.name = Java Platform API Specification
+	java.specification.vendor = Oracle Corporation
+	java.specification.version = 1.8
+	java.util.logging.manager = org.jboss.logmanager.LogManager
+	java.vendor = Oracle Corporation
+	java.vendor.url = http://java.oracle.com/
+	java.vendor.url.bug = http://bugreport.sun.com/bugreport/
+	java.version = 1.8.0_131
+	java.vm.info = mixed mode
+	java.vm.name = OpenJDK 64-Bit Server VM
+	java.vm.specification.name = Java Virtual Machine Specification
+	java.vm.specification.vendor = Oracle Corporation
+	java.vm.specification.version = 1.8
+	java.vm.vendor = Oracle Corporation
+	java.vm.version = 25.131-b12
+	javax.management.builder.initial = org.jboss.as.jmx.PluggableMBeanServerBuilder
+	javax.xml.datatype.DatatypeFactory = __redirected.__DatatypeFactory
+	javax.xml.parsers.DocumentBuilderFactory = __redirected.__DocumentBuilderFactory
+	javax.xml.parsers.SAXParserFactory = __redirected.__SAXParserFactory
+	javax.xml.stream.XMLEventFactory = __redirected.__XMLEventFactory
+	javax.xml.stream.XMLInputFactory = __redirected.__XMLInputFactory
+	javax.xml.stream.XMLOutputFactory = __redirected.__XMLOutputFactory
+	javax.xml.transform.TransformerFactory = __redirected.__TransformerFactory
+	javax.xml.validation.SchemaFactory:http://www.w3.org/2001/XMLSchema = __redirected.__SchemaFactory
+	javax.xml.xpath.XPathFactory:http://java.sun.com/jaxp/xpath/dom = __redirected.__XPathFactory
+	jboss.domain.base.dir = /opt/app/jboss-eap-6.4/domain
+	jboss.domain.config.dir = /opt/app/jboss-eap-6.4/domain/configuration
+	jboss.home.dir = /opt/app/jboss-eap-6.4
+	jboss.host.name = jboss
+	jboss.modules.dir = /opt/app/jboss-eap-6.4/modules
+	jboss.modules.policy-permissions = true
+	jboss.modules.system.pkgs = org.jboss.byteman
+	jboss.node.name = jbossdc:server-two
+	jboss.qualified.host.name = jboss.dc.com
+	jboss.server.base.dir = /opt/app/jboss-eap-6.4/domain/servers/server-two
+	jboss.server.config.dir = /opt/app/jboss-eap-6.4/domain/servers/server-two/configuration
+	jboss.server.data.dir = /opt/app/jboss-eap-6.4/domain/servers/server-two/data
+	jboss.server.deploy.dir = /opt/app/jboss-eap-6.4/domain/servers/server-two/data/content
+	jboss.server.log.dir = /opt/app/jboss-eap-6.4/domain/servers/server-two/log
+	jboss.server.name = server-two
+	jboss.server.persist.config = true
+	jboss.server.temp.dir = /opt/app/jboss-eap-6.4/domain/servers/server-two/tmp
+	line.separator = 
+
+	logging.configuration = file:/opt/app/jboss-eap-6.4/domain/servers/server-two/data/logging.properties
+	module.path = /opt/app/jboss-eap-6.4/modules
+	org.jboss.resolver.warning = true
+	org.xml.sax.driver = __redirected.__XMLReaderFactory
+	os.arch = amd64
+	os.name = Linux
+	os.version = 3.10.0-514.21.2.el7.x86_64
+	path.separator = :
+	sun.arch.data.model = 64
+	sun.boot.class.path = /usr/lib/jvm/java-1.8.0-openjdk-1.8.0.131-3.b12.el7_3.x86_64/jre/lib/resources.jar:/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.131-3.b12.el7_3.x86_64/jre/lib/rt.jar:/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.131-3.b12.el7_3.x86_64/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.131-3.b12.el7_3.x86_64/jre/lib/jsse.jar:/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.131-3.b12.el7_3.x86_64/jre/lib/jce.jar:/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.131-3.b12.el7_3.x86_64/jre/lib/charsets.jar:/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.131-3.b12.el7_3.x86_64/jre/lib/jfr.jar:/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.131-3.b12.el7_3.x86_64/jre/classes
+	sun.boot.library.path = /usr/lib/jvm/java-1.8.0-openjdk-1.8.0.131-3.b12.el7_3.x86_64/jre/lib/amd64
+	sun.cpu.endian = little
+	sun.cpu.isalist = 
+	sun.io.unicode.encoding = UnicodeLittle
+	sun.java.command = /opt/app/jboss-eap-6.4/jboss-modules.jar -mp /opt/app/jboss-eap-6.4/modules -jaxpmodule javax.xml.jaxp-provider org.jboss.as.server
+	sun.java.launcher = SUN_STANDARD
+	sun.jnu.encoding = UTF-8
+	sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+	sun.os.patch.level = unknown
+	user.country = US
+	user.dir = /opt/app/jboss-eap-6.4
+	user.home = /root
+	user.language = en
+	user.name = root
+	user.timezone = America/New_York
+21:17:32,133 DEBUG [org.jboss.as.config] (MSC service thread 1-2) VM Arguments: -D[Server:server-two] -XX:PermSize=256m -XX:MaxPermSize=256m -Xms1000m -Xmx1000m -Dcom.sun.management.jmxremote.ssl=false -Djboss.modules.system.pkgs=org.jboss.byteman -Djava.awt.headless=true -Djava.net.preferIPv4Stack=true -Dcom.sun.management.jmxremote.authenticate=false -Djboss.home.dir=/opt/app/jboss-eap-6.4 -Djboss.modules.policy-permissions=true -Djboss.server.log.dir=/opt/app/jboss-eap-6.4/domain/servers/server-two/log -Djboss.server.temp.dir=/opt/app/jboss-eap-6.4/domain/servers/server-two/tmp -Djboss.server.data.dir=/opt/app/jboss-eap-6.4/domain/servers/server-two/data -Dlogging.configuration=file:/opt/app/jboss-eap-6.4/domain/servers/server-two/data/logging.properties 
+21:17:32,476 INFO  [org.xnio] (MSC service thread 1-2) XNIO Version 3.0.13.GA-redhat-1
+21:17:32,480 INFO  [org.xnio.nio] (MSC service thread 1-2) XNIO NIO Implementation Version 3.0.13.GA-redhat-1
+21:17:32,538 INFO  [org.jboss.remoting] (MSC service thread 1-2) JBoss Remoting version 3.3.4.Final-redhat-1
+21:17:36,728 INFO  [org.jboss.as.controller.management-deprecated] (ServerService Thread Pool -- 10) JBAS014627: Attribute default-stack is deprecated, and it might be removed in future version!
+21:17:36,755 INFO  [org.jboss.as.controller.management-deprecated] (ServerService Thread Pool -- 12) JBAS014627: Attribute enabled is deprecated, and it might be removed in future version!
+21:17:36,788 INFO  [org.jboss.as.controller.management-deprecated] (ServerService Thread Pool -- 10) JBAS014627: Attribute type is deprecated, and it might be removed in future version!
+21:17:36,789 INFO  [org.jboss.as.controller.management-deprecated] (ServerService Thread Pool -- 10) JBAS014627: Attribute type is deprecated, and it might be removed in future version!
+21:17:36,860 INFO  [org.jboss.as.controller.management-deprecated] (ServerService Thread Pool -- 10) JBAS014627: Attribute type is deprecated, and it might be removed in future version!
+21:17:36,861 INFO  [org.jboss.as.controller.management-deprecated] (ServerService Thread Pool -- 10) JBAS014627: Attribute type is deprecated, and it might be removed in future version!
+21:17:36,861 INFO  [org.jboss.as.controller.management-deprecated] (ServerService Thread Pool -- 10) JBAS014627: Attribute type is deprecated, and it might be removed in future version!
+21:17:36,862 INFO  [org.jboss.as.controller.management-deprecated] (ServerService Thread Pool -- 10) JBAS014627: Attribute type is deprecated, and it might be removed in future version!
+21:17:36,862 INFO  [org.jboss.as.controller.management-deprecated] (ServerService Thread Pool -- 10) JBAS014627: Attribute type is deprecated, and it might be removed in future version!
+21:17:36,862 INFO  [org.jboss.as.controller.management-deprecated] (ServerService Thread Pool -- 10) JBAS014627: Attribute type is deprecated, and it might be removed in future version!
+21:17:36,863 INFO  [org.jboss.as.controller.management-deprecated] (ServerService Thread Pool -- 10) JBAS014627: Attribute type is deprecated, and it might be removed in future version!
+21:17:36,863 INFO  [org.jboss.as.controller.management-deprecated] (ServerService Thread Pool -- 10) JBAS014627: Attribute type is deprecated, and it might be removed in future version!
+21:17:36,864 INFO  [org.jboss.as.controller.management-deprecated] (ServerService Thread Pool -- 10) JBAS014627: Attribute type is deprecated, and it might be removed in future version!
+21:17:36,864 INFO  [org.jboss.as.controller.management-deprecated] (ServerService Thread Pool -- 10) JBAS014627: Attribute type is deprecated, and it might be removed in future version!
+21:17:36,864 INFO  [org.jboss.as.controller.management-deprecated] (ServerService Thread Pool -- 10) JBAS014627: Attribute type is deprecated, and it might be removed in future version!
+21:17:36,865 INFO  [org.jboss.as.controller.management-deprecated] (ServerService Thread Pool -- 10) JBAS014627: Attribute type is deprecated, and it might be removed in future version!
+21:17:36,865 INFO  [org.jboss.as.controller.management-deprecated] (ServerService Thread Pool -- 10) JBAS014627: Attribute type is deprecated, and it might be removed in future version!
+21:17:36,866 INFO  [org.jboss.as.controller.management-deprecated] (ServerService Thread Pool -- 10) JBAS014627: Attribute type is deprecated, and it might be removed in future version!
+21:17:36,866 INFO  [org.jboss.as.controller.management-deprecated] (ServerService Thread Pool -- 10) JBAS014627: Attribute type is deprecated, and it might be removed in future version!
+21:17:36,867 INFO  [org.jboss.as.controller.management-deprecated] (ServerService Thread Pool -- 10) JBAS014627: Attribute type is deprecated, and it might be removed in future version!
+21:17:36,867 INFO  [org.jboss.as.controller.management-deprecated] (ServerService Thread Pool -- 10) JBAS014627: Attribute type is deprecated, and it might be removed in future version!
+21:17:36,867 INFO  [org.jboss.as.controller.management-deprecated] (ServerService Thread Pool -- 10) JBAS014627: Attribute type is deprecated, and it might be removed in future version!
+21:17:36,868 INFO  [org.jboss.as.controller.management-deprecated] (ServerService Thread Pool -- 10) JBAS014627: Attribute type is deprecated, and it might be removed in future version!
+21:17:36,868 INFO  [org.jboss.as.controller.management-deprecated] (ServerService Thread Pool -- 10) JBAS014627: Attribute type is deprecated, and it might be removed in future version!
+21:17:36,869 INFO  [org.jboss.as.controller.management-deprecated] (ServerService Thread Pool -- 10) JBAS014627: Attribute type is deprecated, and it might be removed in future version!
+21:17:36,869 INFO  [org.jboss.as.controller.management-deprecated] (ServerService Thread Pool -- 10) JBAS014627: Attribute type is deprecated, and it might be removed in future version!
+21:17:36,869 INFO  [org.jboss.as.controller.management-deprecated] (ServerService Thread Pool -- 10) JBAS014627: Attribute type is deprecated, and it might be removed in future version!
+21:17:36,870 INFO  [org.jboss.as.controller.management-deprecated] (ServerService Thread Pool -- 10) JBAS014627: Attribute type is deprecated, and it might be removed in future version!
+21:17:36,870 INFO  [org.jboss.as.controller.management-deprecated] (ServerService Thread Pool -- 10) JBAS014627: Attribute type is deprecated, and it might be removed in future version!
+21:17:36,871 INFO  [org.jboss.as.controller.management-deprecated] (ServerService Thread Pool -- 10) JBAS014627: Attribute type is deprecated, and it might be removed in future version!
+21:17:37,180 WARN  [org.jboss.as.txn] (ServerService Thread Pool -- 37) JBAS010153: Node identifier property is set to the default value. Please make sure it is unique.
+21:17:37,707 INFO  [org.jboss.as.security] (ServerService Thread Pool -- 39) JBAS013371: Activating Security Subsystem
+21:17:37,713 INFO  [org.jboss.as.naming] (ServerService Thread Pool -- 44) JBAS011800: Activating Naming Subsystem
+21:17:37,915 INFO  [org.jboss.as.jacorb] (ServerService Thread Pool -- 57) JBAS016300: Activating JacORB Subsystem
+21:17:37,904 INFO  [org.jboss.as.clustering.jgroups] (ServerService Thread Pool -- 52) JBAS010260: Activating JGroups subsystem.
+21:17:37,864 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 58) JBAS010280: Activating Infinispan subsystem.
+21:17:37,949 INFO  [org.jboss.as.webservices] (ServerService Thread Pool -- 35) JBAS015537: Activating WebServices Extension
+21:17:38,006 INFO  [org.jboss.as.configadmin] (ServerService Thread Pool -- 62) JBAS016200: Activating ConfigAdmin Subsystem
+21:17:38,086 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 61) JBAS010403: Deploying JDBC-compliant driver class org.h2.Driver (version 1.3)
+21:17:38,312 INFO  [org.jboss.as.naming] (MSC service thread 1-1) JBAS011802: Starting Naming Service
+21:17:38,108 INFO  [org.jboss.as.jsf] (ServerService Thread Pool -- 49) JBAS012615: Activated the following JSF Implementations: [main, 1.2]
+21:17:38,635 INFO  [org.jboss.as.connector.logging] (MSC service thread 1-1) JBAS010408: Starting JCA Subsystem (IronJacamar 1.0.31.Final-redhat-1)
+21:17:38,810 INFO  [org.jboss.as.security] (MSC service thread 1-2) JBAS013370: Current PicketBox version=4.1.1.Final-redhat-1
+21:17:39,259 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-2) JBAS015400: Bound mail session [java:jboss/mail/Default]
+21:17:39,637 INFO  [org.jboss.jaxr] (MSC service thread 1-1) JBAS014000: Started JAXR subsystem, binding JAXR connection factory into JNDI as: java:jboss/jaxr/ConnectionFactory
+21:17:40,392 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 58) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+21:17:40,395 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 58) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+21:17:40,907 INFO  [org.jboss.as.jacorb] (MSC service thread 1-2) JBAS016330: CORBA ORB Service started
+21:17:40,965 INFO  [org.jboss.ws.common.management] (MSC service thread 1-1) JBWS022052: Starting JBoss Web Services - Stack CXF Server 4.3.4.Final-redhat-1
+21:17:41,004 INFO  [org.apache.coyote.http11.Http11Protocol] (MSC service thread 1-2) JBWEB003001: Coyote HTTP/1.1 initializing on : http-/192.168.1.16:8230
+21:17:41,021 INFO  [org.apache.coyote.http11.Http11Protocol] (MSC service thread 1-2) JBWEB003000: Coyote HTTP/1.1 starting on: http-/192.168.1.16:8230
+21:17:41,049 INFO  [org.apache.coyote.ajp] (MSC service thread 1-2) JBWEB003046: Starting Coyote AJP/1.3 on ajp-/192.168.1.16:8159
+21:17:41,448 INFO  [org.jboss.modcluster] (ServerService Thread Pool -- 64) MODCLUSTER000001: Initializing mod_cluster version 1.2.11.Final-redhat-1
+21:17:41,529 INFO  [org.jboss.modcluster] (ServerService Thread Pool -- 64) MODCLUSTER000032: Listening to proxy advertisements on /224.0.1.105:23364
+21:17:41,576 INFO  [org.jboss.as.remoting] (MSC service thread 1-2) JBAS017100: Listening on 192.168.1.16:4597
+21:17:41,810 INFO  [org.jboss.as.jacorb] (MSC service thread 1-1) JBAS016328: CORBA Naming Service started
+21:17:42,025 INFO  [org.hornetq.core.server] (ServerService Thread Pool -- 64) HQ221000: live server is starting with configuration HornetQ Configuration (clustered=true,backup=false,sharedStore=true,journalDirectory=/opt/app/jboss-eap-6.4/domain/servers/server-two/data/messagingjournal,bindingsDirectory=/opt/app/jboss-eap-6.4/domain/servers/server-two/data/messagingbindings,largeMessagesDirectory=/opt/app/jboss-eap-6.4/domain/servers/server-two/data/messaginglargemessages,pagingDirectory=/opt/app/jboss-eap-6.4/domain/servers/server-two/data/messagingpaging)
+21:17:42,043 INFO  [org.hornetq.core.server] (ServerService Thread Pool -- 64) HQ221006: Waiting to obtain live lock
+21:17:42,075 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-2) JBAS010400: Bound data source [java:jboss/datasources/ExampleDS]
+21:17:42,156 INFO  [org.hornetq.core.server] (ServerService Thread Pool -- 64) HQ221013: Using NIO Journal
+21:17:42,430 INFO  [org.hornetq.core.server] (ServerService Thread Pool -- 64) HQ221034: Waiting to obtain live lock
+21:17:42,431 INFO  [org.hornetq.core.server] (ServerService Thread Pool -- 64) HQ221035: Live Server Obtained live lock
+21:17:44,727 INFO  [org.hornetq.core.server] (ServerService Thread Pool -- 64) HQ221020: Started Netty Acceptor version 3.6.10.Final-266dbdf 192.168.1.16:5595 for CORE protocol
+21:17:44,752 INFO  [org.hornetq.core.server] (ServerService Thread Pool -- 64) HQ221020: Started Netty Acceptor version 3.6.10.Final-266dbdf 192.168.1.16:5605 for CORE protocol
+21:17:44,773 INFO  [org.hornetq.core.server] (ServerService Thread Pool -- 64) HQ221007: Server is now live
+21:17:44,773 INFO  [org.hornetq.core.server] (ServerService Thread Pool -- 64) HQ221001: HornetQ Server version 2.3.25.Final (2.3.x, 123) [813ffb01-658c-11e7-a6bd-3f9016623b0e] 
+21:17:45,097 INFO  [org.jboss.as.messaging] (ServerService Thread Pool -- 64) JBAS011601: Bound messaging object to jndi name java:/ConnectionFactory
+21:17:45,444 INFO  [org.jboss.as.messaging] (ServerService Thread Pool -- 68) JBAS011601: Bound messaging object to jndi name java:jboss/exported/jms/RemoteConnectionFactory
+21:17:45,454 INFO  [org.hornetq.core.server] (ServerService Thread Pool -- 67) HQ221003: trying to deploy queue jms.queue.ExpiryQueue
+21:17:45,473 INFO  [org.jboss.as.messaging] (ServerService Thread Pool -- 67) JBAS011601: Bound messaging object to jndi name java:/jms/queue/ExpiryQueue
+21:17:45,474 INFO  [org.hornetq.core.server] (ServerService Thread Pool -- 66) HQ221003: trying to deploy queue jms.queue.DLQ
+21:17:45,474 INFO  [org.jboss.as.messaging] (ServerService Thread Pool -- 66) JBAS011601: Bound messaging object to jndi name java:/jms/queue/DLQ
+21:17:45,544 ERROR [org.hornetq.core.server] (Old I/O server worker (parentId: 1547853186, [id: 0x5c425d82, /192.168.1.16:5595])) HQ224018: Failed to create session: HornetQException[errorType=CLUSTER_SECURITY_EXCEPTION message=HQ119099: Unable to authenticate cluster user: HORNETQ.CLUSTER.ADMIN.USER]
+	at org.hornetq.core.security.impl.SecurityStoreImpl.authenticate(SecurityStoreImpl.java:123) [hornetq-server-2.3.25.Final-redhat-1.jar:2.3.25.Final-redhat-1]
+	at org.hornetq.core.server.impl.HornetQServerImpl.createSession(HornetQServerImpl.java:980) [hornetq-server-2.3.25.Final-redhat-1.jar:2.3.25.Final-redhat-1]
+	at org.hornetq.core.protocol.core.impl.HornetQPacketHandler.handleCreateSession(HornetQPacketHandler.java:150) [hornetq-server-2.3.25.Final-redhat-1.jar:2.3.25.Final-redhat-1]
+	at org.hornetq.core.protocol.core.impl.HornetQPacketHandler.handlePacket(HornetQPacketHandler.java:78) [hornetq-server-2.3.25.Final-redhat-1.jar:2.3.25.Final-redhat-1]
+	at org.hornetq.core.protocol.core.impl.ChannelImpl.handlePacket(ChannelImpl.java:641) [hornetq-core-client-2.3.25.Final-redhat-1.jar:2.3.25.Final-redhat-1]
+	at org.hornetq.core.protocol.core.impl.RemotingConnectionImpl.doBufferReceived(RemotingConnectionImpl.java:557) [hornetq-core-client-2.3.25.Final-redhat-1.jar:2.3.25.Final-redhat-1]
+	at org.hornetq.core.protocol.core.impl.RemotingConnectionImpl.bufferReceived(RemotingConnectionImpl.java:533) [hornetq-core-client-2.3.25.Final-redhat-1.jar:2.3.25.Final-redhat-1]
+	at org.hornetq.core.remoting.server.impl.RemotingServiceImpl$DelegatingBufferHandler.bufferReceived(RemotingServiceImpl.java:587) [hornetq-server-2.3.25.Final-redhat-1.jar:2.3.25.Final-redhat-1]
+	at org.hornetq.core.remoting.impl.netty.HornetQChannelHandler.messageReceived(HornetQChannelHandler.java:72) [hornetq-core-client-2.3.25.Final-redhat-1.jar:2.3.25.Final-redhat-1]
+	at org.jboss.netty.channel.SimpleChannelHandler.handleUpstream(SimpleChannelHandler.java:88) [netty-3.6.10.Final-redhat-1.jar:3.6.10.Final-redhat-1]
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:564) [netty-3.6.10.Final-redhat-1.jar:3.6.10.Final-redhat-1]
+	at org.jboss.netty.channel.DefaultChannelPipeline$DefaultChannelHandlerContext.sendUpstream(DefaultChannelPipeline.java:791) [netty-3.6.10.Final-redhat-1.jar:3.6.10.Final-redhat-1]
+	at org.jboss.netty.channel.Channels.fireMessageReceived(Channels.java:281) [netty-3.6.10.Final-redhat-1.jar:3.6.10.Final-redhat-1]
+	at org.hornetq.core.remoting.impl.netty.HornetQFrameDecoder2.decode(HornetQFrameDecoder2.java:169) [hornetq-core-client-2.3.25.Final-redhat-1.jar:2.3.25.Final-redhat-1]
+	at org.hornetq.core.remoting.impl.netty.HornetQFrameDecoder2.messageReceived(HornetQFrameDecoder2.java:134) [hornetq-core-client-2.3.25.Final-redhat-1.jar:2.3.25.Final-redhat-1]
+	at org.jboss.netty.channel.SimpleChannelUpstreamHandler.handleUpstream(SimpleChannelUpstreamHandler.java:70) [netty-3.6.10.Final-redhat-1.jar:3.6.10.Final-redhat-1]
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:564) [netty-3.6.10.Final-redhat-1.jar:3.6.10.Final-redhat-1]
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:559) [netty-3.6.10.Final-redhat-1.jar:3.6.10.Final-redhat-1]
+	at org.jboss.netty.channel.Channels.fireMessageReceived(Channels.java:268) [netty-3.6.10.Final-redhat-1.jar:3.6.10.Final-redhat-1]
+	at org.jboss.netty.channel.Channels.fireMessageReceived(Channels.java:255) [netty-3.6.10.Final-redhat-1.jar:3.6.10.Final-redhat-1]
+	at org.jboss.netty.channel.socket.oio.OioWorker.process(OioWorker.java:71) [netty-3.6.10.Final-redhat-1.jar:3.6.10.Final-redhat-1]
+	at org.jboss.netty.channel.socket.oio.AbstractOioWorker.run(AbstractOioWorker.java:73) [netty-3.6.10.Final-redhat-1.jar:3.6.10.Final-redhat-1]
+	at org.jboss.netty.channel.socket.oio.OioWorker.run(OioWorker.java:51) [netty-3.6.10.Final-redhat-1.jar:3.6.10.Final-redhat-1]
+	at org.jboss.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108) [netty-3.6.10.Final-redhat-1.jar:3.6.10.Final-redhat-1]
+	at org.jboss.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42) [netty-3.6.10.Final-redhat-1.jar:3.6.10.Final-redhat-1]
+	at org.jboss.netty.util.VirtualExecutorService$ChildExecutorRunnable.run(VirtualExecutorService.java:175) [netty-3.6.10.Final-redhat-1.jar:3.6.10.Final-redhat-1]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [rt.jar:1.8.0_131]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [rt.jar:1.8.0_131]
+	at java.lang.Thread.run(Thread.java:748) [rt.jar:1.8.0_131]
+
+21:17:45,862 ERROR [org.hornetq.core.server] (Old I/O client worker ([id: 0xc9e021e9, /192.168.1.16:46466 => /192.168.1.16:5445])) HQ224066: Stopping ClusterManager. As it failed to authenticate with the cluster: HQ119099: Unable to authenticate cluster user: HORNETQ.CLUSTER.ADMIN.USER
+21:17:45,955 INFO  [org.hornetq.core.server] (Thread-6 (HornetQ-server-HornetQServerImpl::serverUUID=813ffb01-658c-11e7-a6bd-3f9016623b0e-380234300)) HQ221028: Bridge is stopping, will not retry
+21:17:46,271 INFO  [org.hornetq.core.server] (Thread-6 (HornetQ-server-HornetQServerImpl::serverUUID=813ffb01-658c-11e7-a6bd-3f9016623b0e-380234300)) HQ221029: stopped bridge sf.my-cluster.7b300246-658c-11e7-9407-470760f26155
+21:17:47,198 INFO  [org.jboss.as.connector.deployment] (MSC service thread 1-2) JBAS010406: Registered connection factory java:/JmsXA
+21:17:47,304 INFO  [org.hornetq.ra] (MSC service thread 1-2) HornetQ resource adaptor started
+21:17:47,305 INFO  [org.jboss.as.connector.services.resourceadapters.ResourceAdapterActivatorService$ResourceAdapterActivator] (MSC service thread 1-2) IJ020002: Deployed: file://RaActivatorhornetq-ra
+21:17:47,306 INFO  [org.jboss.as.connector.deployment] (MSC service thread 1-2) JBAS010401: Bound JCA ConnectionFactory [java:/JmsXA]
+21:17:47,606 INFO  [org.jboss.as] (Controller Boot Thread) JBAS015874: JBoss EAP 6.4.0.GA (AS 7.5.0.Final-redhat-21) started in 19102ms - Started 194 of 290 services (127 services are lazy, passive or on-demand)
+23:53:53,550 INFO  [org.apache.coyote.http11.Http11Protocol] (MSC service thread 1-1) JBWEB003075: Coyote HTTP/1.1 pausing on: http-/192.168.1.16:8230
+23:53:53,623 INFO  [org.apache.coyote.http11.Http11Protocol] (MSC service thread 1-1) JBWEB003077: Coyote HTTP/1.1 stopping on : http-/192.168.1.16:8230
+23:53:54,063 INFO  [org.jboss.modcluster] (ServerService Thread Pool -- 72) MODCLUSTER000002: Initiating mod_cluster shutdown
+23:53:54,078 INFO  [org.jboss.as.connector.deployment] (MSC service thread 1-2) JBAS010410: Unbound JCA ConnectionFactory [java:/JmsXA]
+23:53:54,080 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-2) JBAS010409: Unbound data source [java:jboss/datasources/ExampleDS]
+23:53:54,089 INFO  [org.jboss.jaxr] (MSC service thread 1-2) JBAS014002: UnBinding JAXR ConnectionFactory: java:jboss/jaxr/ConnectionFactory
+23:53:55,099 INFO  [org.apache.catalina.core] (MSC service thread 1-1) JBWEB001079: Container org.apache.catalina.core.ContainerBase.[jboss.web].[default-host].[/] has not been started
+23:53:55,165 INFO  [org.jboss.as.messaging] (ServerService Thread Pool -- 70) JBAS011605: Unbound messaging object to jndi name java:jboss/exported/jms/RemoteConnectionFactory
+23:53:55,175 INFO  [org.apache.coyote.ajp] (MSC service thread 1-1) JBWEB003048: Pausing Coyote AJP/1.3 on ajp-/192.168.1.16:8159
+23:53:55,177 INFO  [org.apache.coyote.ajp] (MSC service thread 1-1) JBWEB003051: Stopping Coyote AJP/1.3 on ajp-/192.168.1.16:8159
+23:53:56,013 INFO  [org.hornetq.ra] (ServerService Thread Pool -- 73) HQ151003: HornetQ resource adaptor stopped
+23:53:57,438 INFO  [org.hornetq.core.server] (ServerService Thread Pool -- 73) HQ221002: HornetQ Server version 2.3.25.Final (2.3.x, 123) [813ffb01-658c-11e7-a6bd-3f9016623b0e] stopped
+23:53:57,671 INFO  [org.jboss.as] (MSC service thread 1-1) JBAS015950: JBoss EAP 6.4.0.GA (AS 7.5.0.Final-redhat-21) stopped in 4642ms

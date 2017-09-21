@@ -1,0 +1,623 @@
+12:26:03,389 INFO  [org.jboss.modules] (main) JBoss Modules version 1.3.6.Final-redhat-1
+12:26:05,755 INFO  [org.jboss.msc] (main) JBoss MSC version 1.1.5.Final-redhat-1
+12:26:06,289 INFO  [org.jboss.as] (MSC service thread 1-2) JBAS015899: JBoss EAP 6.4.0.GA (AS 7.5.0.Final-redhat-21) starting
+12:26:06,361 DEBUG [org.jboss.as.config] (MSC service thread 1-2) Configured system properties:
+	[Server:server-two] = 
+	awt.toolkit = sun.awt.X11.XToolkit
+	file.encoding = UTF-8
+	file.encoding.pkg = sun.io
+	file.separator = /
+	java.awt.graphicsenv = sun.awt.X11GraphicsEnvironment
+	java.awt.headless = true
+	java.awt.printerjob = sun.print.PSPrinterJob
+	java.class.path = /opt/app/jboss-eap/jboss-modules.jar
+	java.class.version = 52.0
+	java.endorsed.dirs = /usr/lib/jvm/java-1.8.0-openjdk-1.8.0.131-3.b12.el7_3.x86_64/jre/lib/endorsed
+	java.ext.dirs = /usr/lib/jvm/java-1.8.0-openjdk-1.8.0.131-3.b12.el7_3.x86_64/jre/lib/ext:/usr/java/packages/lib/ext
+	java.home = /usr/lib/jvm/java-1.8.0-openjdk-1.8.0.131-3.b12.el7_3.x86_64/jre
+	java.io.tmpdir = /tmp
+	java.library.path = /usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+	java.net.preferIPv4Stack = true
+	java.runtime.name = OpenJDK Runtime Environment
+	java.runtime.version = 1.8.0_131-b12
+	java.specification.name = Java Platform API Specification
+	java.specification.vendor = Oracle Corporation
+	java.specification.version = 1.8
+	java.util.logging.manager = org.jboss.logmanager.LogManager
+	java.vendor = Oracle Corporation
+	java.vendor.url = http://java.oracle.com/
+	java.vendor.url.bug = http://bugreport.sun.com/bugreport/
+	java.version = 1.8.0_131
+	java.vm.info = mixed mode
+	java.vm.name = OpenJDK 64-Bit Server VM
+	java.vm.specification.name = Java Virtual Machine Specification
+	java.vm.specification.vendor = Oracle Corporation
+	java.vm.specification.version = 1.8
+	java.vm.vendor = Oracle Corporation
+	java.vm.version = 25.131-b12
+	javax.management.builder.initial = org.jboss.as.jmx.PluggableMBeanServerBuilder
+	javax.xml.datatype.DatatypeFactory = __redirected.__DatatypeFactory
+	javax.xml.parsers.DocumentBuilderFactory = __redirected.__DocumentBuilderFactory
+	javax.xml.parsers.SAXParserFactory = __redirected.__SAXParserFactory
+	javax.xml.stream.XMLEventFactory = __redirected.__XMLEventFactory
+	javax.xml.stream.XMLInputFactory = __redirected.__XMLInputFactory
+	javax.xml.stream.XMLOutputFactory = __redirected.__XMLOutputFactory
+	javax.xml.transform.TransformerFactory = __redirected.__TransformerFactory
+	javax.xml.validation.SchemaFactory:http://www.w3.org/2001/XMLSchema = __redirected.__SchemaFactory
+	javax.xml.xpath.XPathFactory:http://java.sun.com/jaxp/xpath/dom = __redirected.__XPathFactory
+	jboss.domain.base.dir = /opt/app/jboss-eap/domain
+	jboss.domain.config.dir = /opt/app/jboss-eap/domain/configuration
+	jboss.home.dir = /opt/app/jboss-eap
+	jboss.host.name = jboss
+	jboss.modules.dir = /opt/app/jboss-eap/modules
+	jboss.modules.policy-permissions = true
+	jboss.modules.system.pkgs = org.jboss.byteman
+	jboss.node.name = jbossdc:server-two
+	jboss.qualified.host.name = jboss.dc.com
+	jboss.server.base.dir = /opt/app/jboss-eap/domain/servers/server-two
+	jboss.server.config.dir = /opt/app/jboss-eap/domain/servers/server-two/configuration
+	jboss.server.data.dir = /opt/app/jboss-eap/domain/servers/server-two/data
+	jboss.server.deploy.dir = /opt/app/jboss-eap/domain/servers/server-two/data/content
+	jboss.server.log.dir = /opt/app/jboss-eap/domain/servers/server-two/log
+	jboss.server.name = server-two
+	jboss.server.persist.config = true
+	jboss.server.temp.dir = /opt/app/jboss-eap/domain/servers/server-two/tmp
+	line.separator = 
+
+	logging.configuration = file:/opt/app/jboss-eap/domain/configuration/default-server-logging.properties
+	module.path = /opt/app/jboss-eap/modules
+	org.jboss.boot.log.file = /opt/app/jboss-eap/domain/servers/server-two/log/server.log
+	org.jboss.resolver.warning = true
+	org.xml.sax.driver = __redirected.__XMLReaderFactory
+	os.arch = amd64
+	os.name = Linux
+	os.version = 3.10.0-514.21.2.el7.x86_64
+	path.separator = :
+	sun.arch.data.model = 64
+	sun.boot.class.path = /usr/lib/jvm/java-1.8.0-openjdk-1.8.0.131-3.b12.el7_3.x86_64/jre/lib/resources.jar:/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.131-3.b12.el7_3.x86_64/jre/lib/rt.jar:/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.131-3.b12.el7_3.x86_64/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.131-3.b12.el7_3.x86_64/jre/lib/jsse.jar:/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.131-3.b12.el7_3.x86_64/jre/lib/jce.jar:/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.131-3.b12.el7_3.x86_64/jre/lib/charsets.jar:/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.131-3.b12.el7_3.x86_64/jre/lib/jfr.jar:/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.131-3.b12.el7_3.x86_64/jre/classes
+	sun.boot.library.path = /usr/lib/jvm/java-1.8.0-openjdk-1.8.0.131-3.b12.el7_3.x86_64/jre/lib/amd64
+	sun.cpu.endian = little
+	sun.cpu.isalist = 
+	sun.desktop = gnome
+	sun.io.unicode.encoding = UnicodeLittle
+	sun.java.command = /opt/app/jboss-eap/jboss-modules.jar -mp /opt/app/jboss-eap/modules -jaxpmodule javax.xml.jaxp-provider org.jboss.as.server
+	sun.java.launcher = SUN_STANDARD
+	sun.jnu.encoding = UTF-8
+	sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+	sun.os.patch.level = unknown
+	user.country = US
+	user.dir = /opt/app/jboss-eap-6.4
+	user.home = /home/jboss
+	user.language = en
+	user.name = jboss
+	user.timezone = America/New_York
+12:26:06,362 DEBUG [org.jboss.as.config] (MSC service thread 1-2) VM Arguments: -D[Server:server-two] -XX:PermSize=256m -XX:MaxPermSize=256m -Xms1000m -Xmx1000m -Djboss.modules.system.pkgs=org.jboss.byteman -Djava.awt.headless=true -Djava.net.preferIPv4Stack=true -Djboss.home.dir=/opt/app/jboss-eap -Djboss.modules.policy-permissions=true -Djboss.server.log.dir=/opt/app/jboss-eap/domain/servers/server-two/log -Djboss.server.temp.dir=/opt/app/jboss-eap/domain/servers/server-two/tmp -Djboss.server.data.dir=/opt/app/jboss-eap/domain/servers/server-two/data -Dorg.jboss.boot.log.file=/opt/app/jboss-eap/domain/servers/server-two/log/server.log -Dlogging.configuration=file:/opt/app/jboss-eap/domain/configuration/default-server-logging.properties 
+12:26:07,324 INFO  [org.xnio] (MSC service thread 1-2) XNIO Version 3.0.13.GA-redhat-1
+12:26:07,350 INFO  [org.xnio.nio] (MSC service thread 1-2) XNIO NIO Implementation Version 3.0.13.GA-redhat-1
+12:26:07,476 INFO  [org.jboss.remoting] (MSC service thread 1-2) JBoss Remoting version 3.3.4.Final-redhat-1
+12:26:15,142 INFO  [org.jboss.as.controller.management-deprecated] (ServerService Thread Pool -- 15) JBAS014627: Attribute enabled is deprecated, and it might be removed in future version!
+12:26:15,441 INFO  [org.jboss.as.security] (ServerService Thread Pool -- 37) JBAS013371: Activating Security Subsystem
+12:26:15,455 WARN  [org.jboss.as.txn] (ServerService Thread Pool -- 35) JBAS010153: Node identifier property is set to the default value. Please make sure it is unique.
+12:26:15,485 INFO  [org.jboss.as.security] (MSC service thread 1-1) JBAS013370: Current PicketBox version=4.1.1.Final-redhat-1
+12:26:15,495 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 57) JBAS010403: Deploying JDBC-compliant driver class org.h2.Driver (version 1.3)
+12:26:15,743 INFO  [org.jboss.as.webservices] (ServerService Thread Pool -- 33) JBAS015537: Activating WebServices Extension
+12:26:15,754 INFO  [org.jboss.as.jacorb] (ServerService Thread Pool -- 53) JBAS016300: Activating JacORB Subsystem
+12:26:15,756 INFO  [org.jboss.as.configadmin] (ServerService Thread Pool -- 58) JBAS016200: Activating ConfigAdmin Subsystem
+12:26:15,762 INFO  [org.jboss.as.naming] (ServerService Thread Pool -- 42) JBAS011800: Activating Naming Subsystem
+12:26:15,779 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 54) JBAS010280: Activating Infinispan subsystem.
+12:26:15,827 INFO  [org.jboss.as.jsf] (ServerService Thread Pool -- 46) JBAS012615: Activated the following JSF Implementations: [main, 1.2]
+12:26:17,093 INFO  [org.jboss.as.naming] (MSC service thread 1-1) JBAS011802: Starting Naming Service
+12:26:17,647 INFO  [org.jboss.jaxr] (MSC service thread 1-1) JBAS014000: Started JAXR subsystem, binding JAXR connection factory into JNDI as: java:jboss/jaxr/ConnectionFactory
+12:26:17,648 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-1) JBAS015400: Bound mail session [java:jboss/mail/Default]
+12:26:17,679 INFO  [org.jboss.as.connector.logging] (MSC service thread 1-1) JBAS010408: Starting JCA Subsystem (IronJacamar 1.0.31.Final-redhat-1)
+12:26:18,427 INFO  [org.jboss.ws.common.management] (MSC service thread 1-2) JBWS022052: Starting JBoss Web Services - Stack CXF Server 4.3.4.Final-redhat-1
+12:26:18,637 INFO  [org.apache.coyote.http11.Http11Protocol] (MSC service thread 1-1) JBWEB003001: Coyote HTTP/1.1 initializing on : http-/192.168.1.16:8230
+12:26:18,721 INFO  [org.apache.coyote.http11.Http11Protocol] (MSC service thread 1-1) JBWEB003000: Coyote HTTP/1.1 starting on: http-/192.168.1.16:8230
+12:26:19,112 INFO  [org.jboss.as.jacorb] (MSC service thread 1-2) JBAS016330: CORBA ORB Service started
+12:26:19,326 INFO  [org.jboss.as.remoting] (MSC service thread 1-1) JBAS017100: Listening on 192.168.1.16:4597
+12:26:19,568 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-1) JBAS010400: Bound data source [java:jboss/datasources/ExampleDS]
+12:26:19,591 INFO  [org.jboss.as.jacorb] (MSC service thread 1-2) JBAS016328: CORBA Naming Service started
+12:26:19,689 INFO  [org.hornetq.core.server] (ServerService Thread Pool -- 61) HQ221000: live server is starting with configuration HornetQ Configuration (clustered=false,backup=false,sharedStore=true,journalDirectory=/opt/app/jboss-eap/domain/servers/server-two/data/messagingjournal,bindingsDirectory=/opt/app/jboss-eap/domain/servers/server-two/data/messagingbindings,largeMessagesDirectory=/opt/app/jboss-eap/domain/servers/server-two/data/messaginglargemessages,pagingDirectory=/opt/app/jboss-eap/domain/servers/server-two/data/messagingpaging)
+12:26:19,691 INFO  [org.hornetq.core.server] (ServerService Thread Pool -- 61) HQ221006: Waiting to obtain live lock
+12:26:19,762 INFO  [org.hornetq.core.server] (ServerService Thread Pool -- 61) HQ221013: Using NIO Journal
+12:26:19,967 INFO  [org.hornetq.core.server] (ServerService Thread Pool -- 61) HQ221034: Waiting to obtain live lock
+12:26:19,967 INFO  [org.hornetq.core.server] (ServerService Thread Pool -- 61) HQ221035: Live Server Obtained live lock
+12:26:20,726 INFO  [org.hornetq.core.server] (ServerService Thread Pool -- 61) HQ221020: Started Netty Acceptor version 3.6.10.Final-266dbdf 192.168.1.16:5605 for CORE protocol
+12:26:20,761 INFO  [org.hornetq.core.server] (ServerService Thread Pool -- 61) HQ221020: Started Netty Acceptor version 3.6.10.Final-266dbdf 192.168.1.16:5595 for CORE protocol
+12:26:20,767 INFO  [org.hornetq.core.server] (ServerService Thread Pool -- 61) HQ221007: Server is now live
+12:26:20,768 INFO  [org.hornetq.core.server] (ServerService Thread Pool -- 61) HQ221001: HornetQ Server version 2.3.25.Final (2.3.x, 123) [813ffb01-658c-11e7-a6bd-3f9016623b0e] 
+12:26:20,771 INFO  [org.hornetq.core.server] (ServerService Thread Pool -- 61) HQ221003: trying to deploy queue jms.queue.ExpiryQueue
+12:26:21,090 INFO  [org.jboss.as.messaging] (ServerService Thread Pool -- 61) JBAS011601: Bound messaging object to jndi name java:/jms/queue/ExpiryQueue
+12:26:21,102 INFO  [org.hornetq.core.server] (ServerService Thread Pool -- 64) HQ221003: trying to deploy queue jms.queue.DLQ
+12:26:21,167 INFO  [org.jboss.as.connector.deployment] (MSC service thread 1-2) JBAS010406: Registered connection factory java:/JmsXA
+12:26:21,185 INFO  [org.jboss.as.messaging] (ServerService Thread Pool -- 64) JBAS011601: Bound messaging object to jndi name java:/jms/queue/DLQ
+12:26:21,291 INFO  [org.jboss.as.messaging] (ServerService Thread Pool -- 62) JBAS011601: Bound messaging object to jndi name java:jboss/exported/jms/RemoteConnectionFactory
+12:26:21,292 INFO  [org.jboss.as.messaging] (ServerService Thread Pool -- 63) JBAS011601: Bound messaging object to jndi name java:/ConnectionFactory
+12:26:21,447 INFO  [org.hornetq.ra] (MSC service thread 1-2) HornetQ resource adaptor started
+12:26:21,448 INFO  [org.jboss.as.connector.services.resourceadapters.ResourceAdapterActivatorService$ResourceAdapterActivator] (MSC service thread 1-2) IJ020002: Deployed: file://RaActivatorhornetq-ra
+12:26:21,449 INFO  [org.jboss.as.connector.deployment] (MSC service thread 1-2) JBAS010401: Bound JCA ConnectionFactory [java:/JmsXA]
+12:26:21,621 INFO  [org.jboss.as] (Controller Boot Thread) JBAS015874: JBoss EAP 6.4.0.GA (AS 7.5.0.Final-redhat-21) started in 20910ms - Started 186 of 223 services (65 services are lazy, passive or on-demand)
+13:19:39,692 WARN  [org.jboss.as.txn] (ServerService Thread Pool -- 35) JBAS010153: Node identifier property is set to the default value. Please make sure it is unique.
+13:19:39,792 INFO  [org.jboss.as.webservices] (ServerService Thread Pool -- 33) JBAS015537: Activating WebServices Extension
+13:19:39,772 INFO  [org.jboss.as.security] (ServerService Thread Pool -- 37) JBAS013371: Activating Security Subsystem
+13:19:39,866 INFO  [org.jboss.as.naming] (ServerService Thread Pool -- 42) JBAS011800: Activating Naming Subsystem
+13:19:39,973 INFO  [org.jboss.as.configadmin] (ServerService Thread Pool -- 58) JBAS016200: Activating ConfigAdmin Subsystem
+13:19:39,987 INFO  [org.jboss.as.jacorb] (ServerService Thread Pool -- 53) JBAS016300: Activating JacORB Subsystem
+13:19:39,991 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 54) JBAS010280: Activating Infinispan subsystem.
+13:19:40,021 INFO  [org.jboss.as.jsf] (ServerService Thread Pool -- 46) JBAS012615: Activated the following JSF Implementations: [main, 1.2]
+13:19:40,640 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 57) JBAS010403: Deploying JDBC-compliant driver class org.h2.Driver (version 1.3)
+13:19:40,970 INFO  [org.jboss.as.security] (MSC service thread 1-1) JBAS013370: Current PicketBox version=4.1.1.Final-redhat-1
+13:19:41,263 INFO  [org.jboss.as.connector.logging] (MSC service thread 1-2) JBAS010408: Starting JCA Subsystem (IronJacamar 1.0.31.Final-redhat-1)
+13:19:42,002 INFO  [org.jboss.as.naming] (MSC service thread 1-1) JBAS011802: Starting Naming Service
+13:19:42,028 INFO  [org.jboss.jaxr] (MSC service thread 1-2) JBAS014000: Started JAXR subsystem, binding JAXR connection factory into JNDI as: java:jboss/jaxr/ConnectionFactory
+13:19:42,029 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-2) JBAS015400: Bound mail session [java:jboss/mail/Default]
+13:19:42,513 INFO  [org.jboss.ws.common.management] (MSC service thread 1-2) JBWS022052: Starting JBoss Web Services - Stack CXF Server 4.3.4.Final-redhat-1
+13:19:42,665 INFO  [org.apache.coyote.http11.Http11Protocol] (MSC service thread 1-2) JBWEB003001: Coyote HTTP/1.1 initializing on : http-/192.168.1.16:8230
+13:19:42,731 INFO  [org.apache.coyote.http11.Http11Protocol] (MSC service thread 1-2) JBWEB003000: Coyote HTTP/1.1 starting on: http-/192.168.1.16:8230
+13:19:42,792 INFO  [org.jboss.as.jacorb] (MSC service thread 1-1) JBAS016330: CORBA ORB Service started
+13:19:43,333 INFO  [org.jboss.as.jacorb] (MSC service thread 1-1) JBAS016328: CORBA Naming Service started
+13:19:43,341 INFO  [org.jboss.as.remoting] (MSC service thread 1-1) JBAS017100: Listening on 192.168.1.16:4597
+13:19:43,730 INFO  [org.hornetq.core.server] (ServerService Thread Pool -- 60) HQ221000: live server is starting with configuration HornetQ Configuration (clustered=false,backup=false,sharedStore=true,journalDirectory=/opt/app/jboss-eap-6.4/domain/servers/server-two/data/messagingjournal,bindingsDirectory=/opt/app/jboss-eap-6.4/domain/servers/server-two/data/messagingbindings,largeMessagesDirectory=/opt/app/jboss-eap-6.4/domain/servers/server-two/data/messaginglargemessages,pagingDirectory=/opt/app/jboss-eap-6.4/domain/servers/server-two/data/messagingpaging)
+13:19:43,753 INFO  [org.hornetq.core.server] (ServerService Thread Pool -- 60) HQ221006: Waiting to obtain live lock
+13:19:43,759 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-1) JBAS010400: Bound data source [java:jboss/datasources/ExampleDS]
+13:19:43,854 INFO  [org.hornetq.core.server] (ServerService Thread Pool -- 60) HQ221013: Using NIO Journal
+13:19:44,122 INFO  [org.hornetq.core.server] (ServerService Thread Pool -- 60) HQ221034: Waiting to obtain live lock
+13:19:44,122 INFO  [org.hornetq.core.server] (ServerService Thread Pool -- 60) HQ221035: Live Server Obtained live lock
+13:19:45,374 INFO  [org.hornetq.core.server] (ServerService Thread Pool -- 60) HQ221020: Started Netty Acceptor version 3.6.10.Final-266dbdf 192.168.1.16:5605 for CORE protocol
+13:19:45,385 INFO  [org.hornetq.core.server] (ServerService Thread Pool -- 60) HQ221020: Started Netty Acceptor version 3.6.10.Final-266dbdf 192.168.1.16:5595 for CORE protocol
+13:19:45,391 INFO  [org.hornetq.core.server] (ServerService Thread Pool -- 60) HQ221007: Server is now live
+13:19:45,391 INFO  [org.hornetq.core.server] (ServerService Thread Pool -- 60) HQ221001: HornetQ Server version 2.3.25.Final (2.3.x, 123) [813ffb01-658c-11e7-a6bd-3f9016623b0e] 
+13:19:45,450 INFO  [org.jboss.as.messaging] (ServerService Thread Pool -- 60) JBAS011601: Bound messaging object to jndi name java:jboss/exported/jms/RemoteConnectionFactory
+13:19:45,503 INFO  [org.hornetq.core.server] (ServerService Thread Pool -- 62) HQ221003: trying to deploy queue jms.queue.DLQ
+13:19:45,602 INFO  [org.jboss.as.messaging] (ServerService Thread Pool -- 62) JBAS011601: Bound messaging object to jndi name java:/jms/queue/DLQ
+13:19:45,609 INFO  [org.jboss.as.messaging] (ServerService Thread Pool -- 60) JBAS011601: Bound messaging object to jndi name java:/ConnectionFactory
+13:19:45,610 INFO  [org.hornetq.core.server] (ServerService Thread Pool -- 63) HQ221003: trying to deploy queue jms.queue.ExpiryQueue
+13:19:45,610 INFO  [org.jboss.as.messaging] (ServerService Thread Pool -- 63) JBAS011601: Bound messaging object to jndi name java:/jms/queue/ExpiryQueue
+13:19:45,773 INFO  [org.jboss.as.connector.deployment] (MSC service thread 1-2) JBAS010406: Registered connection factory java:/JmsXA
+13:19:45,991 INFO  [org.hornetq.ra] (MSC service thread 1-2) HornetQ resource adaptor started
+13:19:45,993 INFO  [org.jboss.as.connector.services.resourceadapters.ResourceAdapterActivatorService$ResourceAdapterActivator] (MSC service thread 1-2) IJ020002: Deployed: file://RaActivatorhornetq-ra
+13:19:45,995 INFO  [org.jboss.as.connector.deployment] (MSC service thread 1-2) JBAS010401: Bound JCA ConnectionFactory [java:/JmsXA]
+13:19:46,150 INFO  [org.jboss.as] (Controller Boot Thread) JBAS015874: JBoss EAP 6.4.0.GA (AS 7.5.0.Final-redhat-21) started in 16751ms - Started 186 of 223 services (65 services are lazy, passive or on-demand)
+21:02:19,951 INFO  [org.jboss.modules] (main) JBoss Modules version 1.3.6.Final-redhat-1
+21:02:21,098 INFO  [org.jboss.msc] (main) JBoss MSC version 1.1.5.Final-redhat-1
+21:02:21,517 INFO  [org.jboss.as] (MSC service thread 1-2) JBAS015899: JBoss EAP 6.4.0.GA (AS 7.5.0.Final-redhat-21) starting
+21:02:21,597 DEBUG [org.jboss.as.config] (MSC service thread 1-2) Configured system properties:
+	[Server:server-two] = 
+	awt.toolkit = sun.awt.X11.XToolkit
+	file.encoding = UTF-8
+	file.encoding.pkg = sun.io
+	file.separator = /
+	java.awt.graphicsenv = sun.awt.X11GraphicsEnvironment
+	java.awt.headless = true
+	java.awt.printerjob = sun.print.PSPrinterJob
+	java.class.path = /opt/app/jboss-eap-6.4/jboss-modules.jar
+	java.class.version = 52.0
+	java.endorsed.dirs = /usr/lib/jvm/java-1.8.0-openjdk-1.8.0.131-3.b12.el7_3.x86_64/jre/lib/endorsed
+	java.ext.dirs = /usr/lib/jvm/java-1.8.0-openjdk-1.8.0.131-3.b12.el7_3.x86_64/jre/lib/ext:/usr/java/packages/lib/ext
+	java.home = /usr/lib/jvm/java-1.8.0-openjdk-1.8.0.131-3.b12.el7_3.x86_64/jre
+	java.io.tmpdir = /tmp
+	java.library.path = /usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+	java.net.preferIPv4Stack = true
+	java.runtime.name = OpenJDK Runtime Environment
+	java.runtime.version = 1.8.0_131-b12
+	java.specification.name = Java Platform API Specification
+	java.specification.vendor = Oracle Corporation
+	java.specification.version = 1.8
+	java.util.logging.manager = org.jboss.logmanager.LogManager
+	java.vendor = Oracle Corporation
+	java.vendor.url = http://java.oracle.com/
+	java.vendor.url.bug = http://bugreport.sun.com/bugreport/
+	java.version = 1.8.0_131
+	java.vm.info = mixed mode
+	java.vm.name = OpenJDK 64-Bit Server VM
+	java.vm.specification.name = Java Virtual Machine Specification
+	java.vm.specification.vendor = Oracle Corporation
+	java.vm.specification.version = 1.8
+	java.vm.vendor = Oracle Corporation
+	java.vm.version = 25.131-b12
+	javax.management.builder.initial = org.jboss.as.jmx.PluggableMBeanServerBuilder
+	javax.xml.datatype.DatatypeFactory = __redirected.__DatatypeFactory
+	javax.xml.parsers.DocumentBuilderFactory = __redirected.__DocumentBuilderFactory
+	javax.xml.parsers.SAXParserFactory = __redirected.__SAXParserFactory
+	javax.xml.stream.XMLEventFactory = __redirected.__XMLEventFactory
+	javax.xml.stream.XMLInputFactory = __redirected.__XMLInputFactory
+	javax.xml.stream.XMLOutputFactory = __redirected.__XMLOutputFactory
+	javax.xml.transform.TransformerFactory = __redirected.__TransformerFactory
+	javax.xml.validation.SchemaFactory:http://www.w3.org/2001/XMLSchema = __redirected.__SchemaFactory
+	javax.xml.xpath.XPathFactory:http://java.sun.com/jaxp/xpath/dom = __redirected.__XPathFactory
+	jboss.domain.base.dir = /opt/app/jboss-eap-6.4/domain
+	jboss.domain.config.dir = /opt/app/jboss-eap-6.4/domain/configuration
+	jboss.home.dir = /opt/app/jboss-eap-6.4
+	jboss.host.name = jboss
+	jboss.modules.dir = /opt/app/jboss-eap-6.4/modules
+	jboss.modules.policy-permissions = true
+	jboss.modules.system.pkgs = org.jboss.byteman
+	jboss.node.name = jbossdc:server-two
+	jboss.qualified.host.name = jboss.dc.com
+	jboss.server.base.dir = /opt/app/jboss-eap-6.4/domain/servers/server-two
+	jboss.server.config.dir = /opt/app/jboss-eap-6.4/domain/servers/server-two/configuration
+	jboss.server.data.dir = /opt/app/jboss-eap-6.4/domain/servers/server-two/data
+	jboss.server.deploy.dir = /opt/app/jboss-eap-6.4/domain/servers/server-two/data/content
+	jboss.server.log.dir = /opt/app/jboss-eap-6.4/domain/servers/server-two/log
+	jboss.server.name = server-two
+	jboss.server.persist.config = true
+	jboss.server.temp.dir = /opt/app/jboss-eap-6.4/domain/servers/server-two/tmp
+	line.separator = 
+
+	logging.configuration = file:/opt/app/jboss-eap-6.4/domain/servers/server-two/data/logging.properties
+	module.path = /opt/app/jboss-eap-6.4/modules
+	org.jboss.resolver.warning = true
+	org.xml.sax.driver = __redirected.__XMLReaderFactory
+	os.arch = amd64
+	os.name = Linux
+	os.version = 3.10.0-514.21.2.el7.x86_64
+	path.separator = :
+	sun.arch.data.model = 64
+	sun.boot.class.path = /usr/lib/jvm/java-1.8.0-openjdk-1.8.0.131-3.b12.el7_3.x86_64/jre/lib/resources.jar:/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.131-3.b12.el7_3.x86_64/jre/lib/rt.jar:/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.131-3.b12.el7_3.x86_64/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.131-3.b12.el7_3.x86_64/jre/lib/jsse.jar:/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.131-3.b12.el7_3.x86_64/jre/lib/jce.jar:/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.131-3.b12.el7_3.x86_64/jre/lib/charsets.jar:/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.131-3.b12.el7_3.x86_64/jre/lib/jfr.jar:/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.131-3.b12.el7_3.x86_64/jre/classes
+	sun.boot.library.path = /usr/lib/jvm/java-1.8.0-openjdk-1.8.0.131-3.b12.el7_3.x86_64/jre/lib/amd64
+	sun.cpu.endian = little
+	sun.cpu.isalist = 
+	sun.io.unicode.encoding = UnicodeLittle
+	sun.java.command = /opt/app/jboss-eap-6.4/jboss-modules.jar -mp /opt/app/jboss-eap-6.4/modules -jaxpmodule javax.xml.jaxp-provider org.jboss.as.server
+	sun.java.launcher = SUN_STANDARD
+	sun.jnu.encoding = UTF-8
+	sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+	sun.os.patch.level = unknown
+	user.country = US
+	user.dir = /opt/app/jboss-eap-6.4
+	user.home = /home/jboss
+	user.language = en
+	user.name = jboss
+	user.timezone = America/New_York
+21:02:21,598 DEBUG [org.jboss.as.config] (MSC service thread 1-2) VM Arguments: -D[Server:server-two] -XX:PermSize=256m -XX:MaxPermSize=256m -Xms1000m -Xmx1000m -Djboss.modules.system.pkgs=org.jboss.byteman -Djava.awt.headless=true -Djava.net.preferIPv4Stack=true -Djboss.home.dir=/opt/app/jboss-eap-6.4 -Djboss.modules.policy-permissions=true -Djboss.server.log.dir=/opt/app/jboss-eap-6.4/domain/servers/server-two/log -Djboss.server.temp.dir=/opt/app/jboss-eap-6.4/domain/servers/server-two/tmp -Djboss.server.data.dir=/opt/app/jboss-eap-6.4/domain/servers/server-two/data -Dlogging.configuration=file:/opt/app/jboss-eap-6.4/domain/servers/server-two/data/logging.properties 
+21:02:22,173 INFO  [org.xnio] (MSC service thread 1-2) XNIO Version 3.0.13.GA-redhat-1
+21:02:22,182 INFO  [org.xnio.nio] (MSC service thread 1-2) XNIO NIO Implementation Version 3.0.13.GA-redhat-1
+21:02:22,331 INFO  [org.jboss.remoting] (MSC service thread 1-2) JBoss Remoting version 3.3.4.Final-redhat-1
+21:02:27,304 INFO  [org.jboss.as.controller.management-deprecated] (ServerService Thread Pool -- 23) JBAS014627: Attribute enabled is deprecated, and it might be removed in future version!
+21:02:27,582 WARN  [org.jboss.as.txn] (ServerService Thread Pool -- 35) JBAS010153: Node identifier property is set to the default value. Please make sure it is unique.
+21:02:27,718 INFO  [org.jboss.as.security] (ServerService Thread Pool -- 37) JBAS013371: Activating Security Subsystem
+21:02:27,748 INFO  [org.jboss.as.security] (MSC service thread 1-2) JBAS013370: Current PicketBox version=4.1.1.Final-redhat-1
+21:02:27,850 INFO  [org.jboss.as.naming] (ServerService Thread Pool -- 42) JBAS011800: Activating Naming Subsystem
+21:02:27,975 INFO  [org.jboss.as.webservices] (ServerService Thread Pool -- 33) JBAS015537: Activating WebServices Extension
+21:02:27,985 INFO  [org.jboss.as.configadmin] (ServerService Thread Pool -- 58) JBAS016200: Activating ConfigAdmin Subsystem
+21:02:28,036 INFO  [org.jboss.as.jacorb] (ServerService Thread Pool -- 53) JBAS016300: Activating JacORB Subsystem
+21:02:28,070 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 54) JBAS010280: Activating Infinispan subsystem.
+21:02:28,007 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 57) JBAS010403: Deploying JDBC-compliant driver class org.h2.Driver (version 1.3)
+21:02:28,022 INFO  [org.jboss.as.jsf] (ServerService Thread Pool -- 46) JBAS012615: Activated the following JSF Implementations: [main, 1.2]
+21:02:28,797 INFO  [org.jboss.as.naming] (MSC service thread 1-1) JBAS011802: Starting Naming Service
+21:02:28,899 INFO  [org.jboss.jaxr] (MSC service thread 1-2) JBAS014000: Started JAXR subsystem, binding JAXR connection factory into JNDI as: java:jboss/jaxr/ConnectionFactory
+21:02:28,919 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-2) JBAS015400: Bound mail session [java:jboss/mail/Default]
+21:02:29,204 INFO  [org.jboss.as.connector.logging] (MSC service thread 1-2) JBAS010408: Starting JCA Subsystem (IronJacamar 1.0.31.Final-redhat-1)
+21:02:30,582 INFO  [org.jboss.as.jacorb] (MSC service thread 1-2) JBAS016330: CORBA ORB Service started
+21:02:30,744 INFO  [org.apache.coyote.http11.Http11Protocol] (MSC service thread 1-1) JBWEB003001: Coyote HTTP/1.1 initializing on : http-/192.168.1.16:8230
+21:02:30,773 INFO  [org.apache.coyote.http11.Http11Protocol] (MSC service thread 1-1) JBWEB003000: Coyote HTTP/1.1 starting on: http-/192.168.1.16:8230
+21:02:30,891 INFO  [org.hornetq.core.server] (ServerService Thread Pool -- 60) HQ221000: live server is starting with configuration HornetQ Configuration (clustered=false,backup=false,sharedStore=true,journalDirectory=/opt/app/jboss-eap-6.4/domain/servers/server-two/data/messagingjournal,bindingsDirectory=/opt/app/jboss-eap-6.4/domain/servers/server-two/data/messagingbindings,largeMessagesDirectory=/opt/app/jboss-eap-6.4/domain/servers/server-two/data/messaginglargemessages,pagingDirectory=/opt/app/jboss-eap-6.4/domain/servers/server-two/data/messagingpaging)
+21:02:30,893 INFO  [org.hornetq.core.server] (ServerService Thread Pool -- 60) HQ221006: Waiting to obtain live lock
+21:02:31,011 INFO  [org.hornetq.core.server] (ServerService Thread Pool -- 60) HQ221013: Using NIO Journal
+21:02:31,419 INFO  [org.hornetq.core.server] (ServerService Thread Pool -- 60) HQ221034: Waiting to obtain live lock
+21:02:31,419 INFO  [org.hornetq.core.server] (ServerService Thread Pool -- 60) HQ221035: Live Server Obtained live lock
+21:02:31,439 INFO  [org.jboss.ws.common.management] (MSC service thread 1-2) JBWS022052: Starting JBoss Web Services - Stack CXF Server 4.3.4.Final-redhat-1
+21:02:31,870 INFO  [org.jboss.as.jacorb] (MSC service thread 1-1) JBAS016328: CORBA Naming Service started
+21:02:31,894 INFO  [org.jboss.as.remoting] (MSC service thread 1-1) JBAS017100: Listening on 192.168.1.16:4597
+21:02:32,050 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-2) JBAS010400: Bound data source [java:jboss/datasources/ExampleDS]
+21:02:32,762 INFO  [org.hornetq.core.server] (ServerService Thread Pool -- 60) HQ221020: Started Netty Acceptor version 3.6.10.Final-266dbdf 192.168.1.16:5595 for CORE protocol
+21:02:32,797 INFO  [org.hornetq.core.server] (ServerService Thread Pool -- 60) HQ221020: Started Netty Acceptor version 3.6.10.Final-266dbdf 192.168.1.16:5605 for CORE protocol
+21:02:32,827 INFO  [org.hornetq.core.server] (ServerService Thread Pool -- 60) HQ221007: Server is now live
+21:02:32,827 INFO  [org.hornetq.core.server] (ServerService Thread Pool -- 60) HQ221001: HornetQ Server version 2.3.25.Final (2.3.x, 123) [813ffb01-658c-11e7-a6bd-3f9016623b0e] 
+21:02:32,843 INFO  [org.hornetq.core.server] (ServerService Thread Pool -- 60) HQ221003: trying to deploy queue jms.queue.DLQ
+21:02:32,882 INFO  [org.jboss.as.messaging] (ServerService Thread Pool -- 60) JBAS011601: Bound messaging object to jndi name java:/jms/queue/DLQ
+21:02:32,907 INFO  [org.hornetq.core.server] (ServerService Thread Pool -- 62) HQ221003: trying to deploy queue jms.queue.ExpiryQueue
+21:02:32,939 INFO  [org.jboss.as.messaging] (ServerService Thread Pool -- 62) JBAS011601: Bound messaging object to jndi name java:/jms/queue/ExpiryQueue
+21:02:33,011 INFO  [org.jboss.as.messaging] (ServerService Thread Pool -- 60) JBAS011601: Bound messaging object to jndi name java:jboss/exported/jms/RemoteConnectionFactory
+21:02:33,012 INFO  [org.jboss.as.messaging] (ServerService Thread Pool -- 63) JBAS011601: Bound messaging object to jndi name java:/ConnectionFactory
+21:02:33,129 INFO  [org.jboss.as.connector.deployment] (MSC service thread 1-2) JBAS010406: Registered connection factory java:/JmsXA
+21:02:33,270 INFO  [org.hornetq.ra] (MSC service thread 1-2) HornetQ resource adaptor started
+21:02:33,271 INFO  [org.jboss.as.connector.services.resourceadapters.ResourceAdapterActivatorService$ResourceAdapterActivator] (MSC service thread 1-2) IJ020002: Deployed: file://RaActivatorhornetq-ra
+21:02:33,274 INFO  [org.jboss.as.connector.deployment] (MSC service thread 1-2) JBAS010401: Bound JCA ConnectionFactory [java:/JmsXA]
+21:02:33,404 INFO  [org.jboss.as] (Controller Boot Thread) JBAS015874: JBoss EAP 6.4.0.GA (AS 7.5.0.Final-redhat-21) started in 15248ms - Started 186 of 223 services (65 services are lazy, passive or on-demand)
+21:36:40,413 WARN  [org.hornetq.core.client] (hornetq-failure-check-thread) HQ212037: Connection failure has been detected: HQ119014: Did not receive data from invm:0. It is likely the client has exited or crashed without closing its connection, or the network between the server and client has failed. You also might have configured connection-ttl and client-failure-check-period incorrectly. Please check user manual for more information. The connection will now be closed. [code=CONNECTION_TIMEDOUT]
+21:36:40,528 INFO  [org.hornetq.core.server] (hornetq-failure-check-thread) HQ221021: failed to remove connection
+21:36:40,528 WARN  [org.hornetq.core.client] (hornetq-failure-check-thread) HQ212037: Connection failure has been detected: HQ119014: Did not receive data from invm:0. It is likely the client has exited or crashed without closing its connection, or the network between the server and client has failed. You also might have configured connection-ttl and client-failure-check-period incorrectly. Please check user manual for more information. The connection will now be closed. [code=CONNECTION_TIMEDOUT]
+21:36:40,529 WARN  [org.hornetq.core.server] (hornetq-failure-check-thread) HQ222061: Client connection failed, clearing up resources for session eb836b58-65d4-11e7-84d9-2f3318749c92
+21:36:40,531 WARN  [org.hornetq.core.server] (hornetq-failure-check-thread) HQ222107: Cleared up resources for session eb836b58-65d4-11e7-84d9-2f3318749c92
+21:36:40,621 INFO  [org.hornetq.core.server] (hornetq-failure-check-thread) HQ221021: failed to remove connection
+21:36:40,724 WARN  [org.hornetq.jms.server] (Thread-4 (HornetQ-client-global-threads-1673233133)) Notified of connection failure in xa discovery, we will retry on the next recovery: HornetQException[errorType=NOT_CONNECTED message=HQ119006: Channel disconnected]
+	at org.hornetq.core.client.impl.ClientSessionFactoryImpl.connectionDestroyed(ClientSessionFactoryImpl.java:425) [hornetq-core-client-2.3.25.Final-redhat-1.jar:2.3.25.Final-redhat-1]
+	at org.hornetq.core.remoting.impl.invm.InVMConnector$Listener$1.run(InVMConnector.java:214) [hornetq-server-2.3.25.Final-redhat-1.jar:2.3.25.Final-redhat-1]
+	at org.hornetq.utils.OrderedExecutorFactory$OrderedExecutor$1.run(OrderedExecutorFactory.java:105) [hornetq-core-client-2.3.25.Final-redhat-1.jar:2.3.25.Final-redhat-1]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [rt.jar:1.8.0_131]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [rt.jar:1.8.0_131]
+	at java.lang.Thread.run(Thread.java:748) [rt.jar:1.8.0_131]
+
+21:36:40,774 WARN  [org.hornetq.jms.server] (Thread-3 (HornetQ-client-global-threads-1673233133)) HQ122014: Notified of connection failure in xa recovery connectionFactory for provider ClientSessionFactoryImpl [serverLocator=ServerLocatorImpl [initialConnectors=[TransportConfiguration(name=9ef8d864-65d4-11e7-84d9-2f3318749c92, factory=org-hornetq-core-remoting-impl-invm-InVMConnectorFactory) ?server-id=0], discoveryGroupConfiguration=null], connectorConfig=TransportConfiguration(name=9ef8d864-65d4-11e7-84d9-2f3318749c92, factory=org-hornetq-core-remoting-impl-invm-InVMConnectorFactory) ?server-id=0, backupConfig=null] will attempt reconnect on next pass: HornetQException[errorType=NOT_CONNECTED message=HQ119006: Channel disconnected]
+	at org.hornetq.core.client.impl.ClientSessionFactoryImpl.connectionDestroyed(ClientSessionFactoryImpl.java:425) [hornetq-core-client-2.3.25.Final-redhat-1.jar:2.3.25.Final-redhat-1]
+	at org.hornetq.core.remoting.impl.invm.InVMConnector$Listener$1.run(InVMConnector.java:214) [hornetq-server-2.3.25.Final-redhat-1.jar:2.3.25.Final-redhat-1]
+	at org.hornetq.utils.OrderedExecutorFactory$OrderedExecutor$1.run(OrderedExecutorFactory.java:105) [hornetq-core-client-2.3.25.Final-redhat-1.jar:2.3.25.Final-redhat-1]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [rt.jar:1.8.0_131]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [rt.jar:1.8.0_131]
+	at java.lang.Thread.run(Thread.java:748) [rt.jar:1.8.0_131]
+
+21:36:40,906 INFO  [org.apache.coyote.http11.Http11Protocol] (MSC service thread 1-1) JBWEB003075: Coyote HTTP/1.1 pausing on: http-/192.168.1.16:8230
+21:36:40,907 INFO  [org.apache.coyote.http11.Http11Protocol] (MSC service thread 1-1) JBWEB003077: Coyote HTTP/1.1 stopping on : http-/192.168.1.16:8230
+21:36:40,940 INFO  [org.apache.catalina.core] (MSC service thread 1-1) JBWEB001079: Container org.apache.catalina.core.ContainerBase.[jboss.web].[default-host].[/] has not been started
+21:36:41,059 INFO  [org.jboss.as.connector.deployment] (MSC service thread 1-2) JBAS010410: Unbound JCA ConnectionFactory [java:/JmsXA]
+21:36:41,059 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-2) JBAS010409: Unbound data source [java:jboss/datasources/ExampleDS]
+21:36:41,070 INFO  [org.jboss.jaxr] (MSC service thread 1-2) JBAS014002: UnBinding JAXR ConnectionFactory: java:jboss/jaxr/ConnectionFactory
+21:36:41,088 INFO  [org.jboss.as.messaging] (ServerService Thread Pool -- 65) JBAS011605: Unbound messaging object to jndi name java:/jms/queue/ExpiryQueue
+21:36:41,229 INFO  [org.hornetq.ra] (ServerService Thread Pool -- 67) HQ151003: HornetQ resource adaptor stopped
+21:36:41,558 INFO  [org.hornetq.core.server] (ServerService Thread Pool -- 67) HQ221002: HornetQ Server version 2.3.25.Final (2.3.x, 123) [813ffb01-658c-11e7-a6bd-3f9016623b0e] stopped
+21:36:41,862 INFO  [org.jboss.as] (MSC service thread 1-2) JBAS015950: JBoss EAP 6.4.0.GA (AS 7.5.0.Final-redhat-21) stopped in 1589ms
+21:38:15,392 INFO  [org.jboss.modules] (main) JBoss Modules version 1.3.6.Final-redhat-1
+21:38:16,293 INFO  [org.jboss.msc] (main) JBoss MSC version 1.1.5.Final-redhat-1
+21:38:16,607 INFO  [org.jboss.as] (MSC service thread 1-2) JBAS015899: JBoss EAP 6.4.0.GA (AS 7.5.0.Final-redhat-21) starting
+21:38:16,613 DEBUG [org.jboss.as.config] (MSC service thread 1-2) Configured system properties:
+	[Server:server-two] = 
+	awt.toolkit = sun.awt.X11.XToolkit
+	file.encoding = UTF-8
+	file.encoding.pkg = sun.io
+	file.separator = /
+	java.awt.graphicsenv = sun.awt.X11GraphicsEnvironment
+	java.awt.headless = true
+	java.awt.printerjob = sun.print.PSPrinterJob
+	java.class.path = /opt/app/jboss-eap-6.4/jboss-modules.jar
+	java.class.version = 52.0
+	java.endorsed.dirs = /usr/lib/jvm/java-1.8.0-openjdk-1.8.0.131-3.b12.el7_3.x86_64/jre/lib/endorsed
+	java.ext.dirs = /usr/lib/jvm/java-1.8.0-openjdk-1.8.0.131-3.b12.el7_3.x86_64/jre/lib/ext:/usr/java/packages/lib/ext
+	java.home = /usr/lib/jvm/java-1.8.0-openjdk-1.8.0.131-3.b12.el7_3.x86_64/jre
+	java.io.tmpdir = /tmp
+	java.library.path = /usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+	java.net.preferIPv4Stack = true
+	java.runtime.name = OpenJDK Runtime Environment
+	java.runtime.version = 1.8.0_131-b12
+	java.specification.name = Java Platform API Specification
+	java.specification.vendor = Oracle Corporation
+	java.specification.version = 1.8
+	java.util.logging.manager = org.jboss.logmanager.LogManager
+	java.vendor = Oracle Corporation
+	java.vendor.url = http://java.oracle.com/
+	java.vendor.url.bug = http://bugreport.sun.com/bugreport/
+	java.version = 1.8.0_131
+	java.vm.info = mixed mode
+	java.vm.name = OpenJDK 64-Bit Server VM
+	java.vm.specification.name = Java Virtual Machine Specification
+	java.vm.specification.vendor = Oracle Corporation
+	java.vm.specification.version = 1.8
+	java.vm.vendor = Oracle Corporation
+	java.vm.version = 25.131-b12
+	javax.management.builder.initial = org.jboss.as.jmx.PluggableMBeanServerBuilder
+	javax.xml.datatype.DatatypeFactory = __redirected.__DatatypeFactory
+	javax.xml.parsers.DocumentBuilderFactory = __redirected.__DocumentBuilderFactory
+	javax.xml.parsers.SAXParserFactory = __redirected.__SAXParserFactory
+	javax.xml.stream.XMLEventFactory = __redirected.__XMLEventFactory
+	javax.xml.stream.XMLInputFactory = __redirected.__XMLInputFactory
+	javax.xml.stream.XMLOutputFactory = __redirected.__XMLOutputFactory
+	javax.xml.transform.TransformerFactory = __redirected.__TransformerFactory
+	javax.xml.validation.SchemaFactory:http://www.w3.org/2001/XMLSchema = __redirected.__SchemaFactory
+	javax.xml.xpath.XPathFactory:http://java.sun.com/jaxp/xpath/dom = __redirected.__XPathFactory
+	jboss.domain.base.dir = /opt/app/jboss-eap-6.4/domain
+	jboss.domain.config.dir = /opt/app/jboss-eap-6.4/domain/configuration
+	jboss.home.dir = /opt/app/jboss-eap-6.4
+	jboss.host.name = jboss
+	jboss.modules.dir = /opt/app/jboss-eap-6.4/modules
+	jboss.modules.policy-permissions = true
+	jboss.modules.system.pkgs = org.jboss.byteman
+	jboss.node.name = jbossdc:server-two
+	jboss.qualified.host.name = jboss.dc.com
+	jboss.server.base.dir = /opt/app/jboss-eap-6.4/domain/servers/server-two
+	jboss.server.config.dir = /opt/app/jboss-eap-6.4/domain/servers/server-two/configuration
+	jboss.server.data.dir = /opt/app/jboss-eap-6.4/domain/servers/server-two/data
+	jboss.server.deploy.dir = /opt/app/jboss-eap-6.4/domain/servers/server-two/data/content
+	jboss.server.log.dir = /opt/app/jboss-eap-6.4/domain/servers/server-two/log
+	jboss.server.name = server-two
+	jboss.server.persist.config = true
+	jboss.server.temp.dir = /opt/app/jboss-eap-6.4/domain/servers/server-two/tmp
+	line.separator = 
+
+	logging.configuration = file:/opt/app/jboss-eap-6.4/domain/servers/server-two/data/logging.properties
+	module.path = /opt/app/jboss-eap-6.4/modules
+	org.jboss.resolver.warning = true
+	org.xml.sax.driver = __redirected.__XMLReaderFactory
+	os.arch = amd64
+	os.name = Linux
+	os.version = 3.10.0-514.21.2.el7.x86_64
+	path.separator = :
+	sun.arch.data.model = 64
+	sun.boot.class.path = /usr/lib/jvm/java-1.8.0-openjdk-1.8.0.131-3.b12.el7_3.x86_64/jre/lib/resources.jar:/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.131-3.b12.el7_3.x86_64/jre/lib/rt.jar:/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.131-3.b12.el7_3.x86_64/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.131-3.b12.el7_3.x86_64/jre/lib/jsse.jar:/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.131-3.b12.el7_3.x86_64/jre/lib/jce.jar:/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.131-3.b12.el7_3.x86_64/jre/lib/charsets.jar:/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.131-3.b12.el7_3.x86_64/jre/lib/jfr.jar:/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.131-3.b12.el7_3.x86_64/jre/classes
+	sun.boot.library.path = /usr/lib/jvm/java-1.8.0-openjdk-1.8.0.131-3.b12.el7_3.x86_64/jre/lib/amd64
+	sun.cpu.endian = little
+	sun.cpu.isalist = 
+	sun.io.unicode.encoding = UnicodeLittle
+	sun.java.command = /opt/app/jboss-eap-6.4/jboss-modules.jar -mp /opt/app/jboss-eap-6.4/modules -jaxpmodule javax.xml.jaxp-provider org.jboss.as.server
+	sun.java.launcher = SUN_STANDARD
+	sun.jnu.encoding = UTF-8
+	sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+	sun.os.patch.level = unknown
+	user.country = US
+	user.dir = /opt/app/jboss-eap-6.4
+	user.home = /root
+	user.language = en
+	user.name = root
+	user.timezone = America/New_York
+21:38:16,615 DEBUG [org.jboss.as.config] (MSC service thread 1-2) VM Arguments: -D[Server:server-two] -XX:PermSize=256m -XX:MaxPermSize=256m -Xms1000m -Xmx1000m -Djboss.modules.system.pkgs=org.jboss.byteman -Djava.awt.headless=true -Djava.net.preferIPv4Stack=true -Djboss.home.dir=/opt/app/jboss-eap-6.4 -Djboss.modules.policy-permissions=true -Djboss.server.log.dir=/opt/app/jboss-eap-6.4/domain/servers/server-two/log -Djboss.server.temp.dir=/opt/app/jboss-eap-6.4/domain/servers/server-two/tmp -Djboss.server.data.dir=/opt/app/jboss-eap-6.4/domain/servers/server-two/data -Dlogging.configuration=file:/opt/app/jboss-eap-6.4/domain/servers/server-two/data/logging.properties 
+21:38:17,063 INFO  [org.xnio] (MSC service thread 1-2) XNIO Version 3.0.13.GA-redhat-1
+21:38:17,067 INFO  [org.xnio.nio] (MSC service thread 1-2) XNIO NIO Implementation Version 3.0.13.GA-redhat-1
+21:38:17,177 INFO  [org.jboss.remoting] (MSC service thread 1-2) JBoss Remoting version 3.3.4.Final-redhat-1
+21:38:21,557 INFO  [org.jboss.as.controller.management-deprecated] (ServerService Thread Pool -- 24) JBAS014627: Attribute enabled is deprecated, and it might be removed in future version!
+21:38:21,946 INFO  [org.jboss.as.webservices] (ServerService Thread Pool -- 33) JBAS015537: Activating WebServices Extension
+21:38:22,006 INFO  [org.jboss.as.security] (ServerService Thread Pool -- 37) JBAS013371: Activating Security Subsystem
+21:38:22,011 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 54) JBAS010280: Activating Infinispan subsystem.
+21:38:22,021 INFO  [org.jboss.as.naming] (ServerService Thread Pool -- 42) JBAS011800: Activating Naming Subsystem
+21:38:21,972 WARN  [org.jboss.as.txn] (ServerService Thread Pool -- 35) JBAS010153: Node identifier property is set to the default value. Please make sure it is unique.
+21:38:22,145 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 57) JBAS010403: Deploying JDBC-compliant driver class org.h2.Driver (version 1.3)
+21:38:22,230 INFO  [org.jboss.as.jacorb] (ServerService Thread Pool -- 53) JBAS016300: Activating JacORB Subsystem
+21:38:22,237 INFO  [org.jboss.as.configadmin] (ServerService Thread Pool -- 58) JBAS016200: Activating ConfigAdmin Subsystem
+21:38:22,250 INFO  [org.jboss.as.jsf] (ServerService Thread Pool -- 46) JBAS012615: Activated the following JSF Implementations: [main, 1.2]
+21:38:22,924 INFO  [org.jboss.as.naming] (MSC service thread 1-1) JBAS011802: Starting Naming Service
+21:38:22,926 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-1) JBAS015400: Bound mail session [java:jboss/mail/Default]
+21:38:23,227 INFO  [org.jboss.as.security] (MSC service thread 1-1) JBAS013370: Current PicketBox version=4.1.1.Final-redhat-1
+21:38:24,105 INFO  [org.jboss.as.connector.logging] (MSC service thread 1-2) JBAS010408: Starting JCA Subsystem (IronJacamar 1.0.31.Final-redhat-1)
+21:38:24,193 INFO  [org.jboss.jaxr] (MSC service thread 1-2) JBAS014000: Started JAXR subsystem, binding JAXR connection factory into JNDI as: java:jboss/jaxr/ConnectionFactory
+21:38:24,260 INFO  [org.jboss.ws.common.management] (MSC service thread 1-1) JBWS022052: Starting JBoss Web Services - Stack CXF Server 4.3.4.Final-redhat-1
+21:38:24,696 INFO  [org.jboss.as.jacorb] (MSC service thread 1-1) JBAS016330: CORBA ORB Service started
+21:38:24,736 INFO  [org.apache.coyote.http11.Http11Protocol] (MSC service thread 1-2) JBWEB003001: Coyote HTTP/1.1 initializing on : http-/192.168.1.16:8230
+21:38:24,778 INFO  [org.apache.coyote.http11.Http11Protocol] (MSC service thread 1-2) JBWEB003000: Coyote HTTP/1.1 starting on: http-/192.168.1.16:8230
+21:38:24,953 INFO  [org.hornetq.core.server] (ServerService Thread Pool -- 60) HQ221000: live server is starting with configuration HornetQ Configuration (clustered=false,backup=false,sharedStore=true,journalDirectory=/opt/app/jboss-eap-6.4/domain/servers/server-two/data/messagingjournal,bindingsDirectory=/opt/app/jboss-eap-6.4/domain/servers/server-two/data/messagingbindings,largeMessagesDirectory=/opt/app/jboss-eap-6.4/domain/servers/server-two/data/messaginglargemessages,pagingDirectory=/opt/app/jboss-eap-6.4/domain/servers/server-two/data/messagingpaging)
+21:38:24,955 INFO  [org.hornetq.core.server] (ServerService Thread Pool -- 60) HQ221006: Waiting to obtain live lock
+21:38:25,022 INFO  [org.hornetq.core.server] (ServerService Thread Pool -- 60) HQ221013: Using NIO Journal
+21:38:25,318 INFO  [org.jboss.as.remoting] (MSC service thread 1-2) JBAS017100: Listening on 192.168.1.16:4597
+21:38:25,338 INFO  [org.hornetq.core.server] (ServerService Thread Pool -- 60) HQ221034: Waiting to obtain live lock
+21:38:25,351 INFO  [org.hornetq.core.server] (ServerService Thread Pool -- 60) HQ221035: Live Server Obtained live lock
+21:38:25,359 INFO  [org.jboss.as.jacorb] (MSC service thread 1-1) JBAS016328: CORBA Naming Service started
+21:38:25,475 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-2) JBAS010400: Bound data source [java:jboss/datasources/ExampleDS]
+21:38:26,718 INFO  [org.hornetq.core.server] (ServerService Thread Pool -- 60) HQ221020: Started Netty Acceptor version 3.6.10.Final-266dbdf 192.168.1.16:5595 for CORE protocol
+21:38:26,773 INFO  [org.hornetq.core.server] (ServerService Thread Pool -- 60) HQ221020: Started Netty Acceptor version 3.6.10.Final-266dbdf 192.168.1.16:5605 for CORE protocol
+21:38:26,799 INFO  [org.hornetq.core.server] (ServerService Thread Pool -- 60) HQ221007: Server is now live
+21:38:26,799 INFO  [org.hornetq.core.server] (ServerService Thread Pool -- 60) HQ221001: HornetQ Server version 2.3.25.Final (2.3.x, 123) [813ffb01-658c-11e7-a6bd-3f9016623b0e] 
+21:38:26,832 INFO  [org.hornetq.core.server] (ServerService Thread Pool -- 60) HQ221003: trying to deploy queue jms.queue.ExpiryQueue
+21:38:26,864 INFO  [org.jboss.as.messaging] (ServerService Thread Pool -- 60) JBAS011601: Bound messaging object to jndi name java:/jms/queue/ExpiryQueue
+21:38:26,898 INFO  [org.hornetq.core.server] (ServerService Thread Pool -- 62) HQ221003: trying to deploy queue jms.queue.DLQ
+21:38:26,927 INFO  [org.jboss.as.messaging] (ServerService Thread Pool -- 62) JBAS011601: Bound messaging object to jndi name java:/jms/queue/DLQ
+21:38:27,002 INFO  [org.jboss.as.messaging] (ServerService Thread Pool -- 61) JBAS011601: Bound messaging object to jndi name java:/ConnectionFactory
+21:38:27,003 INFO  [org.jboss.as.messaging] (ServerService Thread Pool -- 63) JBAS011601: Bound messaging object to jndi name java:jboss/exported/jms/RemoteConnectionFactory
+21:38:27,081 INFO  [org.jboss.as.connector.deployment] (MSC service thread 1-2) JBAS010406: Registered connection factory java:/JmsXA
+21:38:27,215 INFO  [org.hornetq.ra] (MSC service thread 1-2) HornetQ resource adaptor started
+21:38:27,215 INFO  [org.jboss.as.connector.services.resourceadapters.ResourceAdapterActivatorService$ResourceAdapterActivator] (MSC service thread 1-2) IJ020002: Deployed: file://RaActivatorhornetq-ra
+21:38:27,216 INFO  [org.jboss.as.connector.deployment] (MSC service thread 1-2) JBAS010401: Bound JCA ConnectionFactory [java:/JmsXA]
+21:38:27,324 INFO  [org.jboss.as] (Controller Boot Thread) JBAS015874: JBoss EAP 6.4.0.GA (AS 7.5.0.Final-redhat-21) started in 13313ms - Started 186 of 223 services (65 services are lazy, passive or on-demand)
+22:39:53,213 INFO  [org.jboss.modules] (main) JBoss Modules version 1.3.6.Final-redhat-1
+22:39:54,212 INFO  [org.jboss.msc] (main) JBoss MSC version 1.1.5.Final-redhat-1
+22:39:54,521 INFO  [org.jboss.as] (MSC service thread 1-2) JBAS015899: JBoss EAP 6.4.0.GA (AS 7.5.0.Final-redhat-21) starting
+22:39:54,527 DEBUG [org.jboss.as.config] (MSC service thread 1-2) Configured system properties:
+	[Server:server-two] = 
+	awt.toolkit = sun.awt.X11.XToolkit
+	file.encoding = UTF-8
+	file.encoding.pkg = sun.io
+	file.separator = /
+	java.awt.graphicsenv = sun.awt.X11GraphicsEnvironment
+	java.awt.headless = true
+	java.awt.printerjob = sun.print.PSPrinterJob
+	java.class.path = /opt/app/jboss-eap-6.4/jboss-modules.jar
+	java.class.version = 52.0
+	java.endorsed.dirs = /usr/lib/jvm/java-1.8.0-openjdk-1.8.0.131-3.b12.el7_3.x86_64/jre/lib/endorsed
+	java.ext.dirs = /usr/lib/jvm/java-1.8.0-openjdk-1.8.0.131-3.b12.el7_3.x86_64/jre/lib/ext:/usr/java/packages/lib/ext
+	java.home = /usr/lib/jvm/java-1.8.0-openjdk-1.8.0.131-3.b12.el7_3.x86_64/jre
+	java.io.tmpdir = /tmp
+	java.library.path = /usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+	java.net.preferIPv4Stack = true
+	java.runtime.name = OpenJDK Runtime Environment
+	java.runtime.version = 1.8.0_131-b12
+	java.specification.name = Java Platform API Specification
+	java.specification.vendor = Oracle Corporation
+	java.specification.version = 1.8
+	java.util.logging.manager = org.jboss.logmanager.LogManager
+	java.vendor = Oracle Corporation
+	java.vendor.url = http://java.oracle.com/
+	java.vendor.url.bug = http://bugreport.sun.com/bugreport/
+	java.version = 1.8.0_131
+	java.vm.info = mixed mode
+	java.vm.name = OpenJDK 64-Bit Server VM
+	java.vm.specification.name = Java Virtual Machine Specification
+	java.vm.specification.vendor = Oracle Corporation
+	java.vm.specification.version = 1.8
+	java.vm.vendor = Oracle Corporation
+	java.vm.version = 25.131-b12
+	javax.management.builder.initial = org.jboss.as.jmx.PluggableMBeanServerBuilder
+	javax.xml.datatype.DatatypeFactory = __redirected.__DatatypeFactory
+	javax.xml.parsers.DocumentBuilderFactory = __redirected.__DocumentBuilderFactory
+	javax.xml.parsers.SAXParserFactory = __redirected.__SAXParserFactory
+	javax.xml.stream.XMLEventFactory = __redirected.__XMLEventFactory
+	javax.xml.stream.XMLInputFactory = __redirected.__XMLInputFactory
+	javax.xml.stream.XMLOutputFactory = __redirected.__XMLOutputFactory
+	javax.xml.transform.TransformerFactory = __redirected.__TransformerFactory
+	javax.xml.validation.SchemaFactory:http://www.w3.org/2001/XMLSchema = __redirected.__SchemaFactory
+	javax.xml.xpath.XPathFactory:http://java.sun.com/jaxp/xpath/dom = __redirected.__XPathFactory
+	jboss.domain.base.dir = /opt/app/jboss-eap-6.4/domain
+	jboss.domain.config.dir = /opt/app/jboss-eap-6.4/domain/configuration
+	jboss.home.dir = /opt/app/jboss-eap-6.4
+	jboss.host.name = jboss
+	jboss.modules.dir = /opt/app/jboss-eap-6.4/modules
+	jboss.modules.policy-permissions = true
+	jboss.modules.system.pkgs = org.jboss.byteman
+	jboss.node.name = jbossdc:server-two
+	jboss.qualified.host.name = jboss.dc.com
+	jboss.server.base.dir = /opt/app/jboss-eap-6.4/domain/servers/server-two
+	jboss.server.config.dir = /opt/app/jboss-eap-6.4/domain/servers/server-two/configuration
+	jboss.server.data.dir = /opt/app/jboss-eap-6.4/domain/servers/server-two/data
+	jboss.server.deploy.dir = /opt/app/jboss-eap-6.4/domain/servers/server-two/data/content
+	jboss.server.log.dir = /opt/app/jboss-eap-6.4/domain/servers/server-two/log
+	jboss.server.name = server-two
+	jboss.server.persist.config = true
+	jboss.server.temp.dir = /opt/app/jboss-eap-6.4/domain/servers/server-two/tmp
+	line.separator = 
+
+	logging.configuration = file:/opt/app/jboss-eap-6.4/domain/servers/server-two/data/logging.properties
+	module.path = /opt/app/jboss-eap-6.4/modules
+	org.jboss.resolver.warning = true
+	org.xml.sax.driver = __redirected.__XMLReaderFactory
+	os.arch = amd64
+	os.name = Linux
+	os.version = 3.10.0-514.21.2.el7.x86_64
+	path.separator = :
+	sun.arch.data.model = 64
+	sun.boot.class.path = /usr/lib/jvm/java-1.8.0-openjdk-1.8.0.131-3.b12.el7_3.x86_64/jre/lib/resources.jar:/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.131-3.b12.el7_3.x86_64/jre/lib/rt.jar:/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.131-3.b12.el7_3.x86_64/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.131-3.b12.el7_3.x86_64/jre/lib/jsse.jar:/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.131-3.b12.el7_3.x86_64/jre/lib/jce.jar:/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.131-3.b12.el7_3.x86_64/jre/lib/charsets.jar:/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.131-3.b12.el7_3.x86_64/jre/lib/jfr.jar:/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.131-3.b12.el7_3.x86_64/jre/classes
+	sun.boot.library.path = /usr/lib/jvm/java-1.8.0-openjdk-1.8.0.131-3.b12.el7_3.x86_64/jre/lib/amd64
+	sun.cpu.endian = little
+	sun.cpu.isalist = 
+	sun.io.unicode.encoding = UnicodeLittle
+	sun.java.command = /opt/app/jboss-eap-6.4/jboss-modules.jar -mp /opt/app/jboss-eap-6.4/modules -jaxpmodule javax.xml.jaxp-provider org.jboss.as.server
+	sun.java.launcher = SUN_STANDARD
+	sun.jnu.encoding = UTF-8
+	sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+	sun.os.patch.level = unknown
+	user.country = US
+	user.dir = /opt/app/jboss-eap-6.4
+	user.home = /root
+	user.language = en
+	user.name = root
+	user.timezone = America/New_York
+22:39:54,530 DEBUG [org.jboss.as.config] (MSC service thread 1-2) VM Arguments: -D[Server:server-two] -XX:PermSize=256m -XX:MaxPermSize=256m -Xms1000m -Xmx1000m -Djboss.modules.system.pkgs=org.jboss.byteman -Djava.awt.headless=true -Djava.net.preferIPv4Stack=true -Djboss.home.dir=/opt/app/jboss-eap-6.4 -Djboss.modules.policy-permissions=true -Djboss.server.log.dir=/opt/app/jboss-eap-6.4/domain/servers/server-two/log -Djboss.server.temp.dir=/opt/app/jboss-eap-6.4/domain/servers/server-two/tmp -Djboss.server.data.dir=/opt/app/jboss-eap-6.4/domain/servers/server-two/data -Dlogging.configuration=file:/opt/app/jboss-eap-6.4/domain/servers/server-two/data/logging.properties 
+22:39:55,144 INFO  [org.xnio] (MSC service thread 1-2) XNIO Version 3.0.13.GA-redhat-1
+22:39:55,147 INFO  [org.xnio.nio] (MSC service thread 1-2) XNIO NIO Implementation Version 3.0.13.GA-redhat-1
+22:39:55,220 INFO  [org.jboss.remoting] (MSC service thread 1-2) JBoss Remoting version 3.3.4.Final-redhat-1
+22:39:59,628 INFO  [org.jboss.as.controller.management-deprecated] (ServerService Thread Pool -- 23) JBAS014627: Attribute enabled is deprecated, and it might be removed in future version!
+22:40:00,034 WARN  [org.jboss.as.txn] (ServerService Thread Pool -- 35) JBAS010153: Node identifier property is set to the default value. Please make sure it is unique.
+22:40:00,147 INFO  [org.jboss.as.security] (ServerService Thread Pool -- 37) JBAS013371: Activating Security Subsystem
+22:40:00,187 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 54) JBAS010280: Activating Infinispan subsystem.
+22:40:00,203 INFO  [org.jboss.as.naming] (ServerService Thread Pool -- 42) JBAS011800: Activating Naming Subsystem
+22:40:00,245 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 57) JBAS010403: Deploying JDBC-compliant driver class org.h2.Driver (version 1.3)
+22:40:00,461 INFO  [org.jboss.as.configadmin] (ServerService Thread Pool -- 58) JBAS016200: Activating ConfigAdmin Subsystem
+22:40:00,465 INFO  [org.jboss.as.jacorb] (ServerService Thread Pool -- 53) JBAS016300: Activating JacORB Subsystem
+22:40:00,481 INFO  [org.jboss.as.webservices] (ServerService Thread Pool -- 33) JBAS015537: Activating WebServices Extension
+22:40:00,513 INFO  [org.jboss.as.jsf] (ServerService Thread Pool -- 46) JBAS012615: Activated the following JSF Implementations: [main, 1.2]
+22:40:00,702 INFO  [org.jboss.as.security] (MSC service thread 1-2) JBAS013370: Current PicketBox version=4.1.1.Final-redhat-1
+22:40:00,808 INFO  [org.jboss.as.connector.logging] (MSC service thread 1-2) JBAS010408: Starting JCA Subsystem (IronJacamar 1.0.31.Final-redhat-1)
+22:40:01,882 INFO  [org.jboss.as.naming] (MSC service thread 1-2) JBAS011802: Starting Naming Service
+22:40:01,889 INFO  [org.jboss.jaxr] (MSC service thread 1-1) JBAS014000: Started JAXR subsystem, binding JAXR connection factory into JNDI as: java:jboss/jaxr/ConnectionFactory
+22:40:02,029 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-1) JBAS015400: Bound mail session [java:jboss/mail/Default]
+22:40:02,530 INFO  [org.apache.coyote.http11.Http11Protocol] (MSC service thread 1-2) JBWEB003001: Coyote HTTP/1.1 initializing on : http-/192.168.1.16:8230
+22:40:02,585 INFO  [org.apache.coyote.http11.Http11Protocol] (MSC service thread 1-2) JBWEB003000: Coyote HTTP/1.1 starting on: http-/192.168.1.16:8230
+22:40:02,640 INFO  [org.jboss.as.jacorb] (MSC service thread 1-1) JBAS016330: CORBA ORB Service started
+22:40:02,744 INFO  [org.hornetq.core.server] (ServerService Thread Pool -- 60) HQ221000: live server is starting with configuration HornetQ Configuration (clustered=false,backup=false,sharedStore=true,journalDirectory=/opt/app/jboss-eap-6.4/domain/servers/server-two/data/messagingjournal,bindingsDirectory=/opt/app/jboss-eap-6.4/domain/servers/server-two/data/messagingbindings,largeMessagesDirectory=/opt/app/jboss-eap-6.4/domain/servers/server-two/data/messaginglargemessages,pagingDirectory=/opt/app/jboss-eap-6.4/domain/servers/server-two/data/messagingpaging)
+22:40:02,745 INFO  [org.hornetq.core.server] (ServerService Thread Pool -- 60) HQ221006: Waiting to obtain live lock
+22:40:02,815 INFO  [org.hornetq.core.server] (ServerService Thread Pool -- 60) HQ221013: Using NIO Journal
+22:40:03,109 INFO  [org.hornetq.core.server] (ServerService Thread Pool -- 60) HQ221034: Waiting to obtain live lock
+22:40:03,109 INFO  [org.hornetq.core.server] (ServerService Thread Pool -- 60) HQ221035: Live Server Obtained live lock
+22:40:03,134 INFO  [org.jboss.ws.common.management] (MSC service thread 1-2) JBWS022052: Starting JBoss Web Services - Stack CXF Server 4.3.4.Final-redhat-1
+22:40:03,395 INFO  [org.jboss.as.jacorb] (MSC service thread 1-1) JBAS016328: CORBA Naming Service started
+22:40:03,420 INFO  [org.jboss.as.remoting] (MSC service thread 1-2) JBAS017100: Listening on 192.168.1.16:4597
+22:40:03,561 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-1) JBAS010400: Bound data source [java:jboss/datasources/ExampleDS]
+22:40:04,431 INFO  [org.hornetq.core.server] (ServerService Thread Pool -- 60) HQ221020: Started Netty Acceptor version 3.6.10.Final-266dbdf 192.168.1.16:5595 for CORE protocol
+22:40:04,448 INFO  [org.hornetq.core.server] (ServerService Thread Pool -- 60) HQ221020: Started Netty Acceptor version 3.6.10.Final-266dbdf 192.168.1.16:5605 for CORE protocol
+22:40:04,452 INFO  [org.hornetq.core.server] (ServerService Thread Pool -- 60) HQ221007: Server is now live
+22:40:04,453 INFO  [org.hornetq.core.server] (ServerService Thread Pool -- 60) HQ221001: HornetQ Server version 2.3.25.Final (2.3.x, 123) [813ffb01-658c-11e7-a6bd-3f9016623b0e] 
+22:40:04,477 INFO  [org.hornetq.core.server] (ServerService Thread Pool -- 60) HQ221003: trying to deploy queue jms.queue.ExpiryQueue
+22:40:04,484 INFO  [org.jboss.as.messaging] (ServerService Thread Pool -- 60) JBAS011601: Bound messaging object to jndi name java:/jms/queue/ExpiryQueue
+22:40:04,639 INFO  [org.jboss.as.messaging] (ServerService Thread Pool -- 61) JBAS011601: Bound messaging object to jndi name java:jboss/exported/jms/RemoteConnectionFactory
+22:40:04,641 INFO  [org.jboss.as.messaging] (ServerService Thread Pool -- 62) JBAS011601: Bound messaging object to jndi name java:/ConnectionFactory
+22:40:04,642 INFO  [org.hornetq.core.server] (ServerService Thread Pool -- 60) HQ221003: trying to deploy queue jms.queue.DLQ
+22:40:04,642 INFO  [org.jboss.as.messaging] (ServerService Thread Pool -- 60) JBAS011601: Bound messaging object to jndi name java:/jms/queue/DLQ
+22:40:04,673 INFO  [org.jboss.as.connector.deployment] (MSC service thread 1-2) JBAS010406: Registered connection factory java:/JmsXA
+22:40:04,807 INFO  [org.hornetq.ra] (MSC service thread 1-2) HornetQ resource adaptor started
+22:40:04,808 INFO  [org.jboss.as.connector.services.resourceadapters.ResourceAdapterActivatorService$ResourceAdapterActivator] (MSC service thread 1-2) IJ020002: Deployed: file://RaActivatorhornetq-ra
+22:40:04,809 INFO  [org.jboss.as.connector.deployment] (MSC service thread 1-2) JBAS010401: Bound JCA ConnectionFactory [java:/JmsXA]
+22:40:04,903 INFO  [org.jboss.as] (Controller Boot Thread) JBAS015874: JBoss EAP 6.4.0.GA (AS 7.5.0.Final-redhat-21) started in 12989ms - Started 186 of 223 services (65 services are lazy, passive or on-demand)
